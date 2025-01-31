@@ -1,0 +1,18 @@
+2025-01-31 15:56:13.435 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-31 15:56:13.435 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-31 15:56:13.435 [info] Experiment 'pythonTestAdapter' is active
+2025-01-31 15:56:13.435 [warning] Dir "/home/aditya/.config/.pixi/envs" is not watchable (directory does not exist)
+2025-01-31 15:56:13.435 [info] Starting Environment refresh
+2025-01-31 15:56:13.435 [info] Starting Environment refresh
+2025-01-31 15:56:13.435 [info] > hatch env show --json
+2025-01-31 15:56:13.435 [info] cwd: .
+2025-01-31 15:56:13.754 [info] Environments refresh finished (event): 2778 milliseconds
+2025-01-31 15:56:13.754 [info] Environments refresh paths discovered: 2779 milliseconds
+2025-01-31 15:56:13.754 [info] Environments refresh finished (event): 2783 milliseconds
+2025-01-31 15:56:13.755 [info] Environments refresh paths discovered: 2784 milliseconds
+2025-01-31 15:56:13.761 [info] Environment refresh took 2785 milliseconds
+2025-01-31 15:56:13.764 [info] Environment refresh took 2795 milliseconds
+2025-01-31 15:56:13.821 [info] > pyenv which python
+2025-01-31 15:56:13.821 [info] cwd: .
+2025-01-31 15:56:14.305 [info] Python interpreter path: /bin/python
+2025-01-31 15:56:16.287 [info] Starting Pylance language server.

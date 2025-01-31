@@ -1,0 +1,224 @@
+Locating server…
+Checking if /home/aditya/.config/nwg-dock-hyprland/style.css may be Tailwind-related…
+Checking if /home/aditya/.config/gtk-4.0/gtk.css may be Tailwind-related…
+Checking if /home/aditya/.config/gtk-4.0/gtk-dark.css may be Tailwind-related…
+Checking if /home/aditya/.config/wal/templates/colors-waybar.css may be Tailwind-related…
+Checking if /home/aditya/.config/wal/templates/colors-wlogout.css may be Tailwind-related…
+Checking if /home/aditya/.config/waybar/style.css may be Tailwind-related…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+hoist-at-import: The file '/home/aditya/.config/waybar/style.css' contains @import rules after other at rules. This is invalid CSS and may cause problems with your build.
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/waybar/style.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/wlogout/style.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/435ca8fb/Q1hy.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/435ca8fb/XmT9.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-2bcd8f26/ZmXN.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-2bcd8f26/e1ft.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-2bcd8f26/uwW8.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-7fb58463/CK7i.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-7fb58463/du0k.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-7fb58463/zcm9.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-bd97a1f/9t4p.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-bd97a1f/dUGt.css"}
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+[Info  - 10:44:40 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/hyprland.conf',
+  normalPath: '/home/aditya/.config/hypr/hyprland.conf'
+}
+[Info  - 10:45:34 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/animations-classic.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/animations-classic.conf'
+}
+[Info  - 10:45:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/animations-dynamic.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/animations-dynamic.conf'
+}
+[Info  - 10:45:47 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/animations-fast.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/animations-fast.conf'
+}
+[Info  - 10:45:51 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/standard.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/standard.conf'
+}
+[Info  - 10:45:54 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/animations-classic.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/animations-classic.conf'
+}
+[Info  - 10:45:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/animations-high.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/animations-high.conf'
+}
+[Info  - 10:45:56 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/animations-fast.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/animations-fast.conf'
+}
+[Info  - 10:46:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/animations-high.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/animations-high.conf'
+}
+[Info  - 10:46:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/hyprland.conf',
+  normalPath: '/home/aditya/.config/hypr/hyprland.conf'
+}
+[Info  - 10:46:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animation.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animation.conf'
+}
+[Info  - 10:47:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/animations-fast.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/animations-fast.conf'
+}
+[Info  - 10:47:40 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animations/disabled.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animations/disabled.conf'
+}
+[Info  - 10:47:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/autostart.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/autostart.conf'
+}
+[Info  - 10:47:46 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/animation.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/animation.conf'
+}
+[Info  - 10:51:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/layouts/default.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/layouts/default.conf'
+}
+[Info  - 10:51:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/layouts/laptop.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/layouts/laptop.conf'
+}
+[Info  - 10:51:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/keybindings/default.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/keybindings/default.conf'
+}
+[Info  - 10:53:01 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/workspaces/default.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/workspaces/default.conf'
+}
+[Info  - 10:53:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/keyboard.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/keyboard.conf'
+}
+[Info  - 10:54:59 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/infolock.sh',
+  normalPath: '/home/aditya/.config/hypr/infolock.sh'
+}
+[Info  - 10:55:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/scripts/infolock.sh',
+  normalPath: '/home/aditya/.config/hypr/scripts/infolock.sh'
+}
+[Info  - 10:55:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/scripts/power.sh',
+  normalPath: '/home/aditya/.config/hypr/scripts/power.sh'
+}
+[Info  - 10:55:28 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/scripts/xdg.sh',
+  normalPath: '/home/aditya/.config/hypr/scripts/xdg.sh'
+}
+[Info  - 10:56:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/hyprland.conf',
+  normalPath: '/home/aditya/.config/hypr/hyprland.conf'
+}
+[Info  - 10:56:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/hyprlock.conf',
+  normalPath: '/home/aditya/.config/hypr/hyprlock.conf'
+}
+[Info  - 10:56:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/hypridle.conf',
+  normalPath: '/home/aditya/.config/hypr/hypridle.conf'
+}
+[Info  - 10:57:47 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/teamviewer/client.conf',
+  normalPath: '/home/aditya/.config/teamviewer/client.conf'
+}
+[Info  - 10:58:36 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/hypridle.conf',
+  normalPath: '/home/aditya/.config/hypr/hypridle.conf'
+}
+[Info  - 10:59:03 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml'
+}
+[Info  - 10:59:07 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml'
+}
+[Info  - 10:59:09 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml'
+}
+[Info  - 10:59:11 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml'
+}
+[Info  - 10:59:15 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml'
+}
+[Info  - 11:00:17 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml'
+}
+[Info  - 11:00:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml'
+}
+[Info  - 11:00:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml'
+}
+[Info  - 11:00:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml',
+  normalPath: '/home/aditya/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml'
+}
+[Info  - 11:00:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/hypridle.conf',
+  normalPath: '/home/aditya/.config/hypr/hypridle.conf'
+}
+[Info  - 11:01:11 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/viewnior/viewnior.conf',
+  normalPath: '/home/aditya/.config/viewnior/viewnior.conf'
+}
+[Info  - 11:01:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/viewnior/accel_map',
+  normalPath: '/home/aditya/.config/viewnior/accel_map'
+}
+[Info  - 11:01:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/waypaper/config.ini',
+  normalPath: '/home/aditya/.config/waypaper/config.ini'
+}
+[Info  - 11:01:30 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/wal/templates/colors-hyprland.conf',
+  normalPath: '/home/aditya/.config/wal/templates/colors-hyprland.conf'
+}
+[Info  - 11:01:39 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/wal/templates/colors-waybar.css',
+  normalPath: '/home/aditya/.config/wal/templates/colors-waybar.css'
+}
+[Info  - 11:01:39 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/wal/templates/colors-waybar.css',
+  normalPath: '/home/aditya/.config/wal/templates/colors-waybar.css'
+}
+[Info  - 11:01:39 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/wal/templates/colors-waybar.css',
+  normalPath: '/home/aditya/.config/wal/templates/colors-waybar.css'
+}
+[Info  - 11:02:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/waybar/scripts/brightness-control.sh',
+  normalPath: '/home/aditya/.config/waybar/scripts/brightness-control.sh'
+}
+[Info  - 11:03:00 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/waybar/scripts/volume-control.sh',
+  normalPath: '/home/aditya/.config/waybar/scripts/volume-control.sh'
+}
+[Info  - 11:03:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/waybar/config.jsonc',
+  normalPath: '/home/aditya/.config/waybar/config.jsonc'
+}

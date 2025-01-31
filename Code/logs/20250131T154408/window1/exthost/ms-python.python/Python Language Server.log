@@ -1,0 +1,23 @@
+2025-01-31 15:56:14.935 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-31 15:56:16.229 [info] [Info  - 3:56:16 PM] (86916) Server root directory: file:///home/aditya/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-31 15:56:16.230 [info] [Info  - 3:56:16 PM] (86916) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-31 15:56:16.231 [info] [Info  - 3:56:16 PM] (86916) Starting service instance ".config"
+2025-01-31 15:56:16.605 [info] [Info  - 3:56:16 PM] (86916) Setting environmentName for service ".config": "3.13.1 (global)"
+2025-01-31 15:56:16.606 [info] [Info  - 3:56:16 PM] (86916) Setting pythonPath for service ".config": "/bin/python"
+2025-01-31 15:56:16.607 [info] [Info  - 3:56:16 PM] (86916) No include entries specified; assuming /home/aditya/.config
+2025-01-31 15:56:16.610 [info] [Info  - 3:56:16 PM] (86916) Auto-excluding **/node_modules
+2025-01-31 15:56:16.610 [info] [Info  - 3:56:16 PM] (86916) Auto-excluding **/__pycache__
+2025-01-31 15:56:16.611 [info] [Info  - 3:56:16 PM] (86916) Auto-excluding **/.*
+2025-01-31 15:56:16.721 [info] [Info  - 3:56:16 PM] (86916) Assuming Python version 3.13.1.final.0
+2025-01-31 15:56:17.425 [info] [Warn  - 3:56:17 PM] (86916) Skipping recursive symlink "file:///home/aditya/.config/rofi/rofi" -> "file:///home/aditya/dotfiles/.config/rofi"
+2025-01-31 15:56:17.427 [info] [Warn  - 3:56:17 PM] (86916) Skipping recursive symlink "file:///home/aditya/.config/rofi-backup-01-2025/rofi" -> "file:///home/aditya/dotfiles/.config/rofi"
+2025-01-31 15:56:17.464 [info] [Info  - 3:56:17 PM] (86916) Found 8 source files
+2025-01-31 15:56:19.230 [info] [Info  - 3:56:19 PM] (86916) Background analysis(1) root directory: file:///home/aditya/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-31 15:56:19.239 [info] [Info  - 3:56:19 PM] (86916) Background analysis(1) started
+2025-01-31 15:56:20.222 [info] [Info  - 3:56:20 PM] (86916) Indexer background runner(2) root directory: file:///home/aditya/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-31 15:56:20.223 [info] [Info  - 3:56:20 PM] (86916) Indexing(2) started
+2025-01-31 15:56:22.308 [info] [Info  - 3:56:22 PM] (86916) scanned(2) 103 files over 1 exec env
+2025-01-31 15:56:26.441 [info] [Info  - 3:56:26 PM] (86916) [IDX(2)] Long operation: index execution environment file:///home/aditya/.config (3357ms)
+2025-01-31 15:56:26.501 [info] [Info  - 3:56:26 PM] (86916) [IDX(2)] Long operation: index packages file:///home/aditya/.config (3481ms)
+2025-01-31 15:56:26.501 [info] [Info  - 3:56:26 PM] (86916) indexed(2) 103 files over 1 exec env
+2025-01-31 15:56:26.711 [info] [Info  - 3:56:26 PM] (86916) Indexing finished(2).

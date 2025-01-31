@@ -9,7 +9,11 @@
                 "folderUri": "file:///home/aditya/.config"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1738340643916"
+            }
+        ]
     },
     "profileAssociations": {
         "workspaces": {
@@ -28,7 +32,9 @@
             "file:///home/aditya/dotfiles": "__default__profile__",
             "file:///home/aditya/.config": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1738340643916": "__default__profile__"
+        }
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -80,7 +86,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -268,13 +275,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -289,6 +294,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -376,13 +388,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -431,13 +441,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -797,6 +805,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -908,7 +923,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "enabled": false
+                        "checked": true
                     }
                 ]
             },
@@ -1598,6 +1613,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1850,7 +1870,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 191,
             "statusBarHeight": 0,
             "windowBorder": false
         }
@@ -1860,11 +1880,11 @@
             "folder": "file:///home/aditya/.config",
             "backupPath": "/home/aditya/.config/Code/Backups/951b590cb7b60313541910f552760ee1",
             "uiState": {
-                "mode": 1,
-                "x": 973,
-                "y": 62,
-                "width": 454,
-                "height": 488,
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080,
                 "zoomLevel": 2
             }
         },

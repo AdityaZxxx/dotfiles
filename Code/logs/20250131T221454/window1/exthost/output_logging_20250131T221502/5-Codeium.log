@@ -1,0 +1,99 @@
+(VSCode) 2025-01-31 22:15:29.925 [INFO]: No proxy settings found
+(VSCode) 2025-01-31 22:15:34.965 [ERROR]: Failed to initialize Unleash: undefined
+(VSCode) 2025-01-31 22:15:34.968 [INFO]: Checking network connection...
+(VSCode) 2025-01-31 22:15:45.570 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-01-31 22:15:46.416 [INFO]: Creating manager directory: /tmp/4facae0a-11cf-4c56-a565-75a65475cf88/codeium/manager
+(VSCode) 2025-01-31 22:15:52.541 [INFO]: Using cached LS with valid crc32: /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/1922b6ec8869ef782574fa5f5951f1c5e172c7b6/language_server_linux_x64
+(VSCode) 2025-01-31 22:15:52.587 [INFO]: Language server started
+2025/01/31 22:15:52 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I0131 22:15:52.943238 210595 main.go:568] [Language Server Manager] Setting GOMAXPROCS to 8
+I0131 22:15:52.943425 210595 main.go:707] [Language Server Manager] Release 1.30.18 (1922b6ec8869ef782574fa5f5951f1c5e172c7b6)
+I0131 22:15:52.943510 210595 main.go:786] [Language Server Manager] Starting language server manager with pid 210595
+I0131 22:15:52.943792 210595 main.go:123] [Language Server Manager] Manager acquired its lock file /tmp/4facae0a-11cf-4c56-a565-75a65475cf88/codeium/manager/locks/manager.lock
+I0131 22:15:52.945807 210595 main.go:264] [Language Server Manager] Waiting for random port file in /tmp/4facae0a-11cf-4c56-a565-75a65475cf88/codeium/manager/child_random_port_1738336552944081942_304294566972355875 to be created
+2025/01/31 22:15:52 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I0131 22:15:53.285570 210607 main.go:568] Setting GOMAXPROCS to 4
+I0131 22:15:53.293368 210607 main.go:780] Starting language server process with pid 210607
+I0131 22:15:53.293548 210607 server.go:220] Language server will attempt to listen on host 127.0.0.1
+I0131 22:15:53.293992 210607 server.go:227] Language server listening on random port at 33595
+I0131 22:15:54.562441 210607 unleash.go:92] Initializing Unleash
+I0131 22:15:56.564019 210607 unleash.go:112] Successfully initialized Unleash
+E0131 22:15:56.564266 210607 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/register": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0131 22:15:56.564349 210607 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+I0131 22:15:56.564727 210607 server.go:297] Extension server port not specified; skipping extension server client creation
+I0131 22:15:56.606961 210607 web_server.go:258] Chat Web Server listening at ws://127.0.0.1:33313
+E0131 22:15:56.667421 210607 client_manager.go:275] Metadata is nil when trying to refresh user JWT
+I0131 22:15:56.669129 210607 server.go:528] Successfully created API server client
+I0131 22:15:56.815821 210607 server.go:546] Successfully initialized tokenizer
+I0131 22:15:57.795706 210607 server.go:721] Local search is enabled, will index local files.
+I0131 22:15:57.795826 210607 server.go:725] Using 2 indexer workers
+I0131 22:15:57.805320 210607 sqlite_faiss_db_client.go:64] Successfully created embedding search database in 9ms
+I0131 22:15:57.806275 210607 indexer.go:213] Using 4 embed workers
+I0131 22:15:57.806384 210607 search_provider.go:274] Successfully created and started indexer
+I0131 22:15:57.806486 210607 search_provider.go:304] Successfully created embedding search provider
+I0131 22:15:57.819804 210607 server.go:813] Successfully created completion provider
+I0131 22:15:57.819950 210607 server.go:862] Child process attempting to acquire lock file /tmp/4facae0a-11cf-4c56-a565-75a65475cf88/codeium/manager/locks/child_lock_1738336552944200498_951496079403937862
+I0131 22:15:57.820158 210607 server.go:870] Child process acquired lock file /tmp/4facae0a-11cf-4c56-a565-75a65475cf88/codeium/manager/locks/child_lock_1738336552944200498_951496079403937862
+I0131 22:15:57.844796 210607 server.go:356] LSP listening on random port at 43731
+43731
+I0131 22:15:57.870413 210595 main.go:300] [Language Server Manager] Found random server port 33595
+I0131 22:15:57.870544 210595 main.go:301] [Language Server Manager] Found random lsp port 43731
+I0131 22:15:57.870606 210595 main.go:308] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:33595
+I0131 22:15:57.884900 210595 main.go:177] [Language Server Manager] Fixing language server port at 33595
+I0131 22:15:57.884959 210595 main.go:360] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:33595
+(VSCode) 2025-01-31 22:15:57.924 [INFO]: Found language server running on port 33595
+(VSCode) 2025-01-31 22:15:58.550 [INFO]: openAllTextDocuments took 70.26571900000272ms
+(VSCode) 2025-01-31 22:46:51.388 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 22:46:51.417 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 22:46:51.470 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:46:52.440 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:46:53.410 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:46:56.811 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:46:59.297 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:46:59.467 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:46:59.647 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:46:59.862 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:01.060 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:01.790 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:01.928 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:50.754 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:51.139 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:51.246 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:51.364 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:54.015 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:55.935 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:56.103 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:47:56.226 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:48:11.375 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:49:16.297 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:49:16.536 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:49:16.722 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:49:16.832 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:49:18.339 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:49:23.326 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:49:23.430 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:52:16.783 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:52:16.945 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:52:18.685 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:52:18.850 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:52:33.337 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:52:33.674 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:52:35.567 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:52:35.987 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:53:55.052 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:53:55.191 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:10.070 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:10.308 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:11.140 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:11.354 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:11.774 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:12.208 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:13.405 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:14.424 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:21.460 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:54:21.591 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:57:19.174 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:57:19.518 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:57:19.808 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:57:20.086 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 22:57:20.382 [INFO]: Codeium is not enabled for the current document.

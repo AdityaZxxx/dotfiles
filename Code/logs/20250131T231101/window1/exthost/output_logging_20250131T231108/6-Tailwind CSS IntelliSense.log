@@ -1,0 +1,68 @@
+Locating server…
+Checking if /home/aditya/.config/nwg-dock-hyprland/style.css may be Tailwind-related…
+Checking if /home/aditya/.config/gtk-4.0/gtk-dark.css may be Tailwind-related…
+Checking if /home/aditya/.config/gtk-4.0/gtk.css may be Tailwind-related…
+Checking if /home/aditya/.config/wal/templates/colors-wlogout.css may be Tailwind-related…
+Checking if /home/aditya/.config/wal/templates/colors-waybar.css may be Tailwind-related…
+Checking if /home/aditya/.config/waybar/style.css may be Tailwind-related…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+hoist-at-import: The file '/home/aditya/.config/waybar/style.css' contains @import rules after other at rules. This is invalid CSS and may cause problems with your build.
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/waybar/style.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/wlogout/style.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/435ca8fb/Q1hy.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/435ca8fb/XmT9.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-2bcd8f26/ZmXN.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-2bcd8f26/e1ft.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-2bcd8f26/uwW8.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-7fb58463/CK7i.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-7fb58463/du0k.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-7fb58463/zcm9.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-bd97a1f/9t4p.css"}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":true},"path":"/home/aditya/.config/Code/User/History/-bd97a1f/dUGt.css"}
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+[Info  - 11:11:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/rofi/bluetooth-menu.rasi',
+  normalPath: '/home/aditya/.config/rofi/bluetooth-menu.rasi'
+}
+[Info  - 11:12:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/rofi/power-menu.rasi',
+  normalPath: '/home/aditya/.config/rofi/power-menu.rasi'
+}
+[Info  - 11:18:02 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/hyprland.conf',
+  normalPath: '/home/aditya/.config/hypr/hyprland.conf'
+}
+[Info  - 11:18:15 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/keybinding.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/keybinding.conf'
+}
+[Info  - 11:18:23 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/keybindings/fr.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/keybindings/fr.conf'
+}
+[Info  - 11:18:32 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/hypr/conf/keybindings/default.conf',
+  normalPath: '/home/aditya/.config/hypr/conf/keybindings/default.conf'
+}
+[Info  - 11:21:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/ml4w/settings/emojipicker.sh',
+  normalPath: '/home/aditya/.config/ml4w/settings/emojipicker.sh'
+}
+[Info  - 11:22:02 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/ml4w/scripts/shell.sh',
+  normalPath: '/home/aditya/.config/ml4w/scripts/shell.sh'
+}
+[Info  - 11:27:46 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/rofi/config.rasi',
+  normalPath: '/home/aditya/.config/rofi/config.rasi'
+}
+[Info  - 11:28:17 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/rofi/config-themes.rasi',
+  normalPath: '/home/aditya/.config/rofi/config-themes.rasi'
+}

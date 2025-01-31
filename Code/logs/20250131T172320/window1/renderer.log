@@ -1,0 +1,86 @@
+2025-01-31 17:23:22.653 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 17:23:22.654 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 17:23:22.655 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 17:23:23.108 [warning] Creation of workbench contribution 'workbench.contrib.updateExperimentalSettingsDefaults' took 29ms.
+2025-01-31 17:23:24.541 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-31 17:23:24.601 [info] Started local extension host with pid 218203.
+2025-01-31 17:23:26.246 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.247 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.249 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.250 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.251 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.252 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.254 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.255 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.256 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.257 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.258 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.260 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.261 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.262 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.263 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.265 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.266 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.267 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.268 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.269 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.270 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.271 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.272 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.273 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.274 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.276 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.277 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.278 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.279 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.280 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.281 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 17:23:26.390 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-01-31 17:23:26.391 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-01-31 17:23:26.392 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-01-31 17:23:26.393 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-01-31 17:23:26.394 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-01-31 17:23:26.395 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-01-31 17:23:26.396 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-01-31 17:23:26.396 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-01-31 17:23:26.397 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-01-31 17:23:26.398 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-01-31 17:23:26.399 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-01-31 17:23:26.400 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-01-31 17:23:26.718 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-01-31 17:23:26.719 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-01-31 17:23:26.720 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-01-31 17:23:34.574 [info] Settings Sync: Token updated for the account AdityaZxxx
+2025-01-31 17:23:35.041 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-31 17:23:37.380 [info] [perf] Render performance baseline is 188ms
+2025-01-31 17:23:40.912 [info] Extension host (LocalProcess pid: 218203) is unresponsive.
+2025-01-31 17:23:44.515 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 17:23:52.411 [info] Extension host (LocalProcess pid: 218203) is responsive.
+2025-01-31 17:23:56.630 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 17:23:57.482 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-01-31 17:24:01.474 [info] Extension host (LocalProcess pid: 218203) is unresponsive.
+2025-01-31 17:24:03.722 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 17:24:05.956 [info] Extension host (LocalProcess pid: 218203) is responsive.
+2025-01-31 17:24:05.957 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-01-31 17:24:06.753 [warning] UNRESPONSIVE extension host: 'github.copilot' took 50.20775518047307% of 1123.514ms, saved PROFILE here: 'file:///tmp/exthost-0fe47d.cpuprofile'
+2025-01-31 17:27:26.369 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 17:43:47.118 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-01-31 17:52:18.127 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-01-31 18:24:06.140 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)

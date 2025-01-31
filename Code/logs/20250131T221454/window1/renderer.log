@@ -1,0 +1,159 @@
+2025-01-31 22:14:57.220 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 22:14:57.222 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 22:14:57.223 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 22:14:57.723 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 24ms.
+2025-01-31 22:14:57.894 [warning] Creation of workbench contribution 'workbench.contrib.updateExperimentalSettingsDefaults' took 46ms.
+2025-01-31 22:14:59.289 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-31 22:14:59.983 [info] Started local extension host with pid 206982.
+2025-01-31 22:15:02.771 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.772 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.773 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.774 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.775 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.775 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.777 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.778 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.778 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.779 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.780 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.781 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.782 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.783 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.784 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.785 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.786 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.787 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.788 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.789 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.790 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.791 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.791 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.792 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.793 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.794 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.794 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.795 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.796 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.797 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.797 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 22:15:02.887 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-01-31 22:15:02.888 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-01-31 22:15:02.889 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-01-31 22:15:02.889 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-01-31 22:15:02.890 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-01-31 22:15:02.891 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-01-31 22:15:02.891 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-01-31 22:15:02.892 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-01-31 22:15:02.893 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-01-31 22:15:02.894 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-01-31 22:15:02.895 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-01-31 22:15:02.896 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-01-31 22:15:03.173 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-01-31 22:15:03.174 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-01-31 22:15:03.175 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-01-31 22:15:09.035 [info] Extension host (LocalProcess pid: 206982) is unresponsive.
+2025-01-31 22:15:10.576 [info] Extension host (LocalProcess pid: 206982) is responsive.
+2025-01-31 22:15:11.286 [info] [perf] Render performance baseline is 192ms
+2025-01-31 22:15:11.482 [info] Settings Sync: Token updated for the account AdityaZxxx
+2025-01-31 22:15:11.690 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-31 22:15:18.401 [info] Extension host (LocalProcess pid: 206982) is unresponsive.
+2025-01-31 22:15:21.977 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 22:15:25.406 [error] Error while registering log channel file:///home/aditya/.config/Code/logs/20250131T221454/window1/exthost/vscode.json-language-features/JSON%20Language%20Server.log Timed out while waiting for file to be created
+2025-01-31 22:15:29.877 [info] Extension host (LocalProcess pid: 206982) is responsive.
+2025-01-31 22:15:32.715 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:15:34.989 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-01-31 22:15:38.493 [info] Extension host (LocalProcess pid: 206982) is unresponsive.
+2025-01-31 22:15:40.903 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 22:15:44.036 [info] Extension host (LocalProcess pid: 206982) is responsive.
+2025-01-31 22:15:44.037 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-01-31 22:15:44.571 [warning] UNRESPONSIVE extension host: 'github.copilot' took 75.16095172786507% of 2358.707ms, saved PROFILE here: 'file:///tmp/exthost-b38dc7.cpuprofile'
+2025-01-31 22:18:20.204 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-31 22:45:06.098 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:45:07.644 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:46:41.958 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:51:04.742 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:51:19.997 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:51:25.545 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:51:28.558 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-31 22:52:56.230 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:52:58.894 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:54:39.015 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:54:44.608 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:54:46.110 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:54:52.498 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:55:05.159 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 22:59:08.721 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-01-31 23:01:20.869 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 23:01:27.435 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 23:01:29.349 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)

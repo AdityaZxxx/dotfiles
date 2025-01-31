@@ -1,0 +1,39 @@
+2025-01-31 22:15:14.615 [info] 2025-01-31T15:15:10.752Z extension INFO  Activating extension... [
+  {
+    id: 'mongodb.mongodb-vscode',
+    version: '1.12.0',
+    mode: 'Production',
+    kind: 'UI',
+    extensionPath: '/home/aditya/.vscode/extensions/mongodb.mongodb-vscode-1.12.0',
+    logPath: '/home/aditya/.config/Code/logs/20250131T221454/window1/exthost/mongodb.mongodb-vscode',
+    workspaceStoragePath: '/home/aditya/.config/Code/User/workspaceStorage/39b0fba7c784b77d6142c781588e1e76/mongodb.mongodb-vscode',
+    globalStoragePath: '/home/aditya/.config/Code/User/globalStorage/mongodb.mongodb-vscode',
+    defaultConnectionSavingLocation: 'Global',
+    buildInfo: {
+      nodeVersion: 'v20.18.1',
+      runtimePlatform: 'linux',
+      runtimeArch: 'x64'
+    }
+  }
+]
+
+2025-01-31 22:15:14.615 [info] 2025-01-31T15:15:10.764Z language server controller INFO  Creating MongoDB Language Server... [
+  {
+    extensionPath: '/home/aditya/.vscode/extensions/mongodb.mongodb-vscode-1.12.0',
+    languageServer: {
+      id: 'mongodbLanguageServer',
+      name: 'MongoDB Language Server',
+      path: '/home/aditya/.vscode/extensions/mongodb.mongodb-vscode-1.12.0/dist/languageServer.js',
+      documentSelector: '[{"pattern":"**/*.mongodb.js"},{"pattern":"**/*.mongodb"}]'
+    }
+  }
+]
+
+2025-01-31 22:15:14.615 [info] 2025-01-31T15:15:10.830Z telemetry INFO  Segment analytics activated [ { anonymousId: '03007e80-99c1-4060-99cb-848ae588190c' } ]
+
+2025-01-31 22:15:14.615 [info] 2025-01-31T15:15:10.833Z participant INFO  Chat participant created [ { participantId: 'mongodb.participant' } ]
+
+2025-01-31 22:15:14.615 [info] 2025-01-31T15:15:10.842Z language server controller INFO  Starting the language server... []
+
+2025-01-31 22:15:14.629 [info] 2025-01-31T15:15:14.628Z language server controller INFO  MongoDBService initialized. Sending default settings... {"extensionPath":"/home/aditya/.vscode/extensions/mongodb.mongodb-vscode-1.12.0","connectionId":null,"hasConnectionString":false,"hasConnectionOptions":false} []
+

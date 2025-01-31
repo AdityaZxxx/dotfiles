@@ -9,3 +9,7 @@
 2025-01-31 15:44:20.760 [error] [network] #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
 2025-01-31 15:44:22.429 [error] [network] #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
 2025-01-31 15:44:22.500 [error] [network] #6: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_INTERNET_DISCONNECTED
+2025-01-31 15:56:58.314 [error] [network] #61: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_INTERNET_DISCONNECTED
+2025-01-31 15:57:36.054 [error] [network] #63: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_INTERNET_DISCONNECTED
+2025-01-31 15:57:38.058 [error] [network] #64: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2025-01-31 15:57:41.085 [error] [network] #65: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED

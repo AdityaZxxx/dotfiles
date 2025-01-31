@@ -37,3 +37,23 @@ hoist-at-import: The file '/home/aditya/.config/waybar/style.css' contains @impo
   fsPath: '/home/aditya/.config/spotify/prefs',
   normalPath: '/home/aditya/.config/spotify/prefs'
 }
+[Info  - 3:56:07 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/dunst/dunstrc',
+  normalPath: '/home/aditya/.config/dunst/dunstrc'
+}
+[Info  - 3:59:00 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/session/dolphin_dolphin_dolphin',
+  normalPath: '/home/aditya/.config/session/dolphin_dolphin_dolphin'
+}
+[Info  - 3:59:15 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/systemd/user/waybar.service.save',
+  normalPath: '/home/aditya/.config/systemd/user/waybar.service.save'
+}
+[Info  - 3:59:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/systemd/user/hyprpanel.service',
+  normalPath: '/home/aditya/.config/systemd/user/hyprpanel.service'
+}
+[Info  - 3:59:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/systemd/user/pipewire-session-manager.service',
+  normalPath: '/home/aditya/.config/systemd/user/pipewire-session-manager.service'
+}

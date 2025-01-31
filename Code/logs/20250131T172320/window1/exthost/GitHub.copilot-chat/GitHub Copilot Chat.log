@@ -1,0 +1,29 @@
+2025-01-31 17:23:57.508 [info] Using the Electron fetcher.
+2025-01-31 17:23:57.508 [info] Initializing Git extension service.
+2025-01-31 17:23:57.508 [info] Successfully activated the vscode.git extension.
+2025-01-31 17:23:57.508 [info] Enablement state of the vscode.git extension: true.
+2025-01-31 17:23:57.508 [info] Successfully registered Git commit message provider.
+2025-01-31 17:24:08.645 [info] Logged in as AdityaZxxx
+2025-01-31 17:24:10.615 [info] Got Copilot token for AdityaZxxx
+2025-01-31 17:24:11.906 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-31 17:24:11.906 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-31 17:24:11.911 [info] Registering default platform agent...
+2025-01-31 17:24:14.069 [info] Fetched model metadata in 3428ms 14539d85-9821-4b28-8204-cd5bed974cf5
+2025-01-31 17:24:14.269 [info] activationBlocker from 'languageModelAccess' took for 8707ms
+2025-01-31 17:39:18.425 [info] Fetched model metadata in 963ms 39f5a800-0ad8-4550-b7c6-b4b53796e8ca
+2025-01-31 17:49:10.634 [info] Logged in as AdityaZxxx
+2025-01-31 17:49:11.733 [info] Got Copilot token for AdityaZxxx
+2025-01-31 17:49:11.773 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-31 18:04:12.740 [info] Fetched model metadata in 939ms 87f48dcf-8097-4e87-bcfe-73b69f5d84d2
+2025-01-31 18:14:11.749 [info] Logged in as AdityaZxxx
+2025-01-31 18:14:12.753 [info] Got Copilot token for AdityaZxxx
+2025-01-31 18:14:12.789 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-31 18:14:13.799 [info] Fetched model metadata in 988ms ad893f6f-8dfe-4667-9697-2a301904756a
+2025-01-31 18:29:14.808 [info] Fetched model metadata in 985ms fca62e59-dc1e-4372-90de-dd6a72a04402
+2025-01-31 18:39:12.776 [info] Logged in as AdityaZxxx
+2025-01-31 18:39:13.597 [info] Got Copilot token for AdityaZxxx
+2025-01-31 18:39:13.641 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-31 18:54:15.069 [info] Fetched model metadata in 1389ms 6ad2052a-c46c-4162-8a46-2461ae5bf279
+2025-01-31 19:04:13.629 [info] Logged in as AdityaZxxx
+2025-01-31 19:04:14.767 [info] Got Copilot token for AdityaZxxx
+2025-01-31 19:04:14.847 [info] copilot token chat_enabled: true, sku: free_limited_copilot

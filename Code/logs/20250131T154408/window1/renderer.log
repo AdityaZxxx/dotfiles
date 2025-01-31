@@ -132,3 +132,63 @@
 2025-01-31 15:44:55.574 [info] Extension host (LocalProcess pid: 40971) is responsive.
 2025-01-31 15:44:55.577 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
 2025-01-31 15:44:56.085 [warning] UNRESPONSIVE extension host: 'github.copilot' took 77.12252060735396% of 1883.588ms, saved PROFILE here: 'file:///tmp/exthost-428123.cpuprofile'
+2025-01-31 15:56:05.503 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:33.970 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:37.842 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:40.102 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:41.883 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:42.967 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:47.321 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:48.349 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:49.416 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:51.088 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:51.638 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-31 15:58:52.553 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)

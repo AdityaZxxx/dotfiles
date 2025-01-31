@@ -40,3 +40,32 @@ I0131 15:45:07.640870 43917 main.go:360] [Language Server Manager] Successfully 
 43435
 (VSCode) 2025-01-31 15:45:08.595 [INFO]: Found language server running on port 46595
 (VSCode) 2025-01-31 15:45:09.259 [INFO]: openAllTextDocuments took 20.236883000005037ms
+(VSCode) 2025-01-31 15:56:25.313 [INFO]: Completion request was cancelled by token (102.29ms)
+(VSCode) 2025-01-31 15:56:25.403 [INFO]: Completion request was cancelled by token (50.27ms)
+(VSCode) 2025-01-31 15:56:26.212 [INFO]: Completion request was cancelled by token (744.92ms)
+(VSCode) 2025-01-31 15:56:26.895 [INFO]: Completion request succeeded (661.06ms)
+(VSCode) 2025-01-31 15:56:26.902 [INFO]: No completions were generated
+(VSCode) 2025-01-31 15:56:26.903 [INFO]: provideInlineCompletionItems request succeeded (672.76ms)
+(VSCode) 2025-01-31 15:56:28.499 [INFO]: Completion request succeeded (1013.31ms)
+(VSCode) 2025-01-31 15:56:28.506 [INFO]: No completions were generated
+(VSCode) 2025-01-31 15:56:28.507 [INFO]: provideInlineCompletionItems request succeeded (1024.03ms)
+(VSCode) 2025-01-31 15:56:33.298 [INFO]: Completion request was cancelled by token (235.48ms)
+(VSCode) 2025-01-31 15:56:33.334 [INFO]: Completion request was cancelled by token (27.53ms)
+(VSCode) 2025-01-31 15:56:33.629 [INFO]: Completion request was cancelled by token (275.12ms)
+(VSCode) 2025-01-31 15:56:34.201 [INFO]: Completion request was cancelled by token (553.66ms)
+(VSCode) 2025-01-31 15:56:34.320 [INFO]: Completion request was cancelled by token (61.09ms)
+(VSCode) 2025-01-31 15:56:35.062 [INFO]: Completion request succeeded (719.31ms)
+(VSCode) 2025-01-31 15:56:35.067 [INFO]: No completions were generated
+(VSCode) 2025-01-31 15:56:35.068 [INFO]: provideInlineCompletionItems request succeeded (729.37ms)
+(VSCode) 2025-01-31 15:59:26.875 [INFO]: Disposing language server process
+(VSCode) 2025-01-31 15:59:26.876 [INFO]: Deleting manager directory: /tmp/2f848c41-7c1e-41d9-8012-d6d9cc190891/codeium/manager
+(VSCode) 2025-01-31 15:59:26.880 [INFO]: Successfully disposed language server
+W0131 15:59:26.875804 43917 main.go:127] [Language Server Manager] Got signal terminated, shutting down
+E0131 15:59:27.132711 43917 main.go:374] [Language Server Manager] Failed to acquire lock on /tmp/2f848c41-7c1e-41d9-8012-d6d9cc190891/codeium/manager/locks/child_lock_1738313103003113310_6538689644469946593: open /tmp/2f848c41-7c1e-41d9-8012-d6d9cc190891/codeium/manager/locks/child_lock_1738313103003113310_6538689644469946593: no such file or directory
+I0131 15:59:27.135291 43957 server.go:1035] Exit requested on language server process 43957
+I0131 15:59:27.135518 43957 server.go:1012] Language server shutting down
+I0131 15:59:27.183369 43917 cmd_wrapper.go:271] [Language Server Manager] LanguageServer exited with: success
+(VSCode) 2025-01-31 15:59:27.340 [ERROR]: [unavailable] connect ECONNREFUSED 127.0.0.1:46595
+(VSCode) 2025-01-31 15:59:27.368 [ERROR]: Failed to stop lsp
+(VSCode) 2025-01-31 15:59:27.373 [INFO]: Language server exited with code 0
+(VSCode) 2025-01-31 15:59:27.383 [ERROR]: Failed to stop exit
