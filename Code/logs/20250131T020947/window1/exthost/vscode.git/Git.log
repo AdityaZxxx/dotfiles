@@ -1,0 +1,48 @@
+2025-01-31 02:10:13.254 [info] [main] Log level: Info
+2025-01-31 02:10:13.254 [info] [main] Validating found git in: "git"
+2025-01-31 02:10:13.254 [info] [main] Using git "2.48.1" from "git"
+2025-01-31 02:10:13.254 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-31 02:10:13.254 [info] > git rev-parse --show-toplevel [37ms]
+2025-01-31 02:10:13.254 [info] > git rev-parse --git-dir --git-common-dir [339ms]
+2025-01-31 02:10:13.254 [info] [Model][openRepository] Opened repository: /home/aditya/dotfiles
+2025-01-31 02:10:13.263 [info] > git rev-parse --show-toplevel [9447ms]
+2025-01-31 02:10:13.271 [info] > git config --get commit.template [9464ms]
+2025-01-31 02:10:15.936 [info] > git check-ignore -v -z --stdin [645ms]
+2025-01-31 02:10:15.941 [info] > git rev-parse --show-toplevel [762ms]
+2025-01-31 02:10:15.950 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-31 02:10:16.143 [info] > git show --textconv :.config/hypr/conf/autostart.conf [156ms]
+2025-01-31 02:10:16.157 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/hypr/conf/autostart.conf [133ms]
+2025-01-31 02:10:16.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [415ms]
+2025-01-31 02:10:16.445 [info] > git cat-file -s 91614c1d06da38a9879dfb9dc1941abed919e7ff [254ms]
+2025-01-31 02:10:17.131 [info] > git status -z -uall [142ms]
+2025-01-31 02:10:17.163 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [124ms]
+2025-01-31 02:10:17.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [246ms]
+2025-01-31 02:10:17.725 [info] > git config --local branch.master.vscode-merge-base [206ms]
+2025-01-31 02:10:17.725 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-31 02:10:17.761 [info] > git config --get commit.template [465ms]
+2025-01-31 02:10:26.127 [info] > git reflog master --grep-reflog=branch: Created from *. [8367ms]
+2025-01-31 02:10:26.513 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [342ms]
+2025-01-31 02:10:26.513 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-31 02:10:26.513 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-31 02:10:26.851 [info] > git merge-base refs/heads/master refs/remotes/origin/master [256ms]
+2025-01-31 02:10:26.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [399ms]
+2025-01-31 02:10:26.925 [info] > git diff --name-status -z --diff-filter=ADMR 71f5663938f145258f20e8f7efc10e2454d2430a...refs/remotes/origin/master [29ms]
+2025-01-31 02:10:27.423 [info] > git status -z -uall [209ms]
+2025-01-31 02:10:27.424 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [168ms]
+2025-01-31 02:11:53.236 [info] > git check-ignore -v -z --stdin [7ms]
+2025-01-31 02:13:20.373 [info] > git check-ignore -v -z --stdin [7ms]
+2025-01-31 02:13:22.711 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-31 02:17:06.921 [info] > git check-ignore -v -z --stdin [4ms]
+2025-01-31 02:17:14.094 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-31 02:17:15.283 [info] > git show --textconv :.config/kitty/kitty.conf [65ms]
+2025-01-31 02:17:15.292 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/kitty/kitty.conf [14ms]
+2025-01-31 02:17:15.360 [info] > git cat-file -s cb1478c8b3ce8a10a6cefadd19bfcb18b1e5f974 [6ms]
+2025-01-31 02:17:15.518 [info] > git blame --root --incremental 71f5663938f145258f20e8f7efc10e2454d2430a -- /home/aditya/dotfiles/.config/kitty/kitty.conf [10ms]
+2025-01-31 02:18:01.189 [info] > git config --get commit.template [7ms]
+2025-01-31 02:18:01.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-01-31 02:18:01.377 [info] > git status -z -uall [64ms]
+2025-01-31 02:18:01.378 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-01-31 02:19:39.394 [info] > git show --textconv :.config/waybar/config.jsonc [56ms]
+2025-01-31 02:19:39.410 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/waybar/config.jsonc [19ms]
+2025-01-31 02:19:39.501 [info] > git blame --root --incremental 71f5663938f145258f20e8f7efc10e2454d2430a -- /home/aditya/dotfiles/.config/waybar/config.jsonc [9ms]
+2025-01-31 02:19:39.501 [info] fatal: no such path .config/waybar/config.jsonc in 71f5663938f145258f20e8f7efc10e2454d2430a

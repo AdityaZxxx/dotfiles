@@ -1,0 +1,113 @@
+2025-01-31 02:09:53.530 [info] Extension host with pid 21043 started
+2025-01-31 02:09:53.530 [info] Skipping acquiring lock for /home/aditya/.config/Code/User/workspaceStorage/c48e7be65c85ed4913504ada24d0f404.
+2025-01-31 02:09:56.183 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-31 02:09:56.347 [info] ExtensionService#_doActivateExtension mongodb.mongodb-vscode, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-01-31 02:09:59.341 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-31 02:09:59.419 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-31 02:09:59.428 [info] ExtensionService#_doActivateExtension apility.beautify-blade, startup: true, activationEvent: '*'
+2025-01-31 02:09:59.520 [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css, startup: true, activationEvent: '*'
+2025-01-31 02:09:59.586 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2025-01-31 02:09:59.591 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2025-01-31 02:09:59.750 [info] ExtensionService#_doActivateExtension mcright.auto-save, startup: true, activationEvent: '*'
+2025-01-31 02:09:59.756 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2025-01-31 02:09:59.812 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-01-31 02:09:59.817 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2025-01-31 02:10:01.015 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-31 02:10:01.395 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-31 02:10:01.550 [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek, startup: true, activationEvent: 'workspaceContains:**/*.css,**/*.scss,**/*.sass,**/*.less'
+2025-01-31 02:10:02.659 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-31 02:10:02.696 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-31 02:10:02.928 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-31 02:10:03.489 [info] Eager extensions activated
+2025-01-31 02:10:03.824 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:03.830 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:03.891 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:04.016 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:05.315 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:05.401 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:06.787 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:06.964 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:10.319 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:12.205 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:12.375 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:12.717 [info] ExtensionService#_doActivateExtension NarasimaPandiyan.jetbrainsmono, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:12.722 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:12.768 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:12.786 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:12.811 [info] ExtensionService#_doActivateExtension WallabyJs.console-ninja, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:13.036 [info] ExtensionService#_doActivateExtension WallabyJs.quokka-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:10:13.039 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-01-31 02:17:17.768 [error] Error: Illegal value for `line`
+    at _M.t (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:1005)
+    at Object.lineAt (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:72)
+    at e.getCommandEditHints (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1814405)
+    at e.getNonCachedDocumentResults (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1816084)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817149)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802372)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1803714)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802801)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1808928)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809131)
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809190
+    at new Promise (<anonymous>)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809071)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817723)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1760300)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1747632)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1748974)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1748061)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754548)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754751)
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754810
+    at new Promise (<anonymous>)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754691)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1760923)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1759492)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1747632)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1748974)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1748061)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754548)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754751)
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754810
+    at new Promise (<anonymous>)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754691)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1759735)
+    at Immediate.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1757153)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-31 02:17:17.809 [error] Error: Illegal value for `line`
+    at _M.t (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:1005)
+    at Object.lineAt (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:72)
+    at e.getCommandEditHints (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1814405)
+    at e.getNonCachedDocumentResults (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1816084)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817149)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802372)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1803714)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802801)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1808928)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809131)
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809190
+    at new Promise (<anonymous>)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809071)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817723)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1760300)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1747632)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1748974)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1748061)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754548)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754751)
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754810
+    at new Promise (<anonymous>)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754691)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1760923)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1759492)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1747632)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1748974)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1748061)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754548)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754751)
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754810
+    at new Promise (<anonymous>)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1754691)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1759735)
+    at Immediate.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1757153)
+    at processImmediate (node:internal/timers:483:21)

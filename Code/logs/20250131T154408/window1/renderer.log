@@ -1,0 +1,134 @@
+2025-01-31 15:44:10.848 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 15:44:10.849 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 15:44:10.850 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 15:44:11.288 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 21ms.
+2025-01-31 15:44:11.510 [warning] Creation of workbench contribution 'workbench.contrib.updateExperimentalSettingsDefaults' took 32ms.
+2025-01-31 15:44:13.103 [info] Started local extension host with pid 40971.
+2025-01-31 15:44:15.500 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.504 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.505 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.506 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.508 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.509 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.511 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.512 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.513 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.514 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.515 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.516 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.517 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.519 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.523 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.524 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.528 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.529 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.530 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.531 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.532 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.532 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.533 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.534 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.535 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.536 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.537 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.538 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.539 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.540 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.540 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 15:44:15.643 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-01-31 15:44:15.651 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-01-31 15:44:15.652 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-01-31 15:44:15.653 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-01-31 15:44:15.654 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-01-31 15:44:15.657 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-01-31 15:44:15.658 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-01-31 15:44:15.659 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-01-31 15:44:15.660 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-01-31 15:44:15.661 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-01-31 15:44:15.662 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-01-31 15:44:15.663 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-01-31 15:44:16.005 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-01-31 15:44:16.007 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-01-31 15:44:16.007 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-01-31 15:44:19.976 [error] [network] #1: https://www.vscode-unpkg.net/_gallery/anseki/vscode-color/latest - error GET Offline
+2025-01-31 15:44:19.979 [error] [network] #2: https://www.vscode-unpkg.net/_gallery/apility/beautify-blade/latest - error GET Offline
+2025-01-31 15:44:19.987 [error] [network] #3: https://www.vscode-unpkg.net/_gallery/apvarun/celestial/latest - error GET Offline
+2025-01-31 15:44:19.988 [error] [network] #4: https://www.vscode-unpkg.net/_gallery/astro-build/astro-vscode/latest - error GET Offline
+2025-01-31 15:44:19.989 [error] [network] #5: https://www.vscode-unpkg.net/_gallery/be5invis/vscode-custom-css/latest - error GET Offline
+2025-01-31 15:44:19.990 [error] [network] #6: https://www.vscode-unpkg.net/_gallery/blackboxapp/blackbox/latest - error GET Offline
+2025-01-31 15:44:20.005 [error] [network] #10: https://www.vscode-unpkg.net/_gallery/burkeholland/simple-react-snippets/latest - error GET Offline
+2025-01-31 15:44:20.009 [error] [network] #8: https://www.vscode-unpkg.net/_gallery/bmewburn/vscode-intelephense-client/latest - error GET Offline
+2025-01-31 15:44:20.011 [error] [network] #7: https://www.vscode-unpkg.net/_gallery/blackboxapp/blackboxagent/latest - error GET Offline
+2025-01-31 15:44:20.012 [error] [network] #9: https://www.vscode-unpkg.net/_gallery/bradlc/vscode-tailwindcss/latest - error GET Offline
+2025-01-31 15:44:20.016 [error] [network] #11: https://www.vscode-unpkg.net/_gallery/chadalen/vscode-jetbrains-icon-theme/latest - error GET Offline
+2025-01-31 15:44:20.017 [error] [network] #12: https://www.vscode-unpkg.net/_gallery/chinchiheather/vscode-margin-colours/latest - error GET Offline
+2025-01-31 15:44:20.018 [error] [network] #13: https://www.vscode-unpkg.net/_gallery/codeium/codeium/latest - error GET Offline
+2025-01-31 15:44:20.019 [error] [network] #14: https://www.vscode-unpkg.net/_gallery/davidanson/vscode-markdownlint/latest - error GET Offline
+2025-01-31 15:44:20.020 [error] [network] #15: https://www.vscode-unpkg.net/_gallery/dbaeumer/vscode-eslint/latest - error GET Offline
+2025-01-31 15:44:20.022 [error] [network] #16: https://www.vscode-unpkg.net/_gallery/dsznajder/es7-react-js-snippets/latest - error GET Offline
+2025-01-31 15:44:20.029 [error] [network] #17: https://www.vscode-unpkg.net/_gallery/endormi/2077-theme/latest - error GET Offline
+2025-01-31 15:44:20.031 [error] [network] #18: https://www.vscode-unpkg.net/_gallery/entuent/fira-code-nerd-font/latest - error GET Offline
+2025-01-31 15:44:20.035 [error] [network] #20: https://www.vscode-unpkg.net/_gallery/esbenp/prettier-vscode/latest - error GET Offline
+2025-01-31 15:44:20.041 [error] [network] #19: https://www.vscode-unpkg.net/_gallery/equimper/react-native-react-redux/latest - error GET Offline
+2025-01-31 15:44:20.042 [error] [network] #21: https://www.vscode-unpkg.net/_gallery/formulahendry/auto-close-tag/latest - error GET Offline
+2025-01-31 15:44:20.044 [error] [network] #22: https://www.vscode-unpkg.net/_gallery/formulahendry/auto-rename-tag/latest - error GET Offline
+2025-01-31 15:44:20.049 [error] [network] #23: https://www.vscode-unpkg.net/_gallery/fyfirman/vscode-tokyo-theme/latest - error GET Offline
+2025-01-31 15:44:20.051 [error] [network] #24: https://www.vscode-unpkg.net/_gallery/github/copilot/latest - error GET Offline
+2025-01-31 15:44:20.054 [error] [network] #25: https://www.vscode-unpkg.net/_gallery/github/copilot-chat/latest - error GET Offline
+2025-01-31 15:44:20.055 [error] [network] #26: https://www.vscode-unpkg.net/_gallery/github/github-vscode-theme/latest - error GET Offline
+2025-01-31 15:44:20.056 [error] [network] #27: https://www.vscode-unpkg.net/_gallery/graphql/vscode-graphql/latest - error GET Offline
+2025-01-31 15:44:20.058 [error] [network] #28: https://www.vscode-unpkg.net/_gallery/graphql/vscode-graphql-syntax/latest - error GET Offline
+2025-01-31 15:44:20.060 [error] [network] #31: https://www.vscode-unpkg.net/_gallery/kisstkondoros/vscode-gutter-preview/latest - error GET Offline
+2025-01-31 15:44:20.062 [error] [network] #35: https://www.vscode-unpkg.net/_gallery/mhutchie/git-graph/latest - error GET Offline
+2025-01-31 15:44:20.063 [error] [network] #30: https://www.vscode-unpkg.net/_gallery/jasonnutter/search-node-modules/latest - error GET Offline
+2025-01-31 15:44:20.069 [error] [network] #36: https://www.vscode-unpkg.net/_gallery/miguelsolorio/fluent-icons/latest - error GET Offline
+2025-01-31 15:44:20.070 [error] [network] #33: https://www.vscode-unpkg.net/_gallery/mcright/auto-save/latest - error GET Offline
+2025-01-31 15:44:20.071 [error] [network] #29: https://www.vscode-unpkg.net/_gallery/humao/rest-client/latest - error GET Offline
+2025-01-31 15:44:20.076 [error] [network] #34: https://www.vscode-unpkg.net/_gallery/mgmcdermott/vscode-language-babel/latest - error GET Offline
+2025-01-31 15:44:20.077 [error] [network] #32: https://www.vscode-unpkg.net/_gallery/leandro-rodrigues/fluent-ui-vscode/latest - error GET Offline
+2025-01-31 15:44:20.083 [error] [network] #37: https://www.vscode-unpkg.net/_gallery/mikaelkristiansson87/react-theme-vscode/latest - error GET Offline
+2025-01-31 15:44:20.085 [error] [network] #38: https://www.vscode-unpkg.net/_gallery/mongodb/mongodb-vscode/latest - error GET Offline
+2025-01-31 15:44:20.086 [error] [network] #42: https://www.vscode-unpkg.net/_gallery/ms-mssql/sql-bindings-vscode/latest - error GET Offline
+2025-01-31 15:44:20.088 [error] [network] #44: https://www.vscode-unpkg.net/_gallery/ms-python/debugpy/latest - error GET Offline
+2025-01-31 15:44:20.089 [error] [network] #46: https://www.vscode-unpkg.net/_gallery/ms-python/vscode-pylance/latest - error GET Offline
+2025-01-31 15:44:20.090 [error] [network] #48: https://www.vscode-unpkg.net/_gallery/ms-vscode/cpptools/latest - error GET Offline
+2025-01-31 15:44:20.091 [error] [network] #43: https://www.vscode-unpkg.net/_gallery/ms-mssql/sql-database-projects-vscode/latest - error GET Offline
+2025-01-31 15:44:20.093 [error] [network] #47: https://www.vscode-unpkg.net/_gallery/ms-vscode-remote/remote-wsl/latest - error GET Offline
+2025-01-31 15:44:20.095 [error] [network] #39: https://www.vscode-unpkg.net/_gallery/ms-azuretools/vscode-docker/latest - error GET Offline
+2025-01-31 15:44:20.096 [error] [network] #41: https://www.vscode-unpkg.net/_gallery/ms-mssql/mssql/latest - error GET Offline
+2025-01-31 15:44:20.098 [error] [network] #45: https://www.vscode-unpkg.net/_gallery/ms-python/python/latest - error GET Offline
+2025-01-31 15:44:20.099 [error] [network] #40: https://www.vscode-unpkg.net/_gallery/ms-mssql/data-workspace-vscode/latest - error GET Offline
+2025-01-31 15:44:20.101 [error] [network] #49: https://www.vscode-unpkg.net/_gallery/ms-vscode/js-debug-nightly/latest - error GET Offline
+2025-01-31 15:44:20.103 [error] [network] #50: https://www.vscode-unpkg.net/_gallery/ms-vscode/vscode-typescript-next/latest - error GET Offline
+2025-01-31 15:44:20.105 [error] [network] #51: https://www.vscode-unpkg.net/_gallery/msjsdiag/vscode-react-native/latest - error GET Offline
+2025-01-31 15:44:20.106 [error] [network] #52: https://www.vscode-unpkg.net/_gallery/narasimapandiyan/jetbrainsmono/latest - error GET Offline
+2025-01-31 15:44:20.107 [error] [network] #53: https://www.vscode-unpkg.net/_gallery/oderwat/indent-rainbow/latest - error GET Offline
+2025-01-31 15:44:20.108 [error] [network] #61: https://www.vscode-unpkg.net/_gallery/wallabyjs/console-ninja/latest - error GET Offline
+2025-01-31 15:44:20.110 [error] [network] #62: https://www.vscode-unpkg.net/_gallery/wallabyjs/quokka-vscode/latest - error GET Offline
+2025-01-31 15:44:20.111 [error] [network] #54: https://www.vscode-unpkg.net/_gallery/pkief/material-icon-theme/latest - error GET Offline
+2025-01-31 15:44:20.113 [error] [network] #59: https://www.vscode-unpkg.net/_gallery/rogalmic/bash-debug/latest - error GET Offline
+2025-01-31 15:44:20.114 [error] [network] #57: https://www.vscode-unpkg.net/_gallery/rangav/vscode-thunder-client/latest - error GET Offline
+2025-01-31 15:44:20.116 [error] [network] #56: https://www.vscode-unpkg.net/_gallery/prisma/prisma/latest - error GET Offline
+2025-01-31 15:44:20.117 [error] [network] #55: https://www.vscode-unpkg.net/_gallery/pranaygp/vscode-css-peek/latest - error GET Offline
+2025-01-31 15:44:20.119 [error] [network] #63: https://www.vscode-unpkg.net/_gallery/xabikos/javascriptsnippets/latest - error GET Offline
+2025-01-31 15:44:20.120 [error] [network] #58: https://www.vscode-unpkg.net/_gallery/ritwickdey/liveserver/latest - error GET Offline
+2025-01-31 15:44:20.120 [error] [network] #60: https://www.vscode-unpkg.net/_gallery/usernamehw/errorlens/latest - error GET Offline
+2025-01-31 15:44:20.125 [error] [network] #64: https://www.vscode-unpkg.net/_gallery/zhuangtongfa/material-theme/latest - error GET Offline
+2025-01-31 15:44:20.127 [error] [network] #65: https://www.vscode-unpkg.net/_gallery/zignd/html-css-class-completion/latest - error GET Offline
+2025-01-31 15:44:20.267 [error] [network] #66: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Offline
+2025-01-31 15:44:21.356 [error] [network] #67: https://api.github.com/copilot_internal/user - error GET Offline
+2025-01-31 15:44:21.367 [error] [chat setup] request: error Offline: Offline
+2025-01-31 15:44:22.365 [info] Settings Sync: Token updated for the account AdityaZxxx
+2025-01-31 15:44:22.501 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-31 15:44:23.755 [error] [network] #68: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-01-31 15:44:23.757 [warning] Failed to fetch chat participant registry Offline
+2025-01-31 15:44:25.284 [info] [perf] Render performance baseline is 289ms
+2025-01-31 15:44:28.889 [info] Extension host (LocalProcess pid: 40971) is unresponsive.
+2025-01-31 15:44:32.500 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 15:44:41.434 [info] Extension host (LocalProcess pid: 40971) is responsive.
+2025-01-31 15:44:46.193 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-01-31 15:44:50.547 [info] Extension host (LocalProcess pid: 40971) is unresponsive.
+2025-01-31 15:44:53.142 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 15:44:55.574 [info] Extension host (LocalProcess pid: 40971) is responsive.
+2025-01-31 15:44:55.577 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-01-31 15:44:56.085 [warning] UNRESPONSIVE extension host: 'github.copilot' took 77.12252060735396% of 1883.588ms, saved PROFILE here: 'file:///tmp/exthost-428123.cpuprofile'

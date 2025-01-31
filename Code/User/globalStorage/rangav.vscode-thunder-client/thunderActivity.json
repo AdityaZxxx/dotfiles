@@ -1,0 +1,19 @@
+[
+    {
+        "_id": "d2924cad-0731-45dd-9898-8b1a69ea12b8",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3000/api/user",
+        "url": "http://localhost:3000/api/auth/register",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2025-01-27T04:25:43.446Z",
+        "modified": "2025-01-27T14:47:01.773Z",
+        "headers": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"email\": \"mamat@gmail.com\",\n  \"password\": \"KapTEnBaRbaR27\",\n  \"name\": \"aditya\",\n  \"phone\": \"0122222939\",\n  \"address\": \"asjsjasjkjasjja\"\n}",
+            "form": []
+        }
+    }
+]

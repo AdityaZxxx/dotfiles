@@ -1,0 +1,57 @@
+2025-01-31 02:33:22.361 [info] [main] Log level: Info
+2025-01-31 02:33:22.361 [info] [main] Validating found git in: "git"
+2025-01-31 02:33:22.361 [info] [main] Using git "2.48.1" from "git"
+2025-01-31 02:33:22.361 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-31 02:33:22.361 [info] > git rev-parse --show-toplevel [200ms]
+2025-01-31 02:33:22.361 [info] > git rev-parse --git-dir --git-common-dir [264ms]
+2025-01-31 02:33:22.361 [info] [Model][openRepository] Opened repository: /home/aditya/dotfiles
+2025-01-31 02:33:32.383 [info] > git rev-parse --show-toplevel [9974ms]
+2025-01-31 02:33:32.386 [info] > git config --get commit.template [9999ms]
+2025-01-31 02:33:35.122 [info] > git check-ignore -v -z --stdin [479ms]
+2025-01-31 02:33:35.148 [info] > git rev-parse --show-toplevel [760ms]
+2025-01-31 02:33:35.160 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-31 02:33:35.322 [info] > git show --textconv :.config/waybar/config-gitlab.jsonc [124ms]
+2025-01-31 02:33:35.326 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/waybar/config-gitlab.jsonc [91ms]
+2025-01-31 02:33:35.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [229ms]
+2025-01-31 02:33:36.102 [info] > git status -z -uall [76ms]
+2025-01-31 02:33:36.107 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [41ms]
+2025-01-31 02:33:36.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [123ms]
+2025-01-31 02:33:36.765 [info] > git config --local branch.master.vscode-merge-base [412ms]
+2025-01-31 02:33:36.766 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-31 02:33:36.804 [info] > git config --get commit.template [549ms]
+2025-01-31 02:33:36.875 [info] > git reflog master --grep-reflog=branch: Created from *. [71ms]
+2025-01-31 02:33:43.675 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6766ms]
+2025-01-31 02:33:43.675 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-31 02:33:43.676 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-31 02:33:44.037 [info] > git merge-base refs/heads/master refs/remotes/origin/master [318ms]
+2025-01-31 02:33:44.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7085ms]
+2025-01-31 02:33:44.328 [info] > git diff --name-status -z --diff-filter=ADMR 71f5663938f145258f20e8f7efc10e2454d2430a...refs/remotes/origin/master [253ms]
+2025-01-31 02:33:44.436 [info] > git show --textconv :.config/waybar/config.jsonc [55ms]
+2025-01-31 02:33:44.520 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/waybar/config.jsonc [103ms]
+2025-01-31 02:33:44.748 [info] > git status -z -uall [127ms]
+2025-01-31 02:33:44.750 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [92ms]
+2025-01-31 02:33:44.981 [info] > git blame --root --incremental 71f5663938f145258f20e8f7efc10e2454d2430a -- /home/aditya/dotfiles/.config/waybar/config.jsonc [243ms]
+2025-01-31 02:33:44.982 [info] fatal: no such path .config/waybar/config.jsonc in 71f5663938f145258f20e8f7efc10e2454d2430a
+2025-01-31 02:33:45.684 [info] > git show --textconv :.config/waybar/config-gitlab.jsonc [456ms]
+2025-01-31 02:33:45.822 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/waybar/config-gitlab.jsonc [539ms]
+2025-01-31 02:33:45.880 [info] > git blame --root --incremental 71f5663938f145258f20e8f7efc10e2454d2430a -- /home/aditya/dotfiles/.config/waybar/config-gitlab.jsonc [4ms]
+2025-01-31 02:33:45.880 [info] fatal: no such path .config/waybar/config-gitlab.jsonc in 71f5663938f145258f20e8f7efc10e2454d2430a
+2025-01-31 02:33:54.978 [info] > git show --textconv :.config/waybar/config.jsonc [103ms]
+2025-01-31 02:33:54.984 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/waybar/config.jsonc [68ms]
+2025-01-31 02:34:21.256 [info] > git show --textconv :.config/waybar/config.hide.jsonc [52ms]
+2025-01-31 02:34:21.307 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-31 02:34:21.313 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/waybar/config.hide.jsonc [61ms]
+2025-01-31 02:34:21.399 [info] > git blame --root --incremental 71f5663938f145258f20e8f7efc10e2454d2430a -- /home/aditya/dotfiles/.config/waybar/config.hide.jsonc [6ms]
+2025-01-31 02:34:21.399 [info] fatal: no such path .config/waybar/config.hide.jsonc in 71f5663938f145258f20e8f7efc10e2454d2430a
+2025-01-31 02:34:21.802 [info] > git config --get commit.template [5ms]
+2025-01-31 02:34:21.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-01-31 02:34:21.953 [info] > git status -z -uall [54ms]
+2025-01-31 02:34:21.960 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-01-31 02:34:22.962 [info] > git show --textconv :.config/waybar/config-gitlab.jsonc [73ms]
+2025-01-31 02:34:22.966 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/waybar/config-gitlab.jsonc [7ms]
+2025-01-31 02:34:32.742 [info] > git show --textconv :.config/waybar/config.jsonc [48ms]
+2025-01-31 02:34:32.755 [info] > git ls-files --stage -- /home/aditya/dotfiles/.config/waybar/config.jsonc [19ms]
+2025-01-31 02:34:33.364 [info] > git config --get commit.template [50ms]
+2025-01-31 02:34:33.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-01-31 02:34:33.462 [info] > git status -z -uall [49ms]
+2025-01-31 02:34:33.480 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]

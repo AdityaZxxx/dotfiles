@@ -1,0 +1,64 @@
+{
+	"height": 30,
+	"spacing": 4,
+
+	// Menentukan susunan modul
+	"modules-left": ["custom/media"],
+	"modules-center": ["clock"],
+	"modules-right": ["network", "battery", "backlight", "pulseaudio"],
+
+	// Konfigurasi jam & tanggal
+	"clock": {
+		"format": "{:%A, %d %B %H:%M}", // Contoh: Jumat, 31 Januari 14:30
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"format-alt": "{:%Y-%m-%d}"
+	},
+
+	// Konfigurasi jaringan (Wi-Fi) dengan kecepatan upload & download
+	"network": {
+		"format-wifi": "{essid} ({signalStrength}%)  {bandwidthUpBits} ↑ {bandwidthDownBits} ↓",
+		"format-ethernet": "{ipaddr}/{cidr}  {bandwidthUpBits} ↑ {bandwidthDownBits} ↓",
+		"tooltip-format": "{ifname} via {gwaddr} ",
+		"format-disconnected": "No Internet ⚠",
+		"format-alt": "{ifname}: {ipaddr}/{cidr}"
+	},
+
+	// Konfigurasi indikator baterai
+	"battery": {
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{capacity}% {icon}",
+		"format-charging": "{capacity}% ",
+		"format-plugged": "{capacity}% ",
+		"format-icons": ["", "", "", "", ""]
+	},
+
+	// Konfigurasi kecerahan layar
+	"backlight": {
+		"format": "{percent}% {icon}",
+		"format-icons": ["", "", "", "", "", "", "", "", ""]
+	},
+
+	// Konfigurasi volume suara
+	"pulseaudio": {
+		"format": "{volume}% {icon}",
+		"format-muted": "",
+		"format-icons": ["", "", ""],
+		"on-click": "pavucontrol"
+	},
+
+	// Widget untuk media player (Spotify)
+	"custom/media": {
+		"format": "{icon} {}",
+		"return-type": "json",
+		"max-length": 40,
+		"format-icons": {
+			"spotify": "",
+			"default": "🎜"
+		},
+		"escape": true,
+		"exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null"
+	}
+}

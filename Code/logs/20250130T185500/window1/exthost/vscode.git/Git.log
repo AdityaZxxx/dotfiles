@@ -1,0 +1,7 @@
+2025-01-30 18:55:05.794 [info] [main] Log level: Info
+2025-01-30 18:55:05.794 [info] [main] Validating found git in: "git"
+2025-01-30 18:55:05.794 [info] [main] Using git "2.48.1" from "git"
+2025-01-30 18:55:05.794 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 18:55:05.794 [info] > git rev-parse --show-toplevel [71ms]
+2025-01-30 18:55:05.794 [info] > git rev-parse --git-dir --git-common-dir [159ms]
+2025-01-30 18:55:05.794 [info] [Model][openRepository] Opened repository: /home/aditya/Desktop/my-store/my-store

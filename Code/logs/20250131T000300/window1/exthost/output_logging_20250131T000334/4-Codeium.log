@@ -1,0 +1,483 @@
+(VSCode) 2025-01-31 00:03:40.889 [INFO]: No proxy settings found
+(VSCode) 2025-01-31 00:03:45.893 [ERROR]: Failed to initialize Unleash: undefined
+(VSCode) 2025-01-31 00:03:45.896 [INFO]: Checking network connection...
+(VSCode) 2025-01-31 00:03:48.970 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-01-31 00:03:49.328 [INFO]: Creating manager directory: /tmp/17ddf400-cc72-40a9-9a72-c642dee5bab4/codeium/manager
+(VSCode) 2025-01-31 00:03:50.092 [INFO]: Using cached LS with valid crc32: /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/1922b6ec8869ef782574fa5f5951f1c5e172c7b6/language_server_linux_x64
+(VSCode) 2025-01-31 00:03:50.105 [INFO]: Language server started
+2025/01/31 00:03:50 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I0131 00:03:50.193085  2632 main.go:568] [Language Server Manager] Setting GOMAXPROCS to 8
+I0131 00:03:50.193189  2632 main.go:707] [Language Server Manager] Release 1.30.18 (1922b6ec8869ef782574fa5f5951f1c5e172c7b6)
+I0131 00:03:50.193230  2632 main.go:786] [Language Server Manager] Starting language server manager with pid 2632
+I0131 00:03:50.193342  2632 main.go:123] [Language Server Manager] Manager acquired its lock file /tmp/17ddf400-cc72-40a9-9a72-c642dee5bab4/codeium/manager/locks/manager.lock
+I0131 00:03:50.195087  2632 main.go:264] [Language Server Manager] Waiting for random port file in /tmp/17ddf400-cc72-40a9-9a72-c642dee5bab4/codeium/manager/child_random_port_1738256630193602684_4603929244013461659 to be created
+2025/01/31 00:03:50 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I0131 00:03:50.281551  2646 main.go:568] Setting GOMAXPROCS to 4
+I0131 00:03:50.283866  2646 main.go:780] Starting language server process with pid 2646
+I0131 00:03:50.283900  2646 server.go:220] Language server will attempt to listen on host 127.0.0.1
+I0131 00:03:50.283991  2646 server.go:227] Language server listening on random port at 39623
+I0131 00:03:53.073570  2646 unleash.go:92] Initializing Unleash
+I0131 00:03:55.074336  2646 unleash.go:112] Successfully initialized Unleash
+E0131 00:03:55.074575  2646 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/register": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0131 00:03:55.074724  2646 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+I0131 00:03:55.075160  2646 server.go:297] Extension server port not specified; skipping extension server client creation
+I0131 00:03:55.086989  2646 web_server.go:258] Chat Web Server listening at ws://127.0.0.1:44229
+E0131 00:03:55.099809  2646 client_manager.go:275] Metadata is nil when trying to refresh user JWT
+I0131 00:03:55.100350  2646 server.go:528] Successfully created API server client
+I0131 00:03:55.135075  2646 server.go:546] Successfully initialized tokenizer
+I0131 00:03:55.331884  2646 sqlite_faiss_db_client.go:64] Successfully created embedding search database in 1ms
+I0131 00:03:55.332169  2646 indexer.go:213] Using 4 embed workers
+I0131 00:03:55.332210  2646 search_provider.go:304] Successfully created embedding search provider
+I0131 00:03:55.335187  2646 server.go:813] Successfully created completion provider
+I0131 00:03:55.335211  2646 server.go:862] Child process attempting to acquire lock file /tmp/17ddf400-cc72-40a9-9a72-c642dee5bab4/codeium/manager/locks/child_lock_1738256630193625405_4418322516152291200
+I0131 00:03:55.335253  2646 server.go:870] Child process acquired lock file /tmp/17ddf400-cc72-40a9-9a72-c642dee5bab4/codeium/manager/locks/child_lock_1738256630193625405_4418322516152291200
+I0131 00:03:55.340512  2646 server.go:356] LSP listening on random port at 36537
+36537
+I0131 00:03:55.413992  2632 main.go:300] [Language Server Manager] Found random server port 39623
+I0131 00:03:55.414203  2632 main.go:301] [Language Server Manager] Found random lsp port 36537
+I0131 00:03:55.414273  2632 main.go:308] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:39623
+I0131 00:03:55.426970  2632 main.go:177] [Language Server Manager] Fixing language server port at 39623
+I0131 00:03:55.426996  2632 main.go:360] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:39623
+(VSCode) 2025-01-31 00:03:55.459 [INFO]: Found language server running on port 39623
+(VSCode) 2025-01-31 00:03:56.522 [ERROR]: Extension 'vscode.git' is not known or not activated
+(VSCode) 2025-01-31 00:03:56.522 [INFO]: openAllTextDocuments took 8.09576499999821ms
+E0131 00:04:55.075203  2646 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0131 00:04:55.075395  2646 unleash.go:62] Unleash error: context deadline exceeded (Client.Timeout or context cancellation while reading body)
+E0131 00:05:55.075145  2646 unleash.go:62] Unleash error: context deadline exceeded (Client.Timeout or context cancellation while reading body)
+(VSCode) 2025-01-31 00:06:34.445 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 00:06:34.467 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 00:06:34.554 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:06:35.073 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:24.628 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:25.371 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:25.643 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:25.820 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:26.047 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:26.212 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:26.397 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:26.596 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:26.798 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:26.985 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:27.230 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:27.604 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:27.813 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:09:28.026 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:06.630 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:06.784 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:07.581 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:07.978 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:08.144 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:08.269 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:09.000 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:09.398 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:13.100 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:13.528 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:14.638 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:14.842 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:16.723 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:16.890 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:17.142 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:17.251 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:17.521 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:20.043 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:21.963 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:22.093 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:22.375 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:22.524 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:22.745 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:22.925 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:23.102 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:23.399 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:23.518 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:23.846 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:27.229 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:28.922 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:29.143 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:29.424 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:29.577 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:30.200 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:30.718 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:31.275 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:32.339 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:33.219 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:33.507 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:33.728 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:33.845 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:35.069 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:37.716 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:37.959 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:10:38.485 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:11:34.869 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:11:35.093 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:11:35.292 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:11:35.456 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:11:35.631 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:11:35.828 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:11:36.472 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:14.049 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:14.320 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:17.775 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:17.977 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:18.152 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:18.892 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:19.075 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:20.887 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:20.976 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:38.307 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:38.494 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:58.010 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:58.223 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:58.395 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:58.511 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:58.687 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:58.853 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:12:59.032 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:00.162 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:00.726 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:01.165 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:01.575 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:01.685 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:01.882 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:11.543 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:13.177 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:13.377 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:15.004 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:15.619 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:15.779 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:16.661 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:16.809 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:18.024 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:18.463 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:18.753 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:19.121 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:19.292 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:19.866 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:20.460 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:20.607 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:20.781 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:21.646 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:21.804 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:21.974 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:22.134 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:22.304 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:22.480 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:22.645 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:22.823 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:23.568 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:23.853 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:24.271 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:24.429 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:25.858 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:26.918 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:27.750 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:28.059 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:28.187 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:28.538 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:28.999 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:29.300 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:29.376 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:13:30.433 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:20:47.038 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 00:20:47.063 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 00:20:47.180 [INFO]: Completion request succeeded (45.79ms)
+(VSCode) 2025-01-31 00:20:47.182 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:20:47.182 [INFO]: provideInlineCompletionItems request succeeded (52.42ms)
+(VSCode) 2025-01-31 00:20:49.332 [INFO]: Completion request succeeded (1150.3ms)
+(VSCode) 2025-01-31 00:20:49.339 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:20:49.340 [INFO]: provideInlineCompletionItems request succeeded (1160.74ms)
+(VSCode) 2025-01-31 00:21:00.075 [INFO]: Completion request succeeded (668.15ms)
+(VSCode) 2025-01-31 00:21:00.081 [INFO]: Generated 6 completions
+(VSCode) 2025-01-31 00:21:00.089 [INFO]: provideInlineCompletionItems request succeeded (684.05ms)
+(VSCode) 2025-01-31 00:24:39.299 [INFO]: Completion request was cancelled by token (87.6ms)
+(VSCode) 2025-01-31 00:24:39.816 [INFO]: Completion request succeeded (476.68ms)
+(VSCode) 2025-01-31 00:24:39.819 [INFO]: Generated 2 completions
+(VSCode) 2025-01-31 00:24:39.822 [INFO]: provideInlineCompletionItems request succeeded (484.42ms)
+(VSCode) 2025-01-31 00:24:41.097 [INFO]: Completion request succeeded (427.25ms)
+(VSCode) 2025-01-31 00:24:41.106 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:24:41.108 [INFO]: provideInlineCompletionItems request succeeded (440.58ms)
+(VSCode) 2025-01-31 00:24:58.972 [INFO]: Completion request succeeded (397.21ms)
+(VSCode) 2025-01-31 00:24:58.978 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:24:58.979 [INFO]: provideInlineCompletionItems request succeeded (406.23ms)
+(VSCode) 2025-01-31 00:25:33.753 [INFO]: Completion request was cancelled by token (70.78ms)
+(VSCode) 2025-01-31 00:25:34.298 [INFO]: Completion request succeeded (402.86ms)
+(VSCode) 2025-01-31 00:25:34.302 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:25:34.303 [INFO]: provideInlineCompletionItems request succeeded (412.94ms)
+(VSCode) 2025-01-31 00:27:35.186 [INFO]: Completion request succeeded (485.96ms)
+(VSCode) 2025-01-31 00:27:35.190 [INFO]: Generated 2 completions
+(VSCode) 2025-01-31 00:27:35.192 [INFO]: provideInlineCompletionItems request succeeded (493.69ms)
+(VSCode) 2025-01-31 00:27:39.712 [INFO]: Completion request succeeded (628.49ms)
+(VSCode) 2025-01-31 00:27:39.715 [INFO]: Generated 4 completions
+(VSCode) 2025-01-31 00:27:39.717 [INFO]: provideInlineCompletionItems request succeeded (635.46ms)
+(VSCode) 2025-01-31 00:27:40.015 [INFO]: Completion request succeeded (15.27ms)
+(VSCode) 2025-01-31 00:27:40.017 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 00:27:40.018 [INFO]: provideInlineCompletionItems request succeeded (19.73ms)
+(VSCode) 2025-01-31 00:27:45.947 [INFO]: Completion request succeeded (992.36ms)
+(VSCode) 2025-01-31 00:27:45.950 [INFO]: Generated 8 completions
+(VSCode) 2025-01-31 00:27:45.953 [INFO]: provideInlineCompletionItems request succeeded (1000.52ms)
+(VSCode) 2025-01-31 00:27:47.926 [INFO]: Completion request was cancelled by token (377.89ms)
+(VSCode) 2025-01-31 00:30:25.476 [INFO]: Completion request succeeded (15.92ms)
+(VSCode) 2025-01-31 00:30:25.478 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:25.479 [INFO]: provideInlineCompletionItems request succeeded (19.47ms)
+(VSCode) 2025-01-31 00:30:25.987 [INFO]: Completion request succeeded (14.37ms)
+(VSCode) 2025-01-31 00:30:25.988 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:25.989 [INFO]: provideInlineCompletionItems request succeeded (16.81ms)
+(VSCode) 2025-01-31 00:30:26.930 [INFO]: Completion request succeeded (14.76ms)
+(VSCode) 2025-01-31 00:30:26.931 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:26.932 [INFO]: provideInlineCompletionItems request succeeded (17.27ms)
+(VSCode) 2025-01-31 00:30:27.368 [INFO]: Completion request succeeded (19.37ms)
+(VSCode) 2025-01-31 00:30:27.370 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:27.371 [INFO]: provideInlineCompletionItems request succeeded (23.37ms)
+(VSCode) 2025-01-31 00:30:27.799 [INFO]: Completion request succeeded (13.66ms)
+(VSCode) 2025-01-31 00:30:27.800 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:27.801 [INFO]: provideInlineCompletionItems request succeeded (16.51ms)
+(VSCode) 2025-01-31 00:30:28.004 [INFO]: Completion request succeeded (14.63ms)
+(VSCode) 2025-01-31 00:30:28.005 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:28.006 [INFO]: provideInlineCompletionItems request succeeded (17.42ms)
+(VSCode) 2025-01-31 00:30:28.816 [INFO]: Completion request succeeded (14.87ms)
+(VSCode) 2025-01-31 00:30:28.817 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:28.818 [INFO]: provideInlineCompletionItems request succeeded (17.75ms)
+(VSCode) 2025-01-31 00:30:29.254 [INFO]: Completion request succeeded (15.24ms)
+(VSCode) 2025-01-31 00:30:29.255 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:29.256 [INFO]: provideInlineCompletionItems request succeeded (18.03ms)
+(VSCode) 2025-01-31 00:30:29.601 [INFO]: Completion request was cancelled by token (150.11ms)
+(VSCode) 2025-01-31 00:30:30.499 [INFO]: Completion request succeeded (853.36ms)
+(VSCode) 2025-01-31 00:30:30.502 [INFO]: Generated 5 completions
+(VSCode) 2025-01-31 00:30:30.503 [INFO]: provideInlineCompletionItems request succeeded (858.44ms)
+(VSCode) 2025-01-31 00:30:31.105 [INFO]: Completion request was cancelled by token (125.39ms)
+(VSCode) 2025-01-31 00:30:31.164 [INFO]: Completion request succeeded (15.24ms)
+(VSCode) 2025-01-31 00:30:31.165 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:31.166 [INFO]: provideInlineCompletionItems request succeeded (17.7ms)
+(VSCode) 2025-01-31 00:30:31.316 [INFO]: Completion request succeeded (15.01ms)
+(VSCode) 2025-01-31 00:30:31.317 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:31.318 [INFO]: provideInlineCompletionItems request succeeded (17.53ms)
+(VSCode) 2025-01-31 00:30:31.479 [INFO]: Completion request succeeded (15.55ms)
+(VSCode) 2025-01-31 00:30:31.480 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:31.481 [INFO]: provideInlineCompletionItems request succeeded (17.93ms)
+(VSCode) 2025-01-31 00:30:31.637 [INFO]: Completion request succeeded (14.74ms)
+(VSCode) 2025-01-31 00:30:31.638 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:31.639 [INFO]: provideInlineCompletionItems request succeeded (17.58ms)
+(VSCode) 2025-01-31 00:30:32.458 [INFO]: Completion request succeeded (15.1ms)
+(VSCode) 2025-01-31 00:30:32.459 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:32.460 [INFO]: provideInlineCompletionItems request succeeded (17.86ms)
+(VSCode) 2025-01-31 00:30:32.559 [INFO]: Completion request succeeded (14.67ms)
+(VSCode) 2025-01-31 00:30:32.560 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:32.561 [INFO]: provideInlineCompletionItems request succeeded (17.27ms)
+(VSCode) 2025-01-31 00:30:33.423 [INFO]: Completion request succeeded (13.64ms)
+(VSCode) 2025-01-31 00:30:33.423 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 00:30:33.424 [INFO]: provideInlineCompletionItems request succeeded (16.11ms)
+(VSCode) 2025-01-31 00:30:33.913 [INFO]: Completion request was cancelled by token (142.96ms)
+(VSCode) 2025-01-31 00:30:34.108 [INFO]: Completion request was cancelled by token (151.55ms)
+(VSCode) 2025-01-31 00:30:35.075 [INFO]: Completion request succeeded (923.5ms)
+(VSCode) 2025-01-31 00:30:35.078 [INFO]: Generated 4 completions
+(VSCode) 2025-01-31 00:30:35.079 [INFO]: provideInlineCompletionItems request succeeded (928.57ms)
+(VSCode) 2025-01-31 00:34:04.006 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 00:34:04.022 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 00:34:04.094 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:34:04.960 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:41:39.440 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-01-31 00:41:40.051 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-01-31 00:41:43.177 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-01-31 00:41:45.263 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-01-31 00:41:46.575 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-01-31 00:41:51.056 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-01-31 00:47:48.041 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-01-31 00:49:11.398 [INFO]: Completion request succeeded (842.81ms)
+(VSCode) 2025-01-31 00:49:11.401 [INFO]: Generated 3 completions
+(VSCode) 2025-01-31 00:49:11.408 [INFO]: provideInlineCompletionItems request succeeded (855.77ms)
+(VSCode) 2025-01-31 00:49:14.985 [INFO]: Completion request succeeded (576.63ms)
+(VSCode) 2025-01-31 00:49:14.988 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:49:14.989 [INFO]: provideInlineCompletionItems request succeeded (582.75ms)
+(VSCode) 2025-01-31 00:49:16.369 [INFO]: Completion request succeeded (552.16ms)
+(VSCode) 2025-01-31 00:49:16.373 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:49:16.374 [INFO]: provideInlineCompletionItems request succeeded (558.77ms)
+(VSCode) 2025-01-31 00:49:17.161 [INFO]: Completion request was cancelled by token (226.74ms)
+(VSCode) 2025-01-31 00:49:17.223 [INFO]: Completion request was cancelled by token (37.13ms)
+(VSCode) 2025-01-31 00:49:17.453 [INFO]: Completion request was cancelled by token (164.64ms)
+(VSCode) 2025-01-31 00:49:17.646 [INFO]: Completion request was cancelled by token (172.01ms)
+(VSCode) 2025-01-31 00:49:17.861 [INFO]: Completion request was cancelled by token (169.92ms)
+(VSCode) 2025-01-31 00:49:18.576 [INFO]: Completion request succeeded (691.73ms)
+(VSCode) 2025-01-31 00:49:18.580 [INFO]: Generated 4 completions
+(VSCode) 2025-01-31 00:49:18.585 [INFO]: provideInlineCompletionItems request succeeded (703.25ms)
+(VSCode) 2025-01-31 00:49:19.140 [INFO]: Completion request was cancelled by token (151.85ms)
+(VSCode) 2025-01-31 00:49:19.401 [INFO]: Completion request was cancelled by token (218.51ms)
+(VSCode) 2025-01-31 00:49:19.917 [INFO]: Completion request was cancelled by token (482.71ms)
+(VSCode) 2025-01-31 00:49:20.313 [INFO]: Completion request was cancelled by token (76.37ms)
+(VSCode) 2025-01-31 00:49:20.525 [INFO]: Completion request was cancelled by token (149.89ms)
+(VSCode) 2025-01-31 00:49:20.762 [INFO]: Completion request was cancelled by token (18.01ms)
+(VSCode) 2025-01-31 00:49:21.365 [INFO]: Completion request succeeded (536.17ms)
+(VSCode) 2025-01-31 00:49:21.367 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:49:21.368 [INFO]: provideInlineCompletionItems request succeeded (541.12ms)
+(VSCode) 2025-01-31 00:49:47.325 [INFO]: Completion request succeeded (650.08ms)
+(VSCode) 2025-01-31 00:49:47.335 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:49:47.336 [INFO]: provideInlineCompletionItems request succeeded (664.85ms)
+(VSCode) 2025-01-31 00:52:42.354 [INFO]: Completion request succeeded (708.47ms)
+(VSCode) 2025-01-31 00:52:42.367 [INFO]: Generated 5 completions
+(VSCode) 2025-01-31 00:52:42.374 [INFO]: provideInlineCompletionItems request succeeded (730.71ms)
+(VSCode) 2025-01-31 00:52:43.745 [INFO]: Completion request succeeded (172.43ms)
+(VSCode) 2025-01-31 00:52:43.760 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 00:52:43.762 [INFO]: provideInlineCompletionItems request succeeded (191.4ms)
+(VSCode) 2025-01-31 00:52:52.056 [INFO]: Completion request succeeded (843.57ms)
+(VSCode) 2025-01-31 00:52:52.068 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:52:52.069 [INFO]: provideInlineCompletionItems request succeeded (859.34ms)
+(VSCode) 2025-01-31 00:52:53.468 [INFO]: Completion request succeeded (570.47ms)
+(VSCode) 2025-01-31 00:52:53.481 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:52:53.482 [INFO]: provideInlineCompletionItems request succeeded (586.27ms)
+(VSCode) 2025-01-31 00:56:07.525 [INFO]: Completion request succeeded (338.67ms)
+(VSCode) 2025-01-31 00:56:07.534 [INFO]: No completions were generated
+(VSCode) 2025-01-31 00:56:07.536 [INFO]: provideInlineCompletionItems request succeeded (351.17ms)
+(VSCode) 2025-01-31 00:56:10.724 [INFO]: Completion request was cancelled by token (173.57ms)
+(VSCode) 2025-01-31 00:56:11.022 [INFO]: Completion request was cancelled by token (254.33ms)
+(VSCode) 2025-01-31 00:56:11.418 [INFO]: Completion request was cancelled by token (354.77ms)
+(VSCode) 2025-01-31 00:56:12.220 [INFO]: Completion request was cancelled by token (232.56ms)
+(VSCode) 2025-01-31 00:56:12.637 [INFO]: Completion request was cancelled by token (373.43ms)
+(VSCode) 2025-01-31 00:56:17.740 [INFO]: Completion request was cancelled by token (48.23ms)
+(VSCode) 2025-01-31 00:56:18.428 [INFO]: Completion request was cancelled by token (29.82ms)
+(VSCode) 2025-01-31 00:56:19.354 [INFO]: Completion request was cancelled by token (33.61ms)
+(VSCode) 2025-01-31 00:56:20.943 [INFO]: Completion request was cancelled by token (444.32ms)
+(VSCode) 2025-01-31 00:56:22.026 [INFO]: Completion request was cancelled by token (174.21ms)
+(VSCode) 2025-01-31 00:56:22.435 [INFO]: Completion request was cancelled by token (352.77ms)
+(VSCode) 2025-01-31 00:56:23.486 [INFO]: Completion request succeeded (485.66ms)
+(VSCode) 2025-01-31 00:56:23.489 [INFO]: Generated 3 completions
+(VSCode) 2025-01-31 00:56:23.491 [INFO]: provideInlineCompletionItems request succeeded (493.19ms)
+(VSCode) 2025-01-31 00:56:26.766 [INFO]: Completion request was cancelled by token (51.38ms)
+(VSCode) 2025-01-31 00:58:33.645 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:33.847 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:34.813 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:36.298 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:36.468 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:37.100 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:42.005 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:42.187 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:43.357 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:44.663 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:44.837 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:44.982 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:58:45.961 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:59:02.457 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:59:02.638 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:59:03.472 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:59:04.560 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:59:04.708 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 00:59:04.893 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:11:07.023 [INFO]: Completion request was cancelled by token (138.59ms)
+(VSCode) 2025-01-31 01:11:07.174 [INFO]: Completion request was cancelled by token (105.61ms)
+(VSCode) 2025-01-31 01:11:07.333 [INFO]: Completion request was cancelled by token (118.83ms)
+(VSCode) 2025-01-31 01:11:07.486 [INFO]: Completion request was cancelled by token (106.9ms)
+(VSCode) 2025-01-31 01:11:07.654 [INFO]: Completion request was cancelled by token (123.17ms)
+(VSCode) 2025-01-31 01:11:07.855 [INFO]: Completion request was cancelled by token (153.44ms)
+(VSCode) 2025-01-31 01:11:08.239 [INFO]: Completion request was cancelled by token (338.76ms)
+(VSCode) 2025-01-31 01:11:08.799 [INFO]: Completion request was cancelled by token (519.04ms)
+(VSCode) 2025-01-31 01:11:08.965 [INFO]: Completion request was cancelled by token (117.22ms)
+(VSCode) 2025-01-31 01:11:09.242 [INFO]: Completion request was cancelled by token (230.69ms)
+(VSCode) 2025-01-31 01:11:09.803 [INFO]: Completion request succeeded (516.22ms)
+(VSCode) 2025-01-31 01:11:09.807 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 01:11:09.809 [INFO]: provideInlineCompletionItems request succeeded (524.91ms)
+(VSCode) 2025-01-31 01:11:09.967 [INFO]: Completion request succeeded (20.83ms)
+(VSCode) 2025-01-31 01:11:09.968 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 01:11:09.970 [INFO]: provideInlineCompletionItems request succeeded (27.27ms)
+(VSCode) 2025-01-31 01:11:10.306 [INFO]: Completion request succeeded (64.15ms)
+(VSCode) 2025-01-31 01:11:10.307 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 01:11:10.310 [INFO]: provideInlineCompletionItems request succeeded (73.8ms)
+(VSCode) 2025-01-31 01:11:10.853 [INFO]: Completion request succeeded (498.4ms)
+(VSCode) 2025-01-31 01:11:10.855 [INFO]: No completions were generated
+(VSCode) 2025-01-31 01:11:10.856 [INFO]: provideInlineCompletionItems request succeeded (507.58ms)
+(VSCode) 2025-01-31 01:17:55.443 [INFO]: Completion request was cancelled by token (302.05ms)
+(VSCode) 2025-01-31 01:17:56.823 [INFO]: Completion request was cancelled by token (1324.43ms)
+(VSCode) 2025-01-31 01:18:08.193 [INFO]: Completion request was cancelled by token (114.31ms)
+(VSCode) 2025-01-31 01:18:08.835 [INFO]: Completion request succeeded (597.04ms)
+(VSCode) 2025-01-31 01:18:08.842 [INFO]: Generated 5 completions
+(VSCode) 2025-01-31 01:18:08.844 [INFO]: provideInlineCompletionItems request succeeded (611.12ms)
+(VSCode) 2025-01-31 01:18:09.085 [INFO]: Completion request succeeded (80.4ms)
+(VSCode) 2025-01-31 01:18:09.094 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 01:18:09.096 [INFO]: provideInlineCompletionItems request succeeded (95.89ms)
+(VSCode) 2025-01-31 01:18:09.800 [INFO]: Completion request succeeded (556.94ms)
+(VSCode) 2025-01-31 01:18:09.807 [INFO]: No completions were generated
+(VSCode) 2025-01-31 01:18:09.808 [INFO]: provideInlineCompletionItems request succeeded (569.83ms)
+(VSCode) 2025-01-31 01:18:56.913 [INFO]: Completion request was cancelled by token (140.43ms)
+(VSCode) 2025-01-31 01:18:57.596 [INFO]: Completion request succeeded (635.12ms)
+(VSCode) 2025-01-31 01:18:57.602 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 01:18:57.604 [INFO]: provideInlineCompletionItems request succeeded (646.41ms)
+(VSCode) 2025-01-31 01:18:59.338 [INFO]: Completion request was cancelled by token (73.89ms)
+(VSCode) 2025-01-31 01:18:59.602 [INFO]: Completion request was cancelled by token (193.44ms)
+(VSCode) 2025-01-31 01:18:59.935 [INFO]: Completion request was cancelled by token (283.32ms)
+(VSCode) 2025-01-31 01:19:00.132 [INFO]: Completion request was cancelled by token (144ms)
+(VSCode) 2025-01-31 01:19:00.643 [INFO]: Completion request succeeded (461.15ms)
+(VSCode) 2025-01-31 01:19:00.649 [INFO]: No completions were generated
+(VSCode) 2025-01-31 01:19:00.650 [INFO]: provideInlineCompletionItems request succeeded (472.01ms)
+(VSCode) 2025-01-31 01:19:00.929 [INFO]: Completion request was cancelled by token (100.47ms)
+(VSCode) 2025-01-31 01:19:01.011 [INFO]: Completion request was cancelled by token (35.64ms)
+(VSCode) 2025-01-31 01:19:01.874 [INFO]: Completion request succeeded (812.11ms)
+(VSCode) 2025-01-31 01:19:01.881 [INFO]: No completions were generated
+(VSCode) 2025-01-31 01:19:01.882 [INFO]: provideInlineCompletionItems request succeeded (823.38ms)
+(VSCode) 2025-01-31 01:23:56.368 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:23:56.555 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:23:56.789 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:23:58.559 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:23:58.826 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:23:59.072 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:30.552 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:32.813 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:32.970 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:33.221 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:33.372 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:34.286 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:34.488 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:34.651 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:37.161 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:25:57.096 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:26:03.686 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:26:07.161 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:26:08.105 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:27:57.378 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:27:58.068 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-01-31 01:32:03.441 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 01:32:03.470 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 01:32:04.045 [INFO]: Completion request succeeded (512.73ms)
+(VSCode) 2025-01-31 01:32:04.051 [INFO]: Generated 4 completions
+(VSCode) 2025-01-31 01:32:04.055 [INFO]: provideInlineCompletionItems request succeeded (526.06ms)
+(VSCode) 2025-01-31 01:32:06.040 [INFO]: Completion request succeeded (828.2ms)
+(VSCode) 2025-01-31 01:32:06.043 [INFO]: No completions were generated
+(VSCode) 2025-01-31 01:32:06.045 [INFO]: provideInlineCompletionItems request succeeded (839.24ms)
+(VSCode) 2025-01-31 01:32:10.787 [INFO]: Completion request was cancelled by token (457.33ms)
+(VSCode) 2025-01-31 01:32:55.534 [INFO]: Completion request succeeded (520.91ms)
+(VSCode) 2025-01-31 01:32:55.538 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 01:32:55.539 [INFO]: provideInlineCompletionItems request succeeded (530.89ms)
+(VSCode) 2025-01-31 01:32:56.727 [INFO]: Completion request succeeded (753.94ms)
+(VSCode) 2025-01-31 01:32:56.732 [INFO]: Generated 3 completions
+(VSCode) 2025-01-31 01:32:56.734 [INFO]: provideInlineCompletionItems request succeeded (768.71ms)
+(VSCode) 2025-01-31 01:32:58.145 [INFO]: Completion request was cancelled by token (110.41ms)
+(VSCode) 2025-01-31 01:32:59.332 [INFO]: Completion request succeeded (1152.23ms)
+(VSCode) 2025-01-31 01:32:59.335 [INFO]: No completions were generated
+(VSCode) 2025-01-31 01:32:59.336 [INFO]: provideInlineCompletionItems request succeeded (1163.19ms)
+(VSCode) 2025-01-31 01:33:19.811 [INFO]: Completion request was cancelled by token (117.7ms)
+(VSCode) 2025-01-31 01:33:19.893 [INFO]: Completion request succeeded (37ms)
+(VSCode) 2025-01-31 01:33:19.897 [INFO]: Generated 3 completions
+(VSCode) 2025-01-31 01:33:19.900 [INFO]: provideInlineCompletionItems request succeeded (48.9ms)
+(VSCode) 2025-01-31 01:33:22.192 [INFO]: Completion request succeeded (125.85ms)
+(VSCode) 2025-01-31 01:33:22.197 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 01:33:22.198 [INFO]: provideInlineCompletionItems request succeeded (138.49ms)
+(VSCode) 2025-01-31 01:33:22.310 [INFO]: Completion request succeeded (95.35ms)
+(VSCode) 2025-01-31 01:33:22.312 [INFO]: Generated 1 completion
+(VSCode) 2025-01-31 01:33:22.313 [INFO]: provideInlineCompletionItems request succeeded (106.89ms)
+(VSCode) 2025-01-31 01:36:41.419 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 01:36:41.447 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 01:55:16.083 [INFO]: Completion request succeeded (451.44ms)
+(VSCode) 2025-01-31 01:55:16.086 [INFO]: Generated 2 completions
+(VSCode) 2025-01-31 01:55:16.088 [INFO]: provideInlineCompletionItems request succeeded (458.45ms)
+(VSCode) 2025-01-31 01:55:16.994 [INFO]: Completion request was cancelled by token (25.19ms)
+(VSCode) 2025-01-31 01:55:17.314 [INFO]: Completion request was cancelled by token (281.05ms)
+(VSCode) 2025-01-31 01:55:18.013 [INFO]: Completion request was cancelled by token (654.55ms)
+(VSCode) 2025-01-31 01:55:18.264 [INFO]: Completion request was cancelled by token (21.79ms)
+(VSCode) 2025-01-31 01:55:21.019 [INFO]: Completion request was cancelled by token (26.46ms)
+(VSCode) 2025-01-31 01:55:22.101 [INFO]: Completion request was cancelled by token (327.63ms)
+(VSCode) 2025-01-31 01:55:23.419 [INFO]: Completion request succeeded (493.51ms)
+(VSCode) 2025-01-31 01:55:23.428 [INFO]: No completions were generated
+(VSCode) 2025-01-31 01:55:23.429 [INFO]: provideInlineCompletionItems request succeeded (504.47ms)
+(VSCode) 2025-01-31 01:56:49.796 [INFO]: Completion request was cancelled by token (398.44ms)
+(VSCode) 2025-01-31 01:56:51.808 [INFO]: Completion request succeeded (599.61ms)
+(VSCode) 2025-01-31 01:56:51.811 [INFO]: Generated 2 completions
+(VSCode) 2025-01-31 01:56:51.812 [INFO]: provideInlineCompletionItems request succeeded (605.33ms)
+(VSCode) 2025-01-31 01:57:08.299 [INFO]: Completion request was cancelled by token (491.77ms)
+(VSCode) 2025-01-31 01:57:37.023 [INFO]: Completion request succeeded (552.95ms)
+(VSCode) 2025-01-31 01:57:37.026 [INFO]: No completions were generated
+(VSCode) 2025-01-31 01:57:37.027 [INFO]: provideInlineCompletionItems request succeeded (559.26ms)

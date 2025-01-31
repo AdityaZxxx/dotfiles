@@ -1,0 +1,77 @@
+[
+    {
+        "_id": "d2924cad-0731-45dd-9898-8b1a69ea12b8",
+        "colId": "history",
+        "created": "2025-01-27T04:25:43.520Z",
+        "modified": "2025-01-27T14:47:01.778Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "json",
+            "headers": [
+                {
+                    "name": "vary",
+                    "value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch"
+                },
+                {
+                    "name": "content-type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "date",
+                    "value": "Mon, 27 Jan 2025 14:47:01 GMT"
+                },
+                {
+                    "name": "connection",
+                    "value": "close"
+                },
+                {
+                    "name": "transfer-encoding",
+                    "value": "chunked"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "http://localhost:3000/api/auth/register",
+            "status": 400,
+            "statusText": "Bad Request",
+            "contentType": "application/json",
+            "contentLength": "34 Bytes",
+            "responseTimeText": "169 ms",
+            "responseTime": 169,
+            "responseSize": 34,
+            "preScriptTime": 2,
+            "preReqTime": 2,
+            "reqTime": 180,
+            "postScriptTime": 0,
+            "chartHTML": ""
+        },
+        "requestInfo": {
+            "reqUrl": "http://localhost:3000/api/auth/register",
+            "headers": [
+                {
+                    "name": "content-length",
+                    "value": "141"
+                },
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": "{\n  \"email\": \"mamat@gmail.com\",\n  \"password\": \"KapTEnBaRbaR27\",\n  \"name\": \"aditya\",\n  \"phone\": \"0122222939\",\n  \"address\": \"asjsjasjkjasjja\"\n}",
+            "type": "json"
+        }
+    }
+]

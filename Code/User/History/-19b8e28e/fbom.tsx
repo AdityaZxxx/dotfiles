@@ -1,0 +1,154 @@
+'use client';
+
+import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import * as z from 'zod';
+import { Button } from '@/components/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
+import { Input } from '@/components/ui/input';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { Toast, ToastTitle, ToastDescription, ToastClose } from '@/components/ui/toast';
+import { ToastViewport } from '@/components/ui/toast';
+
+// Schema validasi menggunakan Zod
+const formSchema = z.object({
+	email: z.string().email('Please enter a valid email address'),
+	password: z.string().min(8, 'Password must be at least 8 characters'),
+});
+
+const LoginForm = () => {
+	const [isLoading, setIsLoading] = useState(false);
+	const [toastMessage, setToastMessage] = useState<string | null>(null);
+	const [toastError, setToastError] = useState(false); // Status toast (error/success)
+	const { push } = useRouter();
+
+	const form = useForm({
+		resolver: zodResolver(formSchema),
+		defaultValues: {
+			email: '',
+			password: '',
+		},
+	});
+
+	const onSubmit = async (values: z.infer<typeof formSchema>) => {
+		setIsLoading(true);
+		try {
+			const res = await fetch('/api/auth/login', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(values),
+			});
+
+			const data = await res.json(); // Ambil data respons dari API
+
+			if (res.ok) {
+				setToastMessage('Login successful!');
+				setToastError(false);
+				setTimeout(() => push('/'), 2000); // Redirect ke dashboard setelah 2 detik
+			} else {
+				// Handle error berdasarkan status code
+				switch (res.status) {
+					case 400:
+						setToastMessage(data.message || 'Invalid request. Please check your input.');
+						break;
+					case 401:
+						if (data.message === 'Email not found') {
+							setToastMessage('Email not registered. Please register first.');
+						} else if (data.message === 'Invalid password') {
+							setToastMessage('Incorrect password. Please try again.');
+						} else {
+							setToastMessage('Invalid email or password. Please try again.');
+						}
+						break;
+					case 404:
+						setToastMessage('Email not found. Please register first.');
+						break;
+					case 500:
+						setToastMessage('Server error. Please try again later.');
+						break;
+					default:
+						setToastMessage(data.message || 'Login failed. Please try again.');
+						break;
+				}
+				setToastError(true);
+			}
+		} catch (error) {
+			console.error('Error during login:', error);
+			setToastMessage('An unexpected error occurred. Please try again.');
+			setToastError(true);
+		} finally {
+			setIsLoading(false);
+		}
+	};
+
+	return (
+		<>
+			<Card className="w-2/3 max-w-md mx-auto">
+				<CardHeader>
+					<CardTitle className="text-2xl text-center">Login to your account</CardTitle>
+					<CardDescription className="text-center">Enter your credentials to login</CardDescription>
+				</CardHeader>
+				<CardContent>
+					<Form {...form}>
+						<form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+							<FormField
+								control={form.control}
+								name="email"
+								render={({ field }) => (
+									<FormItem>
+										<FormLabel>Email</FormLabel>
+										<FormControl>
+											<Input type="email" placeholder="Enter email" {...field} />
+										</FormControl>
+										<FormMessage />
+									</FormItem>
+								)}
+							/>
+
+							<FormField
+								control={form.control}
+								name="password"
+								render={({ field }) => (
+									<FormItem>
+										<FormLabel>Password</FormLabel>
+										<FormControl>
+											<Input type="password" placeholder="Enter password" {...field} />
+										</FormControl>
+										<FormMessage />
+									</FormItem>
+								)}
+							/>
+
+							<Button type="submit" className="w-full" disabled={isLoading}>
+								{isLoading ? 'Logging in...' : 'Login'}
+							</Button>
+						</form>
+					</Form>
+					<p className="text-sm mt-2 text-muted-foreground">
+						Don&apos;t have an account?{' '}
+						<Link className="underline font-semibold" href="/auth/register">
+							Register
+						</Link>
+					</p>
+				</CardContent>
+			</Card>
+
+			{/* Toast Component */}
+			{toastMessage && (
+				<Toast className={toastError ? 'destructive' : ''}>
+					<ToastTitle>{toastError ? 'Error' : 'Success'}</ToastTitle>
+					<ToastDescription>{toastMessage}</ToastDescription>
+					<ToastClose onClick={() => setToastMessage(null)} />
+				</Toast>
+			)}
+			<ToastViewport />
+		</>
+	);
+};
+
+export default LoginForm;

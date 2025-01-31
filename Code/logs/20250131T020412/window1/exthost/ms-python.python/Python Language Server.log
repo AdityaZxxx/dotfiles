@@ -1,0 +1,14 @@
+2025-01-31 02:05:09.390 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-31 02:05:11.795 [info] [Info  - 2:05:11 AM] (19906) Server root directory: file:///home/aditya/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-31 02:05:11.876 [info] [Info  - 2:05:11 AM] (19906) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-31 02:05:11.891 [info] [Info  - 2:05:11 AM] (19906) Starting service instance "dotfiles"
+2025-01-31 02:05:12.308 [info] [Info  - 2:05:12 AM] (19906) Setting environmentName for service "dotfiles": "3.13.1 (global)"
+2025-01-31 02:05:12.537 [info] [Info  - 2:05:12 AM] (19906) Setting pythonPath for service "dotfiles": "/bin/python"
+2025-01-31 02:05:13.061 [info] [Info  - 2:05:13 AM] (19906) No include entries specified; assuming /home/aditya/dotfiles
+2025-01-31 02:05:13.115 [info] [Info  - 2:05:13 AM] (19906) Auto-excluding **/node_modules
+2025-01-31 02:05:13.240 [info] [Info  - 2:05:13 AM] (19906) Auto-excluding **/__pycache__
+2025-01-31 02:05:13.245 [info] [Info  - 2:05:13 AM] (19906) Auto-excluding **/.*
+2025-01-31 02:05:13.282 [info] [Info  - 2:05:13 AM] (19906) Assuming Python version 3.13.1.final.0
+2025-01-31 02:05:13.286 [info] [Info  - 2:05:13 AM] (19906) No source files found.
+2025-01-31 02:05:16.985 [info] [Info  - 2:05:16 AM] (19906) Background analysis(1) root directory: file:///home/aditya/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-31 02:05:17.059 [info] [Info  - 2:05:17 AM] (19906) Background analysis(1) started

@@ -1,0 +1,22 @@
+2025-01-31 00:40:29.231 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-31 00:40:31.095 [info] [Info  - 12:40:31 AM] (8722) Server root directory: file:///home/aditya/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-31 00:40:31.098 [info] [Info  - 12:40:31 AM] (8722) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-31 00:40:31.124 [info] [Info  - 12:40:31 AM] (8722) Starting service instance "dotfiles"
+2025-01-31 00:40:31.424 [info] [Info  - 12:40:31 AM] (8722) Setting environmentName for service "dotfiles": "3.13.1 (global)"
+2025-01-31 00:40:31.425 [info] [Info  - 12:40:31 AM] (8722) Setting pythonPath for service "dotfiles": "/bin/python"
+2025-01-31 00:40:31.427 [info] [Info  - 12:40:31 AM] (8722) No include entries specified; assuming /home/aditya/dotfiles
+2025-01-31 00:40:31.430 [info] [Info  - 12:40:31 AM] (8722) Auto-excluding **/node_modules
+2025-01-31 00:40:31.431 [info] [Info  - 12:40:31 AM] (8722) Auto-excluding **/__pycache__
+2025-01-31 00:40:31.431 [info] [Info  - 12:40:31 AM] (8722) Auto-excluding **/.*
+2025-01-31 00:40:31.558 [info] [Info  - 12:40:31 AM] (8722) Assuming Python version 3.13.1.final.0
+2025-01-31 00:40:31.876 [info] [Info  - 12:40:31 AM] (8722) No source files found.
+2025-01-31 00:40:34.180 [info] [Info  - 12:40:34 AM] (8722) Background analysis(1) root directory: file:///home/aditya/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-31 00:40:34.196 [info] [Info  - 12:40:34 AM] (8722) Background analysis(1) started
+2025-01-31 00:40:34.519 [info] [Info  - 12:40:34 AM] (8722) Indexer background runner(2) root directory: file:///home/aditya/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-31 00:40:34.520 [info] [Info  - 12:40:34 AM] (8722) Indexing(2) started
+2025-01-31 00:40:37.227 [info] [Info  - 12:40:37 AM] (8722) [IDX(2)] Long operation: scan packages file:///home/aditya/dotfiles (2442ms)
+2025-01-31 00:40:37.231 [info] [Info  - 12:40:37 AM] (8722) scanned(2) 103 files over 1 exec env
+2025-01-31 00:40:43.389 [info] [Info  - 12:40:43 AM] (8722) [IDX(2)] Long operation: index execution environment file:///home/aditya/dotfiles (5222ms)
+2025-01-31 00:40:43.444 [info] [Info  - 12:40:43 AM] (8722) [IDX(2)] Long operation: index packages file:///home/aditya/dotfiles (5345ms)
+2025-01-31 00:40:43.445 [info] [Info  - 12:40:43 AM] (8722) indexed(2) 103 files over 1 exec env
+2025-01-31 00:40:43.685 [info] [Info  - 12:40:43 AM] (8722) Indexing finished(2).

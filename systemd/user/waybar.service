@@ -1,0 +1,13 @@
+[Unit]
+Description=Waybar
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/waybar
+Restart=always
+User=aditya
+Environment=WAYBAR_CONFIG=/home/aditya/dotfiles/.config/waybar/config.jsonc
+WorkingDirectory=/home/aditya/dotfiles/.config/waybar
+
+[Install]
+WantedBy=default.target

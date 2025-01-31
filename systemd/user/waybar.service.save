@@ -1,0 +1,15 @@
+[Unit]
+Description=Waybar
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/waybar
+Restart=always
+User=<username>
+Environment=WAYBAR_CONFIG=<path-to-your-waybar-config>/config.jsonc
+WorkingDirectory=<path-to-your-waybar-config>
+
+[Install]
+WantedBy=default.target
+
+

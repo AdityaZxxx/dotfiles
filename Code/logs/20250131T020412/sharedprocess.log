@@ -1,0 +1,16 @@
+2025-01-31 02:04:21.164 [info] Deleted uninstalled extension from disk bradlc.vscode-tailwindcss /home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.1
+2025-01-31 02:04:21.797 [info] Deleted uninstalled extension from disk usernamehw.errorlens /home/aditya/.vscode/extensions/usernamehw.errorlens-3.22.1
+2025-01-31 02:04:23.130 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.1.-7fd6aa19.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.1.-7fd6aa19.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-31 02:04:23.527 [info] Deleted uninstalled extension from disk mongodb.mongodb-vscode /home/aditya/.vscode/extensions/mongodb.mongodb-vscode-1.11.0
+2025-01-31 02:04:23.529 [info] Deleted uninstalled extension from disk ms-vscode.vscode-typescript-next /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250128
+2025-01-31 02:04:23.561 [info] Deleted uninstalled extension from disk blackboxapp.blackboxagent /home/aditya/.vscode/extensions/blackboxapp.blackboxagent-2.8.32
+2025-01-31 02:04:23.675 [info] Deleted uninstalled extension from disk github.copilot /home/aditya/.vscode/extensions/github.copilot-1.260.0
+2025-01-31 02:04:23.679 [info] Deleted uninstalled extension from disk wallabyjs.console-ninja /home/aditya/.vscode/extensions/wallabyjs.console-ninja-1.0.382
+2025-01-31 02:04:24.008 [info] Deleted uninstalled extension from disk blackboxapp.blackbox /home/aditya/.vscode/extensions/blackboxapp.blackbox-2.8.23
+2025-01-31 02:04:24.354 [info] Deleted uninstalled extension from disk ms-mssql.mssql /home/aditya/.vscode/extensions/ms-mssql.mssql-1.27.0

@@ -1,0 +1,59 @@
+(VSCode) 2025-01-31 02:37:26.266 [INFO]: No proxy settings found
+(VSCode) 2025-01-31 02:37:31.037 [INFO]: Checking network connection...
+(VSCode) 2025-01-31 02:37:31.861 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-01-31 02:37:32.121 [INFO]: Creating manager directory: /tmp/036eac01-5971-46eb-9973-a2846cfb2ccb/codeium/manager
+(VSCode) 2025-01-31 02:37:32.585 [INFO]: Using cached LS with valid crc32: /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/1922b6ec8869ef782574fa5f5951f1c5e172c7b6/language_server_linux_x64
+(VSCode) 2025-01-31 02:37:32.597 [INFO]: Language server started
+2025/01/31 02:37:32 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I0131 02:37:32.706684  2742 main.go:568] [Language Server Manager] Setting GOMAXPROCS to 8
+I0131 02:37:32.706739  2742 main.go:707] [Language Server Manager] Release 1.30.18 (1922b6ec8869ef782574fa5f5951f1c5e172c7b6)
+I0131 02:37:32.706766  2742 main.go:786] [Language Server Manager] Starting language server manager with pid 2742
+I0131 02:37:32.706831  2742 main.go:123] [Language Server Manager] Manager acquired its lock file /tmp/036eac01-5971-46eb-9973-a2846cfb2ccb/codeium/manager/locks/manager.lock
+I0131 02:37:32.707456  2742 main.go:264] [Language Server Manager] Waiting for random port file in /tmp/036eac01-5971-46eb-9973-a2846cfb2ccb/codeium/manager/child_random_port_1738265852706967840_5862298798333146531 to be created
+2025/01/31 02:37:32 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I0131 02:37:32.797725  2754 main.go:568] Setting GOMAXPROCS to 4
+I0131 02:37:32.805332  2754 main.go:780] Starting language server process with pid 2754
+I0131 02:37:32.805376  2754 server.go:220] Language server will attempt to listen on host 127.0.0.1
+I0131 02:37:32.805462  2754 server.go:227] Language server listening on random port at 46559
+I0131 02:37:33.602679  2754 unleash.go:92] Initializing Unleash
+I0131 02:37:34.327064  2754 unleash.go:112] Successfully initialized Unleash
+I0131 02:37:34.327817  2754 server.go:297] Extension server port not specified; skipping extension server client creation
+I0131 02:37:34.362117  2754 web_server.go:258] Chat Web Server listening at ws://127.0.0.1:40243
+E0131 02:37:34.377882  2754 client_manager.go:275] Metadata is nil when trying to refresh user JWT
+I0131 02:37:34.378347  2754 server.go:528] Successfully created API server client
+I0131 02:37:34.414141  2754 server.go:546] Successfully initialized tokenizer
+I0131 02:37:34.647696  2754 server.go:721] Local search is enabled, will index local files.
+I0131 02:37:34.647721  2754 server.go:725] Using 2 indexer workers
+I0131 02:37:34.658966  2754 sqlite_faiss_db_client.go:64] Successfully created embedding search database in 11ms
+I0131 02:37:34.659954  2754 indexer.go:213] Using 4 embed workers
+I0131 02:37:34.660158  2754 search_provider.go:274] Successfully created and started indexer
+I0131 02:37:34.660296  2754 search_provider.go:304] Successfully created embedding search provider
+I0131 02:37:34.780106  2754 server.go:813] Successfully created completion provider
+I0131 02:37:34.780150  2754 server.go:862] Child process attempting to acquire lock file /tmp/036eac01-5971-46eb-9973-a2846cfb2ccb/codeium/manager/locks/child_lock_1738265852706993372_2366788854006618747
+I0131 02:37:34.780208  2754 server.go:870] Child process acquired lock file /tmp/036eac01-5971-46eb-9973-a2846cfb2ccb/codeium/manager/locks/child_lock_1738265852706993372_2366788854006618747
+I0131 02:37:34.785759  2754 server.go:356] LSP listening on random port at 35491
+35491
+I0131 02:37:34.817167  2742 main.go:300] [Language Server Manager] Found random server port 46559
+I0131 02:37:34.817197  2742 main.go:301] [Language Server Manager] Found random lsp port 35491
+I0131 02:37:34.817213  2742 main.go:308] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:46559
+I0131 02:37:34.832279  2742 main.go:177] [Language Server Manager] Fixing language server port at 46559
+I0131 02:37:34.832332  2742 main.go:360] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:46559
+(VSCode) 2025-01-31 02:37:34.925 [INFO]: Found language server running on port 46559
+I0131 02:37:34.965195  2754 utils.go:228] Analyzing workspace files for /home/aditya/dotfiles
+I0131 02:37:34.965268  2754 utils.go:282] Done analyzing workspace files for /home/aditya/dotfiles
+(VSCode) 2025-01-31 02:37:35.362 [INFO]: openAllTextDocuments took 32.226065999999264ms
+I0131 02:37:37.091188  2754 lazy_model.go:31] Successfully created embedding store
+(VSCode) 2025-01-31 02:42:53.362 [ERROR]: Illegal value for `line`
+(VSCode) 2025-01-31 02:42:53.475 [INFO]: Completion request succeeded (45.05ms)
+(VSCode) 2025-01-31 02:42:53.478 [INFO]: Skipping completions because the prompt is too short
+(VSCode) 2025-01-31 02:42:53.479 [INFO]: provideInlineCompletionItems request succeeded (51.17ms)
+(VSCode) 2025-01-31 02:42:55.109 [INFO]: Completion request succeeded (545.37ms)
+(VSCode) 2025-01-31 02:42:55.113 [INFO]: No completions were generated
+(VSCode) 2025-01-31 02:42:55.114 [INFO]: provideInlineCompletionItems request succeeded (552.26ms)
+(VSCode) 2025-01-31 02:44:49.301 [INFO]: Disposing language server process
+(VSCode) 2025-01-31 02:44:49.302 [INFO]: Deleting manager directory: /tmp/036eac01-5971-46eb-9973-a2846cfb2ccb/codeium/manager
+(VSCode) 2025-01-31 02:44:49.305 [INFO]: Successfully disposed language server
+W0131 02:44:49.302297  2742 main.go:127] [Language Server Manager] Got signal terminated, shutting down
+E0131 02:44:49.567956  2742 main.go:374] [Language Server Manager] Failed to acquire lock on /tmp/036eac01-5971-46eb-9973-a2846cfb2ccb/codeium/manager/locks/child_lock_1738265852706993372_2366788854006618747: open /tmp/036eac01-5971-46eb-9973-a2846cfb2ccb/codeium/manager/locks/child_lock_1738265852706993372_2366788854006618747: no such file or directory
+I0131 02:44:49.570065  2754 server.go:1035] Exit requested on language server process 2754
+I0131 02:44:49.570365  2754 server.go:1012] Language server shutting down

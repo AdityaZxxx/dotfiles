@@ -1,0 +1,9 @@
+2025-01-30 18:55:02.188 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2025-01-30 18:55:02.188 [info] Auto Sync is enabled.
+2025-01-30 18:55:02.188 [info] Auto Sync: Suspended until auth token is available.
+2025-01-30 18:55:04.305 [info] Auto Sync: Triggered by Interval
+2025-01-30 18:55:04.306 [info] Sync started.
+2025-01-30 18:55:05.186 [info] Settings: No changes found during synchronizing settings.
+2025-01-30 18:55:05.193 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-01-30 18:55:05.251 [info] Snippets: No changes found during synchronizing snippets.
+2025-01-30 18:55:05.269 [info] Tasks: No changes found during synchronizing tasks.

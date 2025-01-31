@@ -1,0 +1,5 @@
+[Server(1885) my-store/] onInitialize
+[Server(1885) my-store/] Number of style sheets - 6
+[Server(1885) my-store/] setupInitialStylemap
+[Server(1885) my-store/] Document opened: globals.css.
+[Server(1885) my-store/] Document changed: globals.css. Invalidating Cache.

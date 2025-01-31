@@ -1,0 +1,17 @@
+[2025-01-31 15:44:21.074] Starting Git Graph ...
+[2025-01-31 15:44:21.210] Using git (version: 2.48.1)
+[2025-01-31 15:44:21.276] Started Git Graph - Ready to use!
+[2025-01-31 15:44:21.283] Searching workspace for new repos ...
+[2025-01-31 15:44:21.308] > git rev-parse --show-toplevel
+[2025-01-31 15:44:22.016] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2025-01-31 15:44:22.038] Completed searching workspace for new repos
+[2025-01-31 15:44:44.242] > git rev-parse --show-toplevel
+[2025-01-31 15:44:45.426] > git rev-parse --show-toplevel
+[2025-01-31 15:44:45.995] > git rev-parse --show-toplevel
+[2025-01-31 15:44:56.449] > git rev-parse --show-toplevel
+[2025-01-31 15:44:56.750] > git rev-parse --show-toplevel
+[2025-01-31 15:44:57.637] > git rev-parse --show-toplevel
+[2025-01-31 15:45:10.053] > git rev-parse --show-toplevel
+[2025-01-31 15:47:33.128] > git rev-parse --show-toplevel
+[2025-01-31 15:47:34.147] Added new repo: /home/aditya/.config
+[2025-01-31 15:47:34.294] Showing "Git Graph" Status Bar Item

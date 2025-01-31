@@ -1,0 +1,11 @@
+[Unit]
+Description=HyprPanel
+After=hyprland.service
+
+[Service]
+ExecStart=/usr/local/bin/hyprpanel
+Restart=always
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=default.target

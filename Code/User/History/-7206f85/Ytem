@@ -1,0 +1,2 @@
+NEON_DATABASE_URL= "postgresql://neondb_owner:npg_2XHqo9dBUNIi@ep-sparkling-rain-a1ogc1ip-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+NEXT_PUBLIC_APP_URL= 
