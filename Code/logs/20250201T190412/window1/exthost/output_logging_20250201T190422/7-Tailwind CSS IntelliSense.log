@@ -31,3 +31,7 @@ hoist-at-import: The file '/home/aditya/.config/waybar/style.css' contains @impo
 [Global] Preparing projects...
 [Global] Initializing projects...
 [Global] Initialized 0 projects
+[Info  - 7:09:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/aditya/.config/.gitignore',
+  normalPath: '/home/aditya/.config/.gitignore'
+}

@@ -301,3 +301,13 @@
 2025-02-01 19:06:55.774 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2504
 2025-02-01 19:07:01.207 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2504
 2025-02-01 19:07:06.611 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2504
+2025-02-01 19:07:12.038 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2504
+2025-02-01 19:07:18.045 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aditya/.config/Code/User/globalStorage/state.vscdb-journal'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/aditya/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-02-01 19:07:21.537 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2504
+2025-02-01 19:07:28.027 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2392
+2025-02-01 19:07:34.486 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2392
+2025-02-01 19:07:40.785 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2392
+2025-02-01 19:07:46.019 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2392

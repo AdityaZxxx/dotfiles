@@ -79,3 +79,4 @@
     at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:780:11845
     at Array.map (<anonymous>)
     at jh.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:780:11836)
+2025-02-01 19:08:25.419 [error] lock() request could not be registered.: Error: lock() request could not be registered.

@@ -51,3 +51,10 @@ I0201 19:05:17.356465 3399271 main.go:308] [Language Server Manager] Attempting 
 I0201 19:05:17.373159 3399271 main.go:177] [Language Server Manager] Fixing language server port at 34149
 I0201 19:05:17.373228 3399271 main.go:360] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:34149
 (VSCode) 2025-02-01 19:05:18.497 [INFO]: openAllTextDocuments took 133.54665999999997ms
+(VSCode) 2025-02-01 19:09:43.312 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-02-01 19:09:43.394 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-02-01 19:09:43.692 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-02-01 19:09:44.197 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-02-01 19:09:44.948 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-02-01 19:09:44.983 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-02-01 19:09:45.040 [INFO]: Codeium is not enabled for the current document.
