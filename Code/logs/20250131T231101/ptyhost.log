@@ -1,0 +1,6 @@
+2025-02-01 01:20:24.450 [info] Expanding terminal instance, old id 4a9a84d95ede6e3277edb293c6dcecff-3 -> new id undefined
+2025-02-01 01:20:24.451 [info] Expanding terminal instance, old id 4a9a84d95ede6e3277edb293c6dcecff-4 -> new id undefined
+2025-02-01 01:20:27.981 [info] Persistent process reconnection "3"
+2025-02-01 01:20:27.982 [info] Persistent process reconnection "4"
+2025-02-01 01:20:29.240 [info] Persistent process "3": Replaying 3413 chars and 1 size events
+2025-02-01 01:20:29.507 [info] Persistent process "4": Replaying 3235 chars and 1 size events

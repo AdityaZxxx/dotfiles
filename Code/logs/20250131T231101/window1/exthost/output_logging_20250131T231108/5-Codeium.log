@@ -41,3 +41,15 @@ I0131 23:12:00.602796 426242 main.go:177] [Language Server Manager] Fixing langu
 I0131 23:12:00.602877 426242 main.go:360] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:42251
 (VSCode) 2025-01-31 23:12:00.613 [INFO]: Found language server running on port 42251
 (VSCode) 2025-01-31 23:12:01.162 [INFO]: openAllTextDocuments took 139.53966599999694ms
+(VSCode) 2025-01-31 23:30:17.364 [INFO]: Disposing language server process
+(VSCode) 2025-01-31 23:30:17.365 [INFO]: Deleting manager directory: /tmp/b23ea476-5bd6-4111-b280-2057ba534fcb/codeium/manager
+(VSCode) 2025-01-31 23:30:17.368 [INFO]: Successfully disposed language server
+W0131 23:30:17.364999 426242 main.go:127] [Language Server Manager] Got signal terminated, shutting down
+E0131 23:30:17.491634 426242 main.go:374] [Language Server Manager] Failed to acquire lock on /tmp/b23ea476-5bd6-4111-b280-2057ba534fcb/codeium/manager/locks/child_lock_1738339914054840694_4234390094544602779: open /tmp/b23ea476-5bd6-4111-b280-2057ba534fcb/codeium/manager/locks/child_lock_1738339914054840694_4234390094544602779: no such file or directory
+I0131 23:30:17.493610 426255 server.go:1035] Exit requested on language server process 426255
+I0131 23:30:17.493880 426255 server.go:1012] Language server shutting down
+I0131 23:30:17.549847 426242 cmd_wrapper.go:271] [Language Server Manager] LanguageServer exited with: success
+(VSCode) 2025-01-31 23:30:17.662 [ERROR]: Failed to stop lsp
+(VSCode) 2025-01-31 23:30:17.706 [INFO]: Language server exited with code 0
+(VSCode) 2025-01-31 23:30:17.781 [ERROR]: Failed to stop exit
+(VSCode) 2025-01-31 23:30:17.787 [ERROR]: [unavailable] connect ECONNREFUSED 127.0.0.1:42251

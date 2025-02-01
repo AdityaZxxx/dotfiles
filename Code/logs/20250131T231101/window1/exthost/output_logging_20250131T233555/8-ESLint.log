@@ -1,0 +1,6 @@
+[Info  - 11:36:24 PM] ESLint server is starting.
+[Info  - 11:36:28 PM] ESLint server running in node v20.18.1
+[Info  - 11:36:29 PM] ESLint server is running.
+[Info  - 11:37:56 PM] ESLint library loaded from: /home/aditya/Desktop/website-sekolah/node_modules/eslint/lib/api.js
+[Info  - 7:28:28 AM] ESLint server stopped.
+[Error - 7:28:32 AM] Stopping server timed out

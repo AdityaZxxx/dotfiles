@@ -9,11 +9,7 @@
                 "folderUri": "file:///home/aditya/.config"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1738340643916"
-            }
-        ]
+        "emptyWindows": []
     },
     "profileAssociations": {
         "workspaces": {
@@ -30,11 +26,12 @@
             "file:///home/aditya/Desktop/adxxstore": "__default__profile__",
             "file:///home/aditya/Desktop/adxxstore/adxxstore.id": "__default__profile__",
             "file:///home/aditya/dotfiles": "__default__profile__",
-            "file:///home/aditya/.config": "__default__profile__"
+            "file:///home/aditya/.config": "__default__profile__",
+            "file:///home/aditya/Desktop": "__default__profile__",
+            "file:///home/aditya/Desktop/website-sekolah": "__default__profile__",
+            "file:///home/aditya/Desktop/my-nocobase-app": "__default__profile__"
         },
-        "emptyWindows": {
-            "1738340643916": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -107,6 +104,39 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/aditya/Desktop/my-nocobase-app",
+                                        "path": "/home/aditya/Desktop/my-nocobase-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/my-nocobase-app"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aditya/Desktop/website-sekolah",
+                                        "path": "/home/aditya/Desktop/website-sekolah",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/website-sekolah"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/aditya/Desktop",
+                                        "path": "/home/aditya/Desktop",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/aditya/dotfiles",
                                         "path": "/home/aditya/dotfiles",
                                         "scheme": "file"
@@ -168,39 +198,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Downloads/orcish-fullstack-admin"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aditya/Downloads",
-                                        "path": "/home/aditya/Downloads",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aditya/Desktop/adxx-blog/adxx-blog-v1",
-                                        "path": "/home/aditya/Desktop/adxx-blog/adxx-blog-v1",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Desktop/adxx-blog/adxx-blog-v1"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/aditya/Downloads/tailwindyt",
-                                        "path": "/home/aditya/Downloads/tailwindyt",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/tailwindyt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -931,7 +928,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1883,8 +1881,8 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080,
+                "width": 960,
+                "height": 1035,
                 "zoomLevel": 2
             }
         },

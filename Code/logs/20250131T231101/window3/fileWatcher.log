@@ -1,0 +1,1 @@
+2025-02-01 12:22:02.604 [warning] [File Watcher ('parcel')] started ignoring events due to too many file change events at once (incoming: 95471, most recent change: /home/aditya/Desktop/my-nocobase-app/node_modules/.bin). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).

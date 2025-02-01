@@ -1,0 +1,28 @@
+2025-02-01 11:27:16.273 [info] Using the Electron fetcher.
+2025-02-01 11:27:16.274 [info] Initializing Git extension service.
+2025-02-01 11:27:16.274 [info] Successfully activated the vscode.git extension.
+2025-02-01 11:27:16.274 [info] Enablement state of the vscode.git extension: true.
+2025-02-01 11:27:16.274 [info] Successfully registered Git commit message provider.
+2025-02-01 11:27:29.375 [info] Logged in as AdityaZxxx
+2025-02-01 11:27:30.615 [info] Got Copilot token for AdityaZxxx
+2025-02-01 11:27:31.077 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 11:27:31.077 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-01 11:27:31.084 [info] Registering default platform agent...
+2025-02-01 11:27:31.106 [info] Fetched model metadata in 450ms 462f1742-dc49-4205-8472-933f3cfda646
+2025-02-01 11:27:31.141 [info] activationBlocker from 'languageModelAccess' took for 15221ms
+2025-02-01 11:42:36.153 [info] Fetched model metadata in 3494ms 8b64ad77-ed64-4276-8c3f-3682f4e5fe62
+2025-02-01 11:52:30.638 [info] Logged in as AdityaZxxx
+2025-02-01 11:52:32.201 [info] Got Copilot token for AdityaZxxx
+2025-02-01 11:52:32.250 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 12:07:43.972 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:489:12): Failed to fetch models (d5457a8c-10b7-4aaa-9b9a-35a2ed2f909f)
+2025-02-01 12:07:56.044 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:489:12): Failed to fetch models (0836c00a-a09a-47d0-8726-016465e1a583)
+2025-02-01 12:17:32.219 [info] Logged in as AdityaZxxx
+2025-02-01 12:17:36.873 [info] Got Copilot token for AdityaZxxx
+2025-02-01 12:17:36.910 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 12:17:40.867 [info] Fetched model metadata in 3939ms c8ef46f0-a478-4a42-b22f-730b47088969

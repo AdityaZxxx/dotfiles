@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "create-nocobase-app": "^1.4.33"
+  }
+}

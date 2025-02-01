@@ -1,0 +1,93 @@
+2025-02-01 01:30:18.174 [info] [forwarding] starting CLI
+2025-02-01 01:30:18.321 [info] [forwarding] [2025-02-01 01:30:18] debug Using file keychain storage due to: user prefers file storage: 
+2025-02-01 01:30:18.431 [info] [forwarding] [2025-02-01 01:30:18] trace Found token in keyring
+2025-02-01 01:30:19.936 [info] [forwarding] [2025-02-01 01:30:19] trace Found token in keyring
+2025-02-01 01:30:21.072 [info] [forwarding] [2025-02-01 01:30:21] trace Found token in keyring
+2025-02-01 01:30:22.293 [info] [forwarding] [2025-02-01 01:30:22] debug Starting tunnel to server...
+2025-02-01 01:30:22.301 [info] [forwarding] [2025-02-01 01:30:22] trace Found token in keyring
+2025-02-01 01:30:23.167 [info] [forwarding] [2025-02-01 01:30:23] trace Found token in keyring
+2025-02-01 01:30:23.167 [info] [forwarding] [2025-02-01 01:30:23] debug Connected to tunnel endpoint: TunnelRelayTunnelEndpoint { base: TunnelEndpoint { id: "76331e91-280e-4352-b8b2-f79f1aa17c52-relay", connection_mode: TunnelRelay, host_id: "76331e91-280e-4352-b8b2-f79f1aa17c52", host_public_keys: [], port_uri_format: Some("https://c4h2wsnh-{port}.asse.devtunnels.ms/"), tunnel_uri: Some("https://c4h2wsnh.asse.devtunnels.ms/"), port_ssh_command_format: Some("ssh c4h2wsnh-{port}@ssh.asse.devtunnels.ms"), tunnel_ssh_command: Some("ssh c4h2wsnh@ssh.asse.devtunnels.ms"), ssh_gateway_public_key: None }, host_relay_uri: Some("wss://asse-data.rel.tunnels.api.visualstudio.com/api/v1/Host/Connect/interesting-ocean-s4fs144"), client_relay_uri: Some("wss://asse-data.rel.tunnels.api.visualstudio.com/api/v1/Client/Connect/interesting-ocean-s4fs144") }
+2025-02-01 01:30:23.170 [info] [forwarding] [2025-02-01 01:30:23] trace Found token in keyring
+2025-02-01 01:30:24.185 [info] [forwarding] [2025-02-01 01:30:24] info forwarding http port 3000 at Private
+2025-02-01 07:22:18.485 [info] [forwarding] [2025-02-01 07:22:18] warn Tunnel exited unexpectedly but gracefully, reconnecting
+2025-02-01 07:22:23.486 [info] [forwarding] [2025-02-01 07:22:23] debug Starting tunnel to server...
+2025-02-01 07:22:23.494 [info] [forwarding] [2025-02-01 07:22:23] trace Found token in keyring
+2025-02-01 07:22:24.960 [info] [forwarding] [2025-02-01 07:22:24] trace Successfully refreshed access token
+2025-02-01 07:22:24.967 [info] [forwarding] [2025-02-01 07:22:24] trace Found token in keyring
+2025-02-01 07:30:56.524 [info] [forwarding] [2025-02-01 07:30:56] trace token was successfully refreshed in keepalive
+2025-02-01 08:30:57.525 [info] [forwarding] [2025-02-01 08:30:57] trace token was successfully refreshed in keepalive
+2025-02-01 09:30:57.911 [info] [forwarding] [2025-02-01 09:30:57] trace token was successfully refreshed in keepalive
+2025-02-01 10:30:58.396 [info] [forwarding] [2025-02-01 10:30:58] trace token was successfully refreshed in keepalive
+2025-02-01 11:30:59.347 [info] [forwarding] [2025-02-01 11:30:59] trace token was successfully refreshed in keepalive
+2025-02-01 12:00:36.404 [info] [forwarding] [2025-02-01 12:00:36] warn Tunnel exited unexpectedly but gracefully, reconnecting
+2025-02-01 12:00:41.405 [info] [forwarding] [2025-02-01 12:00:41] debug Starting tunnel to server...
+2025-02-01 12:00:41.405 [info] [forwarding] [2025-02-01 12:00:41] trace Found token in keyring
+2025-02-01 12:00:47.130 [info] [forwarding] [2025-02-01 12:00:47] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:00:52.976 [info] [forwarding] [2025-02-01 12:00:52] trace Successfully refreshed access token
+2025-02-01 12:00:52.976 [info] [forwarding] [2025-02-01 12:00:52] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:01:02.977 [info] [forwarding] [2025-02-01 12:01:02] debug Starting tunnel to server...
+2025-02-01 12:01:02.978 [info] [forwarding] [2025-02-01 12:01:02] trace Found token in keyring
+2025-02-01 12:01:08.990 [info] [forwarding] [2025-02-01 12:01:08] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:01:25.133 [info] [forwarding] [2025-02-01 12:01:25] trace Successfully refreshed access token
+2025-02-01 12:01:25.133 [info] [forwarding] [2025-02-01 12:01:25] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:01:40.134 [info] [forwarding] [2025-02-01 12:01:40] debug Starting tunnel to server...
+2025-02-01 12:01:40.134 [info] [forwarding] [2025-02-01 12:01:40] trace Found token in keyring
+2025-02-01 12:01:45.975 [info] [forwarding] [2025-02-01 12:01:45] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:01:52.036 [info] [forwarding] [2025-02-01 12:01:52] trace Successfully refreshed access token
+2025-02-01 12:01:52.036 [info] [forwarding] [2025-02-01 12:01:52] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:02:12.037 [info] [forwarding] [2025-02-01 12:02:12] debug Starting tunnel to server...
+2025-02-01 12:02:12.037 [info] [forwarding] [2025-02-01 12:02:12] trace Found token in keyring
+2025-02-01 12:02:18.006 [info] [forwarding] [2025-02-01 12:02:18] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:02:23.974 [info] [forwarding] [2025-02-01 12:02:23] trace Successfully refreshed access token
+2025-02-01 12:02:23.975 [info] [forwarding] [2025-02-01 12:02:23] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:02:48.975 [info] [forwarding] [2025-02-01 12:02:48] debug Starting tunnel to server...
+2025-02-01 12:02:48.975 [info] [forwarding] [2025-02-01 12:02:48] trace Found token in keyring
+2025-02-01 12:02:54.973 [info] [forwarding] [2025-02-01 12:02:54] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:03:01.053 [info] [forwarding] [2025-02-01 12:03:01] trace Successfully refreshed access token
+2025-02-01 12:03:01.054 [info] [forwarding] [2025-02-01 12:03:01] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:03:31.056 [info] [forwarding] [2025-02-01 12:03:31] debug Starting tunnel to server...
+2025-02-01 12:03:31.056 [info] [forwarding] [2025-02-01 12:03:31] trace Found token in keyring
+2025-02-01 12:03:36.972 [info] [forwarding] [2025-02-01 12:03:36] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:03:43.084 [info] [forwarding] [2025-02-01 12:03:43] trace Successfully refreshed access token
+2025-02-01 12:03:43.084 [info] [forwarding] [2025-02-01 12:03:43] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:04:18.086 [info] [forwarding] [2025-02-01 12:04:18] debug Starting tunnel to server...
+2025-02-01 12:04:18.086 [info] [forwarding] [2025-02-01 12:04:18] trace Found token in keyring
+2025-02-01 12:04:24.072 [info] [forwarding] [2025-02-01 12:04:24] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:04:29.974 [info] [forwarding] [2025-02-01 12:04:29] trace Successfully refreshed access token
+2025-02-01 12:04:29.974 [info] [forwarding] [2025-02-01 12:04:29] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:05:09.975 [info] [forwarding] [2025-02-01 12:05:09] debug Starting tunnel to server...
+2025-02-01 12:05:09.975 [info] [forwarding] [2025-02-01 12:05:09] trace Found token in keyring
+2025-02-01 12:05:15.988 [info] [forwarding] [2025-02-01 12:05:15] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:05:22.048 [info] [forwarding] [2025-02-01 12:05:22] trace Successfully refreshed access token
+2025-02-01 12:05:22.048 [info] [forwarding] [2025-02-01 12:05:22] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:06:07.049 [info] [forwarding] [2025-02-01 12:06:07] debug Starting tunnel to server...
+2025-02-01 12:06:07.049 [info] [forwarding] [2025-02-01 12:06:07] trace Found token in keyring
+2025-02-01 12:06:13.063 [info] [forwarding] [2025-02-01 12:06:13] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:06:24.083 [info] [forwarding] [2025-02-01 12:06:24] trace Successfully refreshed access token
+2025-02-01 12:06:24.083 [info] [forwarding] [2025-02-01 12:06:24] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:07:14.084 [info] [forwarding] [2025-02-01 12:07:14] debug Starting tunnel to server...
+2025-02-01 12:07:14.084 [info] [forwarding] [2025-02-01 12:07:14] trace Found token in keyring
+2025-02-01 12:07:20.013 [info] [forwarding] [2025-02-01 12:07:20] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:07:26.105 [info] [forwarding] [2025-02-01 12:07:26] trace Successfully refreshed access token
+2025-02-01 12:07:26.106 [info] [forwarding] [2025-02-01 12:07:26] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:08:21.104 [info] [forwarding] [2025-02-01 12:08:21] debug Starting tunnel to server...
+2025-02-01 12:08:21.104 [info] [forwarding] [2025-02-01 12:08:21] trace Found token in keyring
+2025-02-01 12:08:26.971 [info] [forwarding] [2025-02-01 12:08:26] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: No address associated with hostname
+2025-02-01 12:08:33.056 [info] [forwarding] [2025-02-01 12:08:33] trace Successfully refreshed access token
+2025-02-01 12:08:33.056 [info] [forwarding] [2025-02-01 12:08:33] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Name or service not known
+2025-02-01 12:09:33.057 [info] [forwarding] [2025-02-01 12:09:33] debug Starting tunnel to server...
+2025-02-01 12:09:33.057 [info] [forwarding] [2025-02-01 12:09:33] trace Found token in keyring
+2025-02-01 12:09:34.245 [info] [forwarding] [2025-02-01 12:09:34] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution
+2025-02-01 12:09:34.252 [info] [forwarding] [2025-02-01 12:09:34] trace Successfully refreshed access token
+2025-02-01 12:09:34.252 [info] [forwarding] [2025-02-01 12:09:34] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution
+2025-02-01 12:10:39.247 [info] [forwarding] [2025-02-01 12:10:39] debug Starting tunnel to server...
+2025-02-01 12:10:39.247 [info] [forwarding] [2025-02-01 12:10:39] trace Found token in keyring
+2025-02-01 12:10:39.250 [info] [forwarding] [2025-02-01 12:10:39] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution
+2025-02-01 12:10:39.251 [info] [forwarding] [2025-02-01 12:10:39] trace Successfully refreshed access token
+2025-02-01 12:10:39.251 [info] [forwarding] [2025-02-01 12:10:39] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://asse.rel.tunnels.api.visualstudio.com/tunnels/interesting-ocean-s4fs144?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution
+2025-02-01 12:11:49.252 [info] [forwarding] [2025-02-01 12:11:49] debug Starting tunnel to server...
+2025-02-01 12:11:49.252 [info] [forwarding] [2025-02-01 12:11:49] trace Found token in keyring
+2025-02-01 12:11:50.710 [info] [forwarding] [2025-02-01 12:11:50] trace Successfully refreshed access token
+2025-02-01 12:11:50.710 [info] [forwarding] [2025-02-01 12:11:50] trace Found token in keyring
+2025-02-01 12:30:59.759 [info] [forwarding] [2025-02-01 12:30:59] trace token was successfully refreshed in keepalive
+2025-02-01 13:32:17.764 [info] [forwarding] [2025-02-01 13:32:17] trace token was successfully refreshed in keepalive

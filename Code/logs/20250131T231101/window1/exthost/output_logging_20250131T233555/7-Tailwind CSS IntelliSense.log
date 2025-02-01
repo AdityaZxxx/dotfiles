@@ -1,0 +1,51 @@
+Locating server…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"3.4.17","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":false},"path":"/home/aditya/Desktop/website-sekolah/tailwind.config.ts"}
+{"tailwind":{"version":"3.4.17","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":false},"path":"/home/aditya/Desktop/website-sekolah/app/globals.css"}
+[Global] Creating projects: [{"folder":"/home/aditya/Desktop/website-sekolah","config":"/home/aditya/Desktop/website-sekolah/tailwind.config.ts","selectors":[{"pattern":"/home/aditya/Desktop/website-sekolah/tailwind.config.ts","priority":0},{"pattern":"/home/aditya/Desktop/website-sekolah/**","priority":3},{"pattern":"/home/aditya/Desktop/website-sekolah/**","priority":5}],"user":false,"tailwind":{"version":"3.4.17","features":["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"],"isDefaultVersion":false}}]
+[Global] Preparing projects...
+[Global] Adding watch patterns: /home/aditya/Desktop/website-sekolah/tailwind.config.ts, /home/aditya/Desktop/website-sekolah
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+[tailwind.config.ts] Initializing...
+[tailwind.config.ts] supported features: ["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"]
+[tailwind.config.ts] Loaded tailwindcss v3.4.17: /home/aditya/Desktop/website-sekolah/node_modules/tailwindcss
+[tailwind.config.ts] Loaded Tailwind CSS config file: /home/aditya/Desktop/website-sekolah/tailwind.config.ts
+[tailwind.config.ts] Loaded postcss v8.5.1: /home/aditya/Desktop/website-sekolah/node_modules/postcss
+[tailwind.config.ts] Building...
+[tailwind.config.ts] File changed: /home/aditya/Desktop/website-sekolah/tailwind.config.ts
+[tailwind.config.ts] Building...
+[Error - 11:39:03 PM] Tailwind CSS: Can't resolve 'tailwindcss-animate' in '/home/aditya/Desktop/website-sekolah'
+Error: Can't resolve 'tailwindcss-animate' in '/home/aditya/Desktop/website-sekolah'
+    at H (/home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:130:7155)
+    at /home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:131:713
+    at /home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:134:405
+    at eval (eval at create (/home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:134:405
+    at eval (eval at create (/home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:5:78), <anonymous>:27:1)
+    at /home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:134:7916
+    at /home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:134:405
+    at eval (eval at create (/home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/aditya/.vscode/extensions/bradlc.vscode-tailwindcss-0.14.2/dist/tailwindServer.js:134:405
+[tailwind.config.ts] File changed: /home/aditya/Desktop/website-sekolah/package-lock.json
+[tailwind.config.ts] Initializing...
+[tailwind.config.ts] supported features: ["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"]
+[tailwind.config.ts] Loaded tailwindcss v3.4.17: /home/aditya/Desktop/website-sekolah/node_modules/tailwindcss
+[tailwind.config.ts] Loaded Tailwind CSS config file: /home/aditya/Desktop/website-sekolah/tailwind.config.ts
+[tailwind.config.ts] Loaded postcss v8.5.1: /home/aditya/Desktop/website-sekolah/node_modules/postcss
+[tailwind.config.ts] Building...
+[tailwind.config.ts] File changed: /home/aditya/Desktop/website-sekolah/package-lock.json
+[tailwind.config.ts] Initializing...
+[tailwind.config.ts] supported features: ["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"]
+[tailwind.config.ts] Loaded tailwindcss v3.4.17: /home/aditya/Desktop/website-sekolah/node_modules/tailwindcss
+[tailwind.config.ts] File changed: /home/aditya/Desktop/website-sekolah/package-lock.json
+[tailwind.config.ts] Initializing...
+[tailwind.config.ts] supported features: ["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"]
+[tailwind.config.ts] Loaded tailwindcss v3.4.17: /home/aditya/Desktop/website-sekolah/node_modules/tailwindcss
+[tailwind.config.ts] File changed: /home/aditya/Desktop/website-sekolah/package-lock.json
+[tailwind.config.ts] Initializing...
+[tailwind.config.ts] supported features: ["layer:base","separator:root","content-list","jit","css-at-config-as-project","relative-content-paths","transpiled-configs"]
+[tailwind.config.ts] Loaded tailwindcss v3.4.17: /home/aditya/Desktop/website-sekolah/node_modules/tailwindcss

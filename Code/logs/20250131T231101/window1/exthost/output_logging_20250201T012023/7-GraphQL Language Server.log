@@ -1,0 +1,21 @@
+[Info  - 1:21:03 AM] {"type":"usage","messageType":"initialize"}
+[Error - 1:21:07 AM] WARNING: graphql-config error, only highlighting is enabled:
+GraphQL Config file is not available in the provided config directory: /home/aditya/Desktop/website-sekolah
+Please check the config directory.
+for more information on using 'graphql-config' with 'graphql-language-service-server', 
+see the documentation at https://www.npmjs.com/package/graphql-language-service-server#user-content-graphql-configuration-file
+[Error - 1:23:01 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 1:24:40 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 1:24:40 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 1:55:38 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 1:55:39 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 1:57:48 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 2:06:25 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 2:09:04 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 7:27:47 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 7:41:47 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 7:42:08 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 7:42:42 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 8:36:27 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Error - 8:36:48 AM] Notification handler 'textDocument/didClose' failed with message: Cannot read properties of undefined (reading '_isInitialized')
+[Info  - 2:18:38 PM] The graphql server has stopped running

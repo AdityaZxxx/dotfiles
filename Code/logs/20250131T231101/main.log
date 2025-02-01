@@ -3,3 +3,35 @@
 2025-01-31 23:11:32.543 [info] update#setState idle
 2025-01-31 23:24:09.182 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 474380]: crashed with code 15 and reason 'killed'
 2025-01-31 23:24:09.271 [info] Extension host with pid 474454 exited with code: 0, signal: unknown.
+2025-01-31 23:30:17.820 [info] Extension host with pid 422895 exited with code: 0, signal: unknown.
+2025-01-31 23:35:49.499 [info] Extension host with pid 499149 exited with code: 0, signal: unknown.
+2025-02-01 00:11:32.061 [info] update#setState checking for updates
+2025-02-01 00:11:32.156 [error] [network] #6: https://update.code.visualstudio.com/api/update/linux-x64/stable/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba - error undefined net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:11:32.160 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117531)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-02-01 00:11:32.164 [info] update#setState idle
+2025-02-01 01:12:11.238 [info] update#setState checking for updates
+2025-02-01 01:12:11.730 [info] update#setState idle
+2025-02-01 01:20:16.877 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 520262]: crashed with code 15 and reason 'killed'
+2025-02-01 02:12:11.248 [info] update#setState checking for updates
+2025-02-01 02:12:11.603 [info] update#setState idle
+2025-02-01 07:28:32.773 [info] Extension host with pid 520288 exited with code: 0, signal: unknown.
+2025-02-01 08:12:44.331 [info] update#setState checking for updates
+2025-02-01 08:12:44.534 [info] update#setState idle
+2025-02-01 09:12:44.343 [info] update#setState checking for updates
+2025-02-01 09:12:44.566 [info] update#setState idle
+2025-02-01 10:12:44.353 [info] update#setState checking for updates
+2025-02-01 10:12:44.614 [info] update#setState idle
+2025-02-01 11:12:44.356 [info] update#setState checking for updates
+2025-02-01 11:12:44.584 [info] update#setState idle
+2025-02-01 12:12:44.360 [info] update#setState checking for updates
+2025-02-01 12:12:44.627 [info] update#setState idle
+2025-02-01 12:31:20.931 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 2027150]: crashed with code 15 and reason 'killed'
+2025-02-01 12:31:21.150 [info] Extension host with pid 2027273 exited with code: 0, signal: unknown.
+2025-02-01 13:13:22.895 [info] update#setState checking for updates
+2025-02-01 13:13:23.104 [info] update#setState idle
+2025-02-01 14:14:41.880 [info] update#setState checking for updates
+2025-02-01 14:14:42.380 [info] update#setState idle
+2025-02-01 14:18:38.949 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 904877]: crashed with code 15 and reason 'killed'
+2025-02-01 14:18:38.986 [info] Extension host with pid 904876 exited with code: 0, signal: unknown.

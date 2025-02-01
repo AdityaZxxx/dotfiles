@@ -1,0 +1,121 @@
+(VSCode) 2025-02-01 11:27:10.065 [INFO]: No proxy settings found
+(VSCode) 2025-02-01 11:27:15.555 [ERROR]: Failed to initialize Unleash: undefined
+(VSCode) 2025-02-01 11:27:15.559 [INFO]: Checking network connection...
+(VSCode) 2025-02-01 11:27:28.293 [ERROR]: [deadline_exceeded] the operation timed out
+(VSCode) 2025-02-01 11:27:28.297 [ERROR]: Failed to get user status from API server [deadline_exceeded] the operation timed out
+(VSCode) 2025-02-01 11:27:28.343 [INFO]: Creating manager directory: /tmp/7298e89c-76ed-4701-88d7-e2cd69429312/codeium/manager
+(VSCode) 2025-02-01 11:27:29.057 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-02-01 11:27:35.164 [INFO]: Using cached LS with valid crc32: /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/1922b6ec8869ef782574fa5f5951f1c5e172c7b6/language_server_linux_x64
+(VSCode) 2025-02-01 11:27:35.220 [INFO]: Language server started
+2025/02/01 11:27:35 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I0201 11:27:35.651192 2031047 main.go:568] [Language Server Manager] Setting GOMAXPROCS to 8
+I0201 11:27:35.651402 2031047 main.go:707] [Language Server Manager] Release 1.30.18 (1922b6ec8869ef782574fa5f5951f1c5e172c7b6)
+I0201 11:27:35.651533 2031047 main.go:786] [Language Server Manager] Starting language server manager with pid 2031047
+I0201 11:27:35.651892 2031047 main.go:123] [Language Server Manager] Manager acquired its lock file /tmp/7298e89c-76ed-4701-88d7-e2cd69429312/codeium/manager/locks/manager.lock
+I0201 11:27:35.653639 2031047 main.go:264] [Language Server Manager] Waiting for random port file in /tmp/7298e89c-76ed-4701-88d7-e2cd69429312/codeium/manager/child_random_port_1738384055652184418_5864848467891003871 to be created
+2025/02/01 11:27:35 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I0201 11:27:36.047824 2031135 main.go:568] Setting GOMAXPROCS to 4
+I0201 11:27:36.048598 2031135 main.go:780] Starting language server process with pid 2031135
+I0201 11:27:36.048789 2031135 server.go:220] Language server will attempt to listen on host 127.0.0.1
+I0201 11:27:36.049218 2031135 server.go:227] Language server listening on random port at 36547
+I0201 11:27:36.884541 2031135 unleash.go:92] Initializing Unleash
+I0201 11:27:37.666378 2031135 unleash.go:112] Successfully initialized Unleash
+I0201 11:27:37.666977 2031135 server.go:297] Extension server port not specified; skipping extension server client creation
+I0201 11:27:37.709295 2031135 web_server.go:258] Chat Web Server listening at ws://127.0.0.1:40023
+E0201 11:27:37.759356 2031135 client_manager.go:275] Metadata is nil when trying to refresh user JWT
+I0201 11:27:37.760931 2031135 server.go:528] Successfully created API server client
+I0201 11:27:37.929763 2031135 server.go:546] Successfully initialized tokenizer
+I0201 11:27:38.912473 2031135 server.go:721] Local search is enabled, will index local files.
+I0201 11:27:38.912559 2031135 server.go:725] Using 2 indexer workers
+I0201 11:27:38.920319 2031135 sqlite_faiss_db_client.go:64] Successfully created embedding search database in 7ms
+I0201 11:27:38.921843 2031135 indexer.go:213] Using 4 embed workers
+I0201 11:27:38.921969 2031135 search_provider.go:274] Successfully created and started indexer
+I0201 11:27:38.922101 2031135 search_provider.go:304] Successfully created embedding search provider
+I0201 11:27:39.474507 2031135 server.go:813] Successfully created completion provider
+I0201 11:27:39.474628 2031135 server.go:862] Child process attempting to acquire lock file /tmp/7298e89c-76ed-4701-88d7-e2cd69429312/codeium/manager/locks/child_lock_1738384055652304303_1043423112290611972
+I0201 11:27:39.474795 2031135 server.go:870] Child process acquired lock file /tmp/7298e89c-76ed-4701-88d7-e2cd69429312/codeium/manager/locks/child_lock_1738384055652304303_1043423112290611972
+I0201 11:27:39.505134 2031135 server.go:356] LSP listening on random port at 34627
+34627
+I0201 11:27:39.574699 2031047 main.go:300] [Language Server Manager] Found random server port 36547
+I0201 11:27:39.574818 2031047 main.go:301] [Language Server Manager] Found random lsp port 34627
+I0201 11:27:39.574892 2031047 main.go:308] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:36547
+I0201 11:27:39.590122 2031047 main.go:177] [Language Server Manager] Fixing language server port at 36547
+I0201 11:27:39.590180 2031047 main.go:360] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:36547
+(VSCode) 2025-02-01 11:27:39.658 [INFO]: Found language server running on port 36547
+I0201 11:27:39.724400 2031135 utils.go:228] Analyzing workspace files for /home/aditya/Desktop/my-nocobase-app
+I0201 11:27:39.726079 2031135 utils.go:282] Done analyzing workspace files for /home/aditya/Desktop/my-nocobase-app
+(VSCode) 2025-02-01 11:27:40.105 [INFO]: openAllTextDocuments took 24.06348500000604ms
+I0201 11:27:41.250079 2031135 lazy_model.go:31] Successfully created embedding store
+E0201 11:46:38.887629 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 11:47:38.886744 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:00:38.886314 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:01:07.760891 2031135 client_manager.go:294] Error getting user JWT: context deadline exceeded
+E0201 12:01:38.887104 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:01:38.905186 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:01:42.974600 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: no such host
+E0201 12:02:16.072446 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:16.072440 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:16.072437 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:23.974846 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:23.974834 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:23.974893 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:37.762313 2031135 api_server_client.go:337] GetUnleashContextFields error: Post "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetUnleashContextFields": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:02:37.979707 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:37.979749 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:37.979707 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:02:38.885684 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:02:38.904980 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:02:43.038185 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: no such host
+E0201 12:02:43.038260 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:02:43.038184 2031135 telemetry.go:136] Error traces error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:03:38.887125 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:03:38.904706 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:03:43.084112 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: no such host
+E0201 12:03:43.084109 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:04:03.990148 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:04:03.990206 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:04:03.990183 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:04:16.972476 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:04:16.972476 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:04:16.972515 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:04:38.887120 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:04:38.905348 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:04:43.053012 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: no such host
+E0201 12:04:43.053012 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:05:03.976897 2031135 embedding.go:42] GetEmbeddings error: dial tcp: lookup inference.codeium.com: no such host
+E0201 12:05:38.886238 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:05:38.904516 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:05:42.971301 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: no such host
+E0201 12:05:42.971297 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:06:38.886774 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:06:38.905049 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:06:43.000171 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:06:43.001468 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: no such host
+E0201 12:07:38.886507 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:07:38.904166 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0201 12:07:43.219035 2031135 telemetry.go:136] Error traces error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:07:43.219037 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: no such host
+E0201 12:07:43.219378 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:08:37.990998 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": dial tcp: lookup unleash.codeium.com: no such host
+E0201 12:08:37.991140 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp: lookup unleash.codeium.com: no such host
+E0201 12:08:43.010667 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: no such host
+E0201 12:08:43.010685 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: no such host
+E0201 12:09:36.886705 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp: lookup unleash.codeium.com: Temporary failure in name resolution
+E0201 12:09:36.905250 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": dial tcp: lookup unleash.codeium.com: Temporary failure in name resolution
+E0201 12:09:37.761419 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: Temporary failure in name resolution
+E0201 12:09:37.762524 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: Temporary failure in name resolution
+E0201 12:10:36.887535 2031135 unleash.go:62] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp: lookup unleash.codeium.com: Temporary failure in name resolution
+E0201 12:10:36.905304 2031135 unleash.go:62] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": dial tcp: lookup unleash.codeium.com: Temporary failure in name resolution
+E0201 12:10:37.762315 2031135 client_manager.go:294] Error getting user JWT: dial tcp: lookup server.codeium.com: Temporary failure in name resolution
+E0201 12:10:37.762241 2031135 api_server_client.go:337] GetUnleashContextFields error: dial tcp: lookup server.codeium.com: Temporary failure in name resolution
+W0201 12:18:18.447437 2031135 workspace_manager.go:727] Too many changes in DidChangeWatchedFiles: 2703
+W0201 12:18:28.782446 2031135 workspace_manager.go:727] Too many changes in DidChangeWatchedFiles: 1754
+W0201 12:18:50.221536 2031135 workspace_manager.go:727] Too many changes in DidChangeWatchedFiles: 1747
+W0201 12:18:54.510487 2031135 workspace_manager.go:727] Too many changes in DidChangeWatchedFiles: 1015
+(VSCode) 2025-02-01 12:27:00.639 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-02-01 12:27:03.046 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-02-01 12:27:18.389 [ERROR]: Cannot read properties of undefined (reading 'codeLenses')
+(VSCode) 2025-02-01 12:31:20.677 [INFO]: Disposing language server process
+(VSCode) 2025-02-01 12:31:20.679 [INFO]: Deleting manager directory: /tmp/7298e89c-76ed-4701-88d7-e2cd69429312/codeium/manager
+(VSCode) 2025-02-01 12:31:20.685 [INFO]: Successfully disposed language server
+W0201 12:31:20.678697 2031047 main.go:127] [Language Server Manager] Got signal terminated, shutting down

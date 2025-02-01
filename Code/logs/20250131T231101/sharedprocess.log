@@ -1,0 +1,87 @@
+2025-02-01 00:06:10.652 [error] [network] #228: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:06:17.593 [error] [network] #229: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:06:29.597 [error] [network] #230: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_ADDRESS_UNREACHABLE
+2025-02-01 00:06:32.734 [error] [network] #231: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_ADDRESS_UNREACHABLE
+2025-02-01 00:07:09.222 [error] [network] #232: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:07:12.479 [error] [network] #233: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:07:54.650 [error] [network] #234: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:08:01.407 [error] [network] #235: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:08:28.153 [error] [network] #236: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:08:31.242 [error] [network] #237: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:11:11.092 [error] [network] #238: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:11:17.754 [error] [network] #239: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:12:09.608 [error] [network] #240: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:12:12.979 [error] [network] #241: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:16:11.587 [error] [network] #242: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:16:17.992 [error] [network] #243: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:17:04.462 [error] [network] #244: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 00:17:07.740 [error] [network] #245: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 01:20:31.187 [info] Getting Manifest... blackboxapp.blackbox
+2025-02-01 01:20:38.075 [info] Installing extension: blackboxapp.blackbox {"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aditya/.vscode/extensions/extensions.json","path":"/home/aditya/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-01 01:22:10.699 [info] Extension signature verification result for blackboxapp.blackbox: UnknownError. Executed: true. Duration: 42ms.
+2025-02-01 01:22:45.877 [info] Extracted extension to file:///home/aditya/.vscode/extensions/blackboxapp.blackbox-2.8.26: blackboxapp.blackbox
+2025-02-01 01:22:48.068 [info] Renamed to /home/aditya/.vscode/extensions/blackboxapp.blackbox-2.8.26
+2025-02-01 01:22:48.192 [info] Marked extension as uninstalled blackboxapp.blackbox-2.8.25
+2025-02-01 01:22:48.338 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aditya/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aditya/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-01 01:22:48.455 [info] Extension installed successfully: blackboxapp.blackbox vscode-userdata:/home/aditya/.vscode/extensions/extensions.json
+2025-02-01 07:21:29.815 [error] [network] #852: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2025-02-01 11:26:43.546 [info] Getting Manifest... blackboxapp.blackboxagent
+2025-02-01 11:26:43.550 [info] Getting Manifest... ms-vscode.vscode-typescript-next
+2025-02-01 11:26:44.436 [info] Installing extension: ms-vscode.vscode-typescript-next {"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aditya/.vscode/extensions/extensions.json","path":"/home/aditya/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-01 11:26:44.501 [info] Installing extension: blackboxapp.blackboxagent {"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aditya/.vscode/extensions/extensions.json","path":"/home/aditya/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-01 11:27:03.096 [info] Extension signature verification result for ms-vscode.vscode-typescript-next: UnknownError. Executed: true. Duration: 35ms.
+2025-02-01 11:27:04.777 [info] Extracted extension to file:///home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250131: ms-vscode.vscode-typescript-next
+2025-02-01 11:27:04.810 [info] Renamed to /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250131
+2025-02-01 11:27:04.982 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aditya/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aditya/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-01 11:27:04.988 [info] Marked extension as uninstalled ms-vscode.vscode-typescript-next-5.8.20250130
+2025-02-01 11:27:05.313 [info] Extension installed successfully: ms-vscode.vscode-typescript-next vscode-userdata:/home/aditya/.vscode/extensions/extensions.json
+2025-02-01 11:27:18.628 [info] Extension signature verification result for blackboxapp.blackboxagent: UnknownError. Executed: true. Duration: 30ms.
+2025-02-01 11:27:20.342 [info] Extracted extension to file:///home/aditya/.vscode/extensions/blackboxapp.blackboxagent-2.8.42: blackboxapp.blackboxagent
+2025-02-01 11:27:20.370 [info] Renamed to /home/aditya/.vscode/extensions/blackboxapp.blackboxagent-2.8.42
+2025-02-01 11:27:20.428 [info] Marked extension as uninstalled blackboxapp.blackboxagent-2.8.41
+2025-02-01 11:27:20.551 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aditya/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aditya/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-01 11:27:20.735 [info] Extension installed successfully: blackboxapp.blackboxagent vscode-userdata:/home/aditya/.vscode/extensions/extensions.json
+2025-02-01 12:01:05.991 [error] [network] #1364: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:01:29.987 [error] [network] #1365: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:01:43.980 [error] [network] #1366: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:01:54.999 [error] [network] #1367: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:02:01.009 [error] [network] #1368: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:02:14.027 [error] [network] #1370: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:02:14.028 [error] [network] #1369: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:02:16.984 [error] [network] #1371: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:02:28.976 [error] [network] #1372: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:02:28.977 [error] [network] #1373: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:02:53.984 [error] [network] #1374: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:02:53.985 [error] [network] #1375: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:03:00.067 [error] [network] #1376: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:03:09.032 [error] [network] #1377: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:03:10.103 [error] [network] #1378: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:03:57.975 [error] [network] #1380: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:03:57.977 [error] [network] #1379: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:04:13.112 [error] [network] #1381: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:04:41.000 [error] [network] #1382: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:04:57.047 [error] [network] #1383: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:05:12.016 [error] [network] #1384: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:07:07.973 [error] [network] #1385: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:07:49.050 [error] [network] #1386: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:08:03.035 [error] [network] #1387: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2025-02-01 12:08:22.040 [error] [network] #1388: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-02-01 13:24:58.528 [error] [network] #1458: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED

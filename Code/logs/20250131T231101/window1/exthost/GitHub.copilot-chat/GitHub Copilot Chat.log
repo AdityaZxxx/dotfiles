@@ -11,3 +11,158 @@
 2025-01-31 23:11:50.410 [info] Fetched model metadata in 2827ms 0f4a3893-0fb2-49f4-9667-f3ea906fab5c
 2025-01-31 23:11:50.716 [info] activationBlocker from 'languageModelAccess' took for 6840ms
 2025-01-31 23:26:53.150 [info] Fetched model metadata in 965ms c7962e62-06d4-400b-b9f2-5f6f7e5a0ea3
+2025-01-31 23:30:51.991 [info] Using the Electron fetcher.
+2025-01-31 23:30:51.991 [info] Initializing Git extension service.
+2025-01-31 23:30:51.991 [info] Successfully activated the vscode.git extension.
+2025-01-31 23:30:51.991 [info] Enablement state of the vscode.git extension: true.
+2025-01-31 23:30:51.991 [info] Successfully registered Git commit message provider.
+2025-01-31 23:31:01.676 [info] Logged in as AdityaZxxx
+2025-01-31 23:31:03.035 [info] Got Copilot token for AdityaZxxx
+2025-01-31 23:31:03.246 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-31 23:31:03.246 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-31 23:31:03.250 [info] Registering default platform agent...
+2025-01-31 23:31:04.015 [info] Fetched model metadata in 953ms ff622755-81ec-4c79-b45c-a58bce15151b
+2025-01-31 23:31:04.024 [info] activationBlocker from 'languageModelAccess' took for 11991ms
+2025-01-31 23:36:29.576 [info] Using the Electron fetcher.
+2025-01-31 23:36:29.576 [info] Initializing Git extension service.
+2025-01-31 23:36:29.576 [info] Successfully activated the vscode.git extension.
+2025-01-31 23:36:29.576 [info] Enablement state of the vscode.git extension: true.
+2025-01-31 23:36:29.576 [info] Successfully registered Git commit message provider.
+2025-01-31 23:36:42.190 [info] Logged in as AdityaZxxx
+2025-01-31 23:36:43.755 [info] Got Copilot token for AdityaZxxx
+2025-01-31 23:36:44.052 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-01-31 23:36:44.052 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-31 23:36:44.061 [info] Registering default platform agent...
+2025-01-31 23:36:44.726 [info] Fetched model metadata in 943ms be45edfb-33de-46a2-8992-b031fa2f3659
+2025-01-31 23:36:45.018 [info] activationBlocker from 'languageModelAccess' took for 15142ms
+2025-01-31 23:51:48.077 [info] Fetched model metadata in 1344ms d0de631e-1114-4fdf-b3ea-13634924f9f7
+2025-02-01 00:01:43.776 [info] Logged in as AdityaZxxx
+2025-02-01 00:01:44.793 [info] Got Copilot token for AdityaZxxx
+2025-02-01 00:01:44.836 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 00:16:44.935 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:489:12): Failed to fetch models (21dd007b-62d7-436c-96ba-12b09968f58d)
+2025-02-01 00:16:44.957 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:489:12): Failed to fetch models (97b88202-8e3f-4f64-91fd-88d2fce5fbde)
+2025-02-01 00:27:23.139 [info] Logged in as AdityaZxxx
+2025-02-01 00:27:24.202 [info] Got Copilot token for AdityaZxxx
+2025-02-01 00:27:24.258 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 00:27:25.349 [info] Fetched model metadata in 1077ms 28780fed-815a-4554-b67c-e43ee07eec0b
+2025-02-01 00:42:26.399 [info] Fetched model metadata in 1034ms 2a65d291-6e82-4cb2-b1bd-99fea817bd07
+2025-02-01 00:52:24.228 [info] Logged in as AdityaZxxx
+2025-02-01 00:52:25.183 [info] Got Copilot token for AdityaZxxx
+2025-02-01 00:52:25.222 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 01:07:27.186 [info] Fetched model metadata in 1090ms 04e498d7-1bc0-4b6c-be9f-df18741305e2
+2025-02-01 01:21:05.665 [info] Using the Electron fetcher.
+2025-02-01 01:21:05.665 [info] Initializing Git extension service.
+2025-02-01 01:21:05.665 [info] Successfully activated the vscode.git extension.
+2025-02-01 01:21:05.665 [info] Enablement state of the vscode.git extension: true.
+2025-02-01 01:21:05.665 [info] Successfully registered Git commit message provider.
+2025-02-01 01:21:21.396 [info] Logged in as AdityaZxxx
+2025-02-01 01:21:23.442 [info] Got Copilot token for AdityaZxxx
+2025-02-01 01:21:23.769 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 01:21:23.769 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-01 01:21:23.775 [info] Registering default platform agent...
+2025-02-01 01:21:25.201 [info] Fetched model metadata in 1688ms 45a5a782-f74a-4967-82be-0fd612e33ec8
+2025-02-01 01:21:25.274 [info] activationBlocker from 'languageModelAccess' took for 19443ms
+2025-02-01 01:36:34.781 [info] Fetched model metadata in 6099ms 2f44d687-5e1f-4dad-9bde-01010ca08593
+2025-02-01 01:46:23.462 [info] Logged in as AdityaZxxx
+2025-02-01 01:46:29.124 [info] Got Copilot token for AdityaZxxx
+2025-02-01 01:46:29.183 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 02:01:30.476 [info] Fetched model metadata in 1266ms 53ba4582-7ded-454b-8156-514c9abab177
+2025-02-01 02:11:29.148 [info] Logged in as AdityaZxxx
+2025-02-01 02:11:30.098 [info] Got Copilot token for AdityaZxxx
+2025-02-01 02:11:30.144 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 02:13:25.271 [info] Fetched model metadata in 1455ms b8dfed26-de79-42b8-905d-4e7759578a9a
+2025-02-01 02:13:27.012 [info] message 0 returned. finish reason: [stop]
+2025-02-01 02:13:27.018 [info] request done: requestId: [7e9b96c0-3f55-4aa5-9ae1-66929fde72ee] model deployment ID: []
+2025-02-01 02:15:23.260 [info] message 0 returned. finish reason: [stop]
+2025-02-01 02:15:23.264 [info] request done: requestId: [813cf67c-eb29-429f-b2d7-5792ab69647a] model deployment ID: []
+2025-02-01 07:27:02.726 [info] Logged in as AdityaZxxx
+2025-02-01 07:27:03.634 [info] Got Copilot token for AdityaZxxx
+2025-02-01 07:27:03.695 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 07:27:04.636 [info] Fetched model metadata in 984ms d0f7a848-e69c-4341-b452-e00d42310615
+2025-02-01 07:42:07.267 [info] Fetched model metadata in 2597ms 55be099f-492b-4b38-a4f9-eaf9e3965794
+2025-02-01 07:52:03.651 [info] Logged in as AdityaZxxx
+2025-02-01 07:52:04.529 [info] Got Copilot token for AdityaZxxx
+2025-02-01 07:52:04.586 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 08:07:05.998 [info] Fetched model metadata in 862ms abcb63d7-5bbf-4800-92ed-ee6f3577b41c
+2025-02-01 08:17:05.060 [info] Logged in as AdityaZxxx
+2025-02-01 08:17:06.285 [info] Got Copilot token for AdityaZxxx
+2025-02-01 08:17:06.335 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 08:17:07.362 [info] Fetched model metadata in 1004ms 19afe866-648a-4f8d-98fa-9875c8f53a4e
+2025-02-01 08:32:08.416 [info] Fetched model metadata in 1035ms 46044ed8-a3bb-447c-821d-910423949801
+2025-02-01 08:42:06.338 [info] Logged in as AdityaZxxx
+2025-02-01 08:42:07.268 [info] Got Copilot token for AdityaZxxx
+2025-02-01 08:42:07.407 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 08:57:08.818 [info] Fetched model metadata in 1351ms 2f7bc864-0528-462f-8a3d-446464e80f61
+2025-02-01 09:07:07.285 [info] Logged in as AdityaZxxx
+2025-02-01 09:07:08.177 [info] Got Copilot token for AdityaZxxx
+2025-02-01 09:07:08.325 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 09:22:09.404 [info] Fetched model metadata in 940ms 7c7a7e7d-416a-4add-888e-89a8be21ed3b
+2025-02-01 09:32:08.196 [info] Logged in as AdityaZxxx
+2025-02-01 09:32:09.099 [info] Got Copilot token for AdityaZxxx
+2025-02-01 09:32:09.134 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 09:47:10.218 [info] Fetched model metadata in 1061ms 7e4d88aa-9bcf-4958-a4a8-41e740f21ff5
+2025-02-01 09:57:09.117 [info] Logged in as AdityaZxxx
+2025-02-01 09:57:09.947 [info] Got Copilot token for AdityaZxxx
+2025-02-01 09:57:09.982 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 10:12:12.813 [info] Fetched model metadata in 2800ms c0878eb7-b3ec-4d8d-8df0-ca3a1256f269
+2025-02-01 10:22:09.964 [info] Logged in as AdityaZxxx
+2025-02-01 10:22:11.197 [info] Got Copilot token for AdityaZxxx
+2025-02-01 10:22:11.231 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 10:37:12.514 [info] Fetched model metadata in 1257ms dc21e02e-bc8f-4bf4-892e-0ca0c08cc5f5
+2025-02-01 10:47:11.209 [info] Logged in as AdityaZxxx
+2025-02-01 10:47:12.220 [info] Got Copilot token for AdityaZxxx
+2025-02-01 10:47:12.252 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 11:02:13.210 [info] Fetched model metadata in 926ms d97c55b6-dbf4-44d6-92de-6f7ffbdb889e
+2025-02-01 11:12:12.234 [info] Logged in as AdityaZxxx
+2025-02-01 11:12:13.071 [info] Got Copilot token for AdityaZxxx
+2025-02-01 11:12:13.099 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 11:27:19.154 [info] Fetched model metadata in 6020ms 5ba71d39-cdb0-4da0-91f9-8b9b72d7e8ef
+2025-02-01 11:37:13.086 [info] Logged in as AdityaZxxx
+2025-02-01 11:37:15.033 [info] Got Copilot token for AdityaZxxx
+2025-02-01 11:37:15.093 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 11:52:25.310 [info] Fetched model metadata in 10190ms f43ff8f8-362c-453e-956d-a2c77a150f11
+2025-02-01 12:02:15.047 [info] Logged in as AdityaZxxx
+2025-02-01 12:02:24.007 [info] Logged in as AdityaZxxx
+2025-02-01 12:02:36.018 [info] copilot token chat_enabled: undefined, sku: 
+2025-02-01 12:02:36.234 [info] Logged in as AdityaZxxx
+2025-02-01 12:02:47.984 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_NAME_NOT_RESOLVED"
+2025-02-01 12:02:47.985 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-01 12:02:47.985 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:489:12)
+2025-02-01 12:02:47.986 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-01 12:02:47.986 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10511)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:489:12)
+2025-02-01 12:17:48.010 [info] Logged in as AdityaZxxx
+2025-02-01 12:17:48.723 [info] Got Copilot token for AdityaZxxx
+2025-02-01 12:17:48.883 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 12:17:48.883 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-02-01 12:17:49.091 [info] Fetched model metadata in 350ms e0e7d4bf-7e9f-4ece-a286-edca3dff6c92
+2025-02-01 12:32:51.027 [info] Fetched model metadata in 1635ms ba618210-4deb-4747-887c-f353ae133cf1
+2025-02-01 12:42:48.740 [info] Logged in as AdityaZxxx
+2025-02-01 12:42:49.615 [info] Got Copilot token for AdityaZxxx
+2025-02-01 12:42:49.651 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 12:57:50.590 [info] Fetched model metadata in 913ms 7d5e141a-a09f-4c37-b15c-d4b3d44cfca0
+2025-02-01 13:08:28.158 [info] Logged in as AdityaZxxx
+2025-02-01 13:08:29.178 [info] Got Copilot token for AdityaZxxx
+2025-02-01 13:08:29.209 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 13:08:30.135 [info] Fetched model metadata in 914ms 1ef5cd53-3b1a-4273-969b-ca0ac4c7bfe5
+2025-02-01 13:23:31.047 [info] Fetched model metadata in 899ms 064e4afc-0ac2-4473-914a-28e81702595d
+2025-02-01 13:34:08.245 [info] Logged in as AdityaZxxx
+2025-02-01 13:34:09.116 [info] Got Copilot token for AdityaZxxx
+2025-02-01 13:34:09.146 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 13:34:10.109 [info] Fetched model metadata in 948ms c70721fc-1cf3-4552-bcbf-7ae7e2700562
+2025-02-01 13:49:51.448 [info] Fetched model metadata in 1252ms bff782dc-24e3-495d-a043-ee5f2d72e7df
+2025-02-01 13:59:49.056 [info] Logged in as AdityaZxxx
+2025-02-01 13:59:50.150 [info] Got Copilot token for AdityaZxxx
+2025-02-01 13:59:50.173 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-01 14:14:51.637 [info] Fetched model metadata in 1442ms 07ebbfd7-28f9-42f1-98ae-670a8c56d1fd

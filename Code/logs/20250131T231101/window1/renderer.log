@@ -121,3 +121,873 @@
     at ChildProcess.emit (node:domain:489:12)
     at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
 2025-01-31 23:28:26.515 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-31 23:30:19.164 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 23:30:19.165 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 23:30:19.166 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 23:30:20.291 [info] Started local extension host with pid 499149.
+2025-01-31 23:30:22.135 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.135 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.136 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.137 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.137 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.138 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.138 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.139 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.139 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.140 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.141 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.141 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.142 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.142 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.143 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.143 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.144 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.144 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.145 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.145 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.146 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.146 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.147 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.147 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.148 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.148 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.149 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.149 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.150 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.150 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.151 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:30:22.238 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-01-31 23:30:22.239 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-01-31 23:30:22.239 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-01-31 23:30:22.240 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-01-31 23:30:22.241 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-01-31 23:30:22.242 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-01-31 23:30:22.242 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-01-31 23:30:22.243 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-01-31 23:30:22.244 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-01-31 23:30:22.245 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-01-31 23:30:22.245 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-01-31 23:30:22.246 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-01-31 23:30:22.419 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-01-31 23:30:22.420 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-01-31 23:30:22.422 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-01-31 23:30:28.541 [info] Settings Sync: Token updated for the account AdityaZxxx
+2025-01-31 23:30:28.668 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-31 23:30:30.507 [info] [perf] Render performance baseline is 257ms
+2025-01-31 23:30:37.987 [info] Extension host (LocalProcess pid: 499149) is unresponsive.
+2025-01-31 23:30:41.914 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 23:30:46.784 [info] Extension host (LocalProcess pid: 499149) is responsive.
+2025-01-31 23:30:46.785 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-01-31 23:30:48.275 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 30.093082577476327% of 1466.884ms, saved PROFILE here: 'file:///tmp/exthost-6d50b1.cpuprofile'
+2025-01-31 23:30:51.961 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-01-31 23:30:56.488 [info] Extension host (LocalProcess pid: 499149) is unresponsive.
+2025-01-31 23:30:58.756 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 23:31:01.296 [info] Extension host (LocalProcess pid: 499149) is responsive.
+2025-01-31 23:31:01.297 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-01-31 23:31:01.814 [warning] UNRESPONSIVE extension host: 'github.copilot' took 69.66289441439969% of 1772.727ms, saved PROFILE here: 'file:///tmp/exthost-e68872.cpuprofile'
+2025-01-31 23:31:21.594 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-31 23:35:50.762 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 23:35:50.763 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 23:35:50.763 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-31 23:35:52.137 [info] Started local extension host with pid 520288.
+2025-01-31 23:35:53.976 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.977 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.977 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.978 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.979 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.980 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.981 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.981 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.982 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.982 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.983 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.984 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.985 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.985 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.986 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.986 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.987 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.988 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.988 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.989 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.990 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.991 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.991 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.992 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.993 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.993 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.994 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.995 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.995 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.996 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:53.997 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-01-31 23:35:54.075 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-01-31 23:35:54.076 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-01-31 23:35:54.077 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-01-31 23:35:54.078 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-01-31 23:35:54.079 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-01-31 23:35:54.080 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-01-31 23:35:54.080 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-01-31 23:35:54.081 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-01-31 23:35:54.082 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-01-31 23:35:54.082 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-01-31 23:35:54.083 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-01-31 23:35:54.084 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-01-31 23:35:54.297 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-01-31 23:35:54.298 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-01-31 23:35:54.299 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-01-31 23:36:02.532 [info] Settings Sync: Token updated for the account AdityaZxxx
+2025-01-31 23:36:02.595 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-31 23:36:05.143 [info] [perf] Render performance baseline is 294ms
+2025-01-31 23:36:07.609 [info] Extension host (LocalProcess pid: 520288) is unresponsive.
+2025-01-31 23:36:09.595 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 23:36:09.741 [info] Extension host (LocalProcess pid: 520288) is responsive.
+2025-01-31 23:36:09.742 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-01-31 23:36:10.302 [warning] UNRESPONSIVE extension host: 'mongodb.mongodb-vscode' took 46.93704984371933% of 93.255ms, saved PROFILE here: 'file:///tmp/exthost-ece7a6.cpuprofile'
+2025-01-31 23:36:14.063 [info] Extension host (LocalProcess pid: 520288) is unresponsive.
+2025-01-31 23:36:15.981 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 23:36:23.827 [info] Extension host (LocalProcess pid: 520288) is responsive.
+2025-01-31 23:36:29.277 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-01-31 23:36:33.515 [info] Extension host (LocalProcess pid: 520288) is unresponsive.
+2025-01-31 23:36:36.455 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-01-31 23:36:41.000 [info] Extension host (LocalProcess pid: 520288) is responsive.
+2025-01-31 23:36:41.001 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-01-31 23:36:41.941 [warning] UNRESPONSIVE extension host: 'github.copilot' took 74.98965732359991% of 3425.865ms, saved PROFILE here: 'file:///tmp/exthost-c0f5b5.cpuprofile'
+2025-01-31 23:36:46.132 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-31 23:38:07.159 [error] Cannot read properties of undefined (reading 'codeLenses'): TypeError: Cannot read properties of undefined (reading 'codeLenses')
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811765
+    at Array.map (<anonymous>)
+    at P (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811739)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817638)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802372)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1803714)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802801)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1808928)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809131)
+2025-01-31 23:38:27.935 [error] Cannot read properties of undefined (reading 'codeLenses'): TypeError: Cannot read properties of undefined (reading 'codeLenses')
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811765
+    at Array.map (<anonymous>)
+    at P (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811739)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817638)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802372)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1803714)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802801)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1808928)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809131)
+2025-01-31 23:39:06.757 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/aditya/Desktop/website-sekolah/app/globals.css' (Error: File Modified Since) file:///home/aditya/Desktop/website-sekolah/app/globals.css
+2025-01-31 23:39:32.381 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/aditya/Desktop/website-sekolah/app/globals.css' (Error: File Modified Since) file:///home/aditya/Desktop/website-sekolah/app/globals.css
+2025-01-31 23:39:33.881 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/aditya/Desktop/website-sekolah/app/globals.css' (Error: File Modified Since) file:///home/aditya/Desktop/website-sekolah/app/globals.css
+2025-01-31 23:39:45.584 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/aditya/Desktop/website-sekolah/app/globals.css' (Error: File Modified Since) file:///home/aditya/Desktop/website-sekolah/app/globals.css
+2025-01-31 23:39:59.393 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/aditya/Desktop/website-sekolah/app/globals.css' (Error: File Modified Since) file:///home/aditya/Desktop/website-sekolah/app/globals.css
+2025-01-31 23:46:30.148 [error] Cannot read properties of undefined (reading 'codeLenses'): TypeError: Cannot read properties of undefined (reading 'codeLenses')
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811765
+    at Array.map (<anonymous>)
+    at P (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811739)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817638)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802372)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1803714)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802801)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1808928)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809131)
+2025-01-31 23:50:17.448 [error] Cannot read properties of undefined (reading 'codeLenses'): TypeError: Cannot read properties of undefined (reading 'codeLenses')
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811765
+    at Array.map (<anonymous>)
+    at P (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811739)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817638)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802372)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1803714)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802801)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1808928)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809131)
+2025-02-01 00:06:23.969 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:07:27.230 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:08:30.420 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:09:33.855 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:10:37.023 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:11:42.204 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 00:12:45.357 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo EAI_AGAIN unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:13:48.534 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:14:51.949 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:15:55.125 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:17:02.280 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:18:05.442 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:19:08.686 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 00:33:35.145 [error] <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1170..1183 (found: 2322, 2304)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1170..1183 (found: 2322, 2304)
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1170..1183 (found: 2322, 2304)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1170..1183 (found: 2322, 2304)
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:486292)
+    at y.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:480262)
+    at y.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:479060)
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:478553)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-01 00:33:39.324 [error] <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1191..1204 (found: 2304)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1191..1204 (found: 2304)
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1191..1204 (found: 2304)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1191..1204 (found: 2304)
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:486292)
+    at y.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:480262)
+    at y.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:479060)
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:478553)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-01 00:51:29.392 [error] Cannot read properties of undefined (reading 'codeLenses'): TypeError: Cannot read properties of undefined (reading 'codeLenses')
+    at /home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811765
+    at Array.map (<anonymous>)
+    at P (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1811739)
+    at e.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1817638)
+    at d (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802372)
+    at Generator.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1803714)
+    at Generator.next (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1802801)
+    at a (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1808928)
+    at s (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:1809131)
+2025-02-01 00:59:55.068 [error] <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6205 not found in range 81..287 (found: 2322)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6205 not found in range 81..287 (found: 2322)
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6205 not found in range 81..287 (found: 2322)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6205 not found in range 81..287 (found: 2322)
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:486292)
+    at y.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:480262)
+    at y.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:479060)
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:478553)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-01 01:13:10.770 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-02-01 01:16:46.956 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:767:9409
+2025-02-01 01:16:47.553 [info] Extension host (LocalProcess pid: 520288) is unresponsive.
+2025-02-01 01:16:50.985 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-02-01 01:16:56.411 [warning] UNRESPONSIVE extension host: 'formulahendry.auto-close-tag' took 100% of 5004.849ms, saved PROFILE here: 'file:///tmp/exthost-7f6d5a.cpuprofile'
+2025-02-01 01:19:56.579 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:767:9409
+2025-02-01 01:20:07.316 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:767:9409
+2025-02-01 01:20:18.496 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-01 01:20:18.497 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-01 01:20:18.498 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-01 01:20:18.976 [warning] Creation of workbench contribution 'workbench.contrib.updateExperimentalSettingsDefaults' took 31ms.
+2025-02-01 01:20:20.528 [info] Started local extension host with pid 904876.
+2025-02-01 01:20:23.476 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.477 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.479 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.480 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.482 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.483 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeXHRBreakpoint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.483 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.editXHRBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.484 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.485 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.486 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.487 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.488 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.489 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.490 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.490 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.491 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.492 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.493 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.494 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.494 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.495 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.496 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.497 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.498 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.499 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.500 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.viewRequest` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.502 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.clear` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.502 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBody` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.504 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.openBodyInHex` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.505 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.replayXHR` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.505 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.network.copyUri` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2025-02-01 01:20:23.600 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2025-02-01 01:20:23.601 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2025-02-01 01:20:23.602 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2025-02-01 01:20:23.603 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2025-02-01 01:20:23.603 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2025-02-01 01:20:23.604 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2025-02-01 01:20:23.605 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2025-02-01 01:20:23.606 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2025-02-01 01:20:23.606 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2025-02-01 01:20:23.607 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2025-02-01 01:20:23.608 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2025-02-01 01:20:23.609 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.enableNetworkView'. This property is already registered.
+2025-02-01 01:20:23.859 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2025-02-01 01:20:23.859 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2025-02-01 01:20:23.860 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsDebugNetworkTree`
+2025-02-01 01:20:29.483 [info] Extension host (LocalProcess pid: 904876) is unresponsive.
+2025-02-01 01:20:31.557 [info] Extension host (LocalProcess pid: 904876) is responsive.
+2025-02-01 01:20:35.559 [info] Settings Sync: Token updated for the account AdityaZxxx
+2025-02-01 01:20:36.171 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-01 01:20:37.557 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 146ms.
+2025-02-01 01:20:39.652 [info] [perf] Render performance baseline is 562ms
+2025-02-01 01:20:40.694 [info] Extension host (LocalProcess pid: 904876) is unresponsive.
+2025-02-01 01:20:44.174 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-02-01 01:20:56.024 [info] Extension host (LocalProcess pid: 904876) is responsive.
+2025-02-01 01:21:03.880 [warning] Authentication provider codeium_auth was not declared in the Extension Manifest.
+2025-02-01 01:21:12.610 [info] Extension host (LocalProcess pid: 904876) is unresponsive.
+2025-02-01 01:21:16.882 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-02-01 01:21:20.508 [info] Extension host (LocalProcess pid: 904876) is responsive.
+2025-02-01 01:21:20.509 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-02-01 01:21:21.553 [warning] UNRESPONSIVE extension host: 'github.copilot' took 59.67664022217559% of 2166.86ms, saved PROFILE here: 'file:///tmp/exthost-eb4677.cpuprofile'
+2025-02-01 01:21:46.276 [info] Extension host (LocalProcess pid: 904876) is unresponsive.
+2025-02-01 01:21:46.422 [info] Extension host (LocalProcess pid: 904876) is responsive.
+2025-02-01 01:21:46.424 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-02-01 01:21:51.614 [info] Extension host (LocalProcess pid: 904876) is unresponsive.
+2025-02-01 01:21:51.811 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-02-01 01:21:51.826 [info] Extension host (LocalProcess pid: 904876) is responsive.
+2025-02-01 01:21:51.827 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-02-01 01:21:52.508 [warning] UNRESPONSIVE extension host: 'codeium.codeium' took 21.01510959778676% of 15.8ms, saved PROFILE here: 'file:///tmp/exthost-95171f.cpuprofile'
+2025-02-01 01:31:52.447 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 02:12:19.143 [error] [Extension Host] [streamChoices] Error parsing extraData: data: {"id":"cmpl-Avqj3UfYevI68zx35kg7OMfcC0t6g","created":1738350737,"model":"gpt-35-turbo
+2025-02-01 07:21:52.709 [error] [Extension Host] [default] Error sending telemetry FetchError: read ECONNRESET
+    at fetch (/home/aditya/.vscode/extensions/github.copilot-1.261.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/aditya/.vscode/extensions/github.copilot-1.261.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Mpe.fetch (/home/aditya/.vscode/extensions/github.copilot-1.261.0/lib/src/network/helix.ts:94:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ECONNRESET',
+  errno: -104,
+  erroredSysCall: 'read'
+}
+2025-02-01 07:57:25.144 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 07:59:42.252 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 08:22:26.707 [error] <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1247..1260 (found: 2304)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1247..1260 (found: 2304)
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1247..1260 (found: 2304)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6133 not found in range 1247..1260 (found: 2304)
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:486292)
+    at y.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:480262)
+    at y.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:479060)
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:478553)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-01 08:22:45.713 [error] <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6205 not found in range 1197..1242 (found: )
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6205 not found in range 1197..1242 (found: )
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.8.0-dev.20250130)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6205 not found in range 1197..1242 (found: )
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+Additional information: BADCLIENT: Bad error code, 6205 not found in range 1197..1242 (found: )
+    at cast (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:3350:16)
+    at deleteTypeParameters (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161859:49)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:81
+    at _ChangeTracker.with (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:178516:5)
+    at Object.getCodeActions (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:161703:64)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:46
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:154668:10)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152932:33
+    at flatMap (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:2536:17)
+    at getCodeFixesAtPosition (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:152930:12)
+    at Proxy.<anonymous> (/home/aditya/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/astro-ts-plugin-bundle/index.js:5:2934)
+    at IpcIOSession.getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:195804:50)
+    at getCodeFixes (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:193815:43)
+    at /home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196123:15
+    at IpcIOSession.executeWithRequestId (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196112:14)
+    at IpcIOSession.executeCommand (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196121:29)
+    at IpcIOSession.onMessage (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/typescript.js:196169:68)
+    at process.<anonymous> (/home/aditya/.vscode/extensions/ms-vscode.vscode-typescript-next-5.8.20250130/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:486292)
+    at y.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:480262)
+    at y.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:479060)
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:478553)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at emit (node:internal/child_process:950:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-01 08:58:53.065 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 10:16:46.600 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 10:26:07.938 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:30:39.950 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:33:54.984 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:36:05.050 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:37:14.226 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:39:25.390 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:44:50.969 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:47:04.451 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:48:13.587 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:49:22.752 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:50:31.917 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:51:41.069 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:52:50.250 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 11:56:06.090 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 12:00:34.392 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 12:01:43.538 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 12:02:52.687 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 12:04:01.839 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 12:05:10.993 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 12:06:20.150 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 12:07:29.296 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-01 12:08:37.995 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 12:09:41.157 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo EAI_AGAIN unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 12:10:44.309 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo EAI_AGAIN unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619410)
+    at ClientRequest.emit (node:events:530:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:101:11)
+    at TLSSocket.socketErrorListener (node:_http_client:504:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-01 12:17:48.965 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-02-01 12:17:48.967 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-02-01 12:17:49.028 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-02-01 12:17:49.029 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-02-01 14:01:21.167 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/aditya/.vscode/extensions/codeium.codeium-1.30.18/dist/extension.js:2:3619284)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)

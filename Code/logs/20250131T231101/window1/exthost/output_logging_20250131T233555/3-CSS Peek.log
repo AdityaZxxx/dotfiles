@@ -1,0 +1,527 @@
+[Server(528046) website-sekolah/] onInitialize
+[Server(528046) website-sekolah/] Number of style sheets - 9
+[Server(528046) website-sekolah/] setupInitialStylemap
+[Server(528046) website-sekolah/] Document opened: globals.css.
+[Server(528046) website-sekolah/] Document changed: globals.css. Invalidating Cache.
+[Server(528046) website-sekolah/] Document changed: globals.css. Invalidating Cache.
+[Server(528046) website-sekolah/] Document changed: globals.css. Invalidating Cache.
+[Server(528046) website-sekolah/] Document changed: globals.css. Invalidating Cache.
+[Server(528046) website-sekolah/] Document changed: globals.css. Invalidating Cache.
+ThemeProvider 648
+  html 523 527
+  body 546 550
+  ThemeProvider 648 661
+  ThemeProvider 833 846
+  body 856 860
+  html 868 872
+Invalid Selector
+flex-wrap 198
+  nav 46 49
+  div 166 169
+flex-wrap is a "class"
+Parsing app_globals_b52d8e.css
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.flex-wrap(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+Parsing %5Broot%20of%20the%20server%5D__9d1267._.css
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.flex-wrap(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+Parsing app_globals_b52d8e.css
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.flex-wrap(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+Parsing %5Broot%20of%20the%20server%5D__9d1267._.css
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.flex-wrap(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+img 361
+  nav 46 49
+  div 170 173
+  a 262 263
+  img 361 364
+img is a "html tag"
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+flowbite.com/docs/images/logo.svg 425
+  nav 76 79
+  div 201 204
+  a 295 296
+  Image 393 398
+  span 505 509
+  span 601 605
+  a 613 614
+  div 621 624
+  button 703 709
+  button 973 979
+  button 987 993
+  span 1351 1355
+  span 1392 1396
+  svg 1405 1408
+  path 1524 1528
+  svg 1653 1656
+  button 1665 1671
+  div 1679 1682
+  div 1689 1692
+  ul 1803 1805
+  li 2048 2050
+  a 2060 2061
+  a 2240 2241
+  li 2251 2253
+  li 2262 2264
+  a 2274 2275
+  a 2573 2574
+  li 2584 2586
+  li 2595 2597
+  a 2607 2608
+  a 2909 2910
+  li 2920 2922
+  li 2931 2933
+  a 2943 2944
+  a 3244 3245
+  li 3255 3257
+  ul 3266 3268
+  div 3276 3279
+  div 3286 3289
+  nav 3295 3298
+Invalid Selector
+dark:bg-blue-600 891
+  nav 76 79
+  div 201 204
+  a 295 296
+  Image 393 398
+  span 515 519
+  span 611 615
+  a 623 624
+  div 631 634
+  button 713 719
+dark:bg-blue-600 is a "class"
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.dark:bg-blue-600(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.dark:bg-blue-600(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.dark:bg-blue-600(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.dark:bg-blue-600(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+stroke-linecap= 1561
+  nav 76 79
+  div 201 204
+  a 295 296
+  Image 393 398
+  span 515 519
+  span 611 615
+  a 623 624
+  div 631 634
+  button 713 719
+  button 983 989
+  button 997 1003
+  span 1361 1365
+  span 1402 1406
+  svg 1415 1418
+  path 1534 1538
+  svg 1663 1666
+  button 1675 1681
+  div 1689 1692
+  div 1699 1702
+  ul 1813 1815
+  li 2058 2060
+  a 2070 2071
+  a 2250 2251
+  li 2261 2263
+  li 2272 2274
+  a 2284 2285
+  a 2583 2584
+  li 2594 2596
+  li 2605 2607
+  a 2617 2618
+  a 2919 2920
+  li 2930 2932
+  li 2941 2943
+  a 2953 2954
+  a 3254 3255
+  li 3265 3267
+  ul 3276 3278
+  div 3286 3289
+  div 3296 3299
+  nav 3305 3308
+Invalid Selector
+stroke-linecap= 1561
+  nav 76 79
+  div 201 204
+  a 295 296
+  Image 393 398
+  span 515 519
+  span 611 615
+  a 623 624
+  div 631 634
+  button 713 719
+  button 983 989
+  button 997 1003
+  span 1361 1365
+  span 1402 1406
+  svg 1415 1418
+  path 1534 1538
+  svg 1663 1666
+  button 1675 1681
+  div 1689 1692
+  div 1699 1702
+  ul 1813 1815
+  li 2058 2060
+  a 2070 2071
+  a 2250 2251
+  li 2261 2263
+  li 2272 2274
+  a 2284 2285
+  a 2583 2584
+  li 2594 2596
+  li 2605 2607
+  a 2617 2618
+  a 2919 2920
+  li 2930 2932
+  li 2941 2943
+  a 2953 2954
+  a 3254 3255
+  li 3265 3267
+  ul 3276 3278
+  div 3286 3289
+  div 3296 3299
+  nav 3305 3308
+Invalid Selector
+stroke-width= 1607
+  nav 76 79
+  div 201 204
+  a 295 296
+  Image 393 398
+  span 515 519
+  span 611 615
+  a 623 624
+  div 631 634
+  button 713 719
+  button 983 989
+  button 997 1003
+  span 1361 1365
+  span 1402 1406
+  svg 1415 1418
+  path 1534 1538
+  svg 1662 1665
+  button 1674 1680
+  div 1688 1691
+  div 1698 1701
+  ul 1812 1814
+  li 2057 2059
+  a 2069 2070
+  a 2249 2250
+  li 2260 2262
+  li 2271 2273
+  a 2283 2284
+  a 2582 2583
+  li 2593 2595
+  li 2604 2606
+  a 2616 2617
+  a 2918 2919
+  li 2929 2931
+  li 2940 2942
+  a 2952 2953
+  a 3253 3254
+  li 3264 3266
+  ul 3275 3277
+  div 3285 3288
+  div 3295 3298
+  nav 3304 3307
+Invalid Selector
+stroke-linejoin= 1583
+  nav 76 79
+  div 201 204
+  a 295 296
+  Image 393 398
+  span 515 519
+  span 611 615
+  a 623 624
+  div 631 634
+  button 713 719
+  button 983 989
+  button 997 1003
+  span 1361 1365
+  span 1402 1406
+  svg 1415 1418
+  path 1534 1538
+  svg 1661 1664
+  button 1673 1679
+  div 1687 1690
+  div 1697 1700
+  ul 1811 1813
+  li 2056 2058
+  a 2068 2069
+  a 2248 2249
+  li 2259 2261
+  li 2270 2272
+  a 2282 2283
+  a 2581 2582
+  li 2592 2594
+  li 2603 2605
+  a 2615 2616
+  a 2917 2918
+  li 2928 2930
+  li 2939 2941
+  a 2951 2952
+  a 3252 3253
+  li 3263 3265
+  ul 3274 3276
+  div 3284 3287
+  div 3294 3297
+  nav 3303 3306
+Invalid Selector
+AiOutlineClose 1134
+  div 495 498
+  h1 625 627
+  h1 689 691
+  ul 734 736
+  li 808 810
+  li 992 994
+  ul 1016 1018
+  div 1065 1068
+  AiOutlineClose 1134 1148
+  AiOutlineMenu 1165 1178
+  div 1201 1204
+  ul 1251 1253
+  h1 1551 1553
+  h1 1619 1621
+  li 1707 1709
+  li 1912 1914
+  ul 1936 1938
+  div 1946 1949
+Invalid Selector
+class= 50
+  div 46 49
+  div 142 145
+  div 174 177
+  div 183 186
+  div 215 218
+  div 224 227
+  div 256 259
+  div 265 268
+Invalid Selector
+class= 63
+  a 52 53
+  img 260 263
+  div 409 412
+  h5 480 482
+  h5 601 603
+  p 614 615
+  p 779 780
+  div 788 791
+  a 795 796
+Invalid Selector
+md:h-auto 317
+  a 52 53
+  img 264 267
+md:h-auto is a "class"
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.md:h-auto(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.md:h-auto(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.md:h-auto(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.md:h-auto(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+public/school.png 429
+  a 82 83
+  Image 293 298
+  div 462 465
+  h5 533 535
+  h5 648 650
+  p 657 658
+  p 943 944
+  div 951 954
+  a 960 961
+Invalid Selector
+class= 92
+  div 88 91
+  div 165 168
+  h2 217 219
+  h2 307 309
+  p 320 321
+  p 507 508
+  div 518 521
+  div 531 534
+  div 559 562
+  div 623 626
+  img 641 644
+  div 791 794
+  div 807 810
+  h3 825 827
+  h3 888 890
+  p 905 906
+  p 1148 1149
+  button 1164 1170
+  button 1431 1437
+  div 1451 1454
+  div 1467 1470
+  h3 1508 1510
+  h3 1569 1571
+  p 1586 1587
+  p 1829 1830
+  button 1845 1851
+  button 2112 2118
+  div 2132 2135
+  div 2148 2151
+  img 2166 2169
+  div 2316 2319
+  div 2331 2334
+  div 2344 2347
+  div 2355 2358
+Invalid Selector
+img 665
+  div 88 91
+  div 169 172
+  h2 225 227
+  h2 319 321
+  p 332 333
+  p 523 524
+  div 534 537
+  div 547 550
+  div 579 582
+  div 647 650
+  img 665 668
+img is a "html tag"
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+img 2231
+  div 88 91
+  div 169 172
+  h2 225 227
+  h2 319 321
+  p 332 333
+  p 523 524
+  div 534 537
+  div 547 550
+  div 579 582
+  div 647 650
+  Image 665 670
+  div 828 831
+  div 844 847
+  h3 862 864
+  h3 929 931
+  p 946 947
+  p 1193 1194
+  button 1209 1215
+  button 1480 1486
+  div 1500 1503
+  div 1516 1519
+  h3 1561 1563
+  h3 1626 1628
+  p 1643 1644
+  p 1890 1891
+  button 1906 1912
+  button 2177 2183
+  div 2197 2200
+  div 2213 2216
+  img 2231 2234
+img is a "html tag"
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /(^|[\s>+~])img(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+flex 518
+  nav 492 495
+flex is a "class"
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.flex(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.flex(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.flex(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.flex(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+border-r 1233
+  nav 492 495
+  h1 646 648
+  h1 708 710
+  ul 747 749
+  li 814 816
+  li 954 956
+  ul 971 973
+  div 1014 1017
+  Menu 1079 1083
+  Menu 1100 1104
+  div 1124 1127
+  ul 1168 1170
+  h1 1401 1403
+  h1 1467 1469
+  li 1544 1546
+  li 1701 1703
+  ul 1718 1720
+  nav 1726 1729
+Invalid Selector
+cursor-pointer 1643
+  nav 492 495
+  h1 646 648
+  h1 708 710
+  ul 747 749
+  li 814 816
+  li 954 956
+  ul 971 973
+  div 1014 1017
+  Menu 1079 1083
+  Menu 1100 1104
+  div 1124 1127
+  ul 1168 1170
+  h1 1401 1403
+  h1 1467 1469
+  li 1544 1546
+cursor-pointer is a "class"
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.cursor-pointer(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.cursor-pointer(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+app_globals_b52d8e.css has 154 symbols
+Searching through them all for /\.cursor-pointer(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+%5Broot%20of%20the%20server%5D__9d1267._.css has 164 symbols
+Searching through them all for /\.cursor-pointer(\[[^\]]*\]|:{1,2}[\w-()]+|\.[\w-]+|#[\w-]+)*\s*/
+Done
+text-3xl 1422
+[Error - 7:28:32 AM] Stopping server timed out
