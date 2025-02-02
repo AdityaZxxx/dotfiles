@@ -1,0 +1,2 @@
+2025-02-02 17:51:36.490 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/aditya/.config/Code/logs/20250131T020947/window1/exthost/GitHub.copilot' failed: No such file or directory (EUNKNOWN) (path: /home/aditya/.config)
+2025-02-02 17:51:36.490 [error] [File Watcher (universal)] inotify_add_watch on '/home/aditya/.config/Code/logs/20250131T020947/window1/exthost/GitHub.copilot' failed: No such file or directory

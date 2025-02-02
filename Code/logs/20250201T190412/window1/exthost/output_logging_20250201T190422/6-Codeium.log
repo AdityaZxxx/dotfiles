@@ -58,3 +58,12 @@ I0201 19:05:17.373228 3399271 main.go:360] [Language Server Manager] Successfull
 (VSCode) 2025-02-01 19:09:44.948 [INFO]: Codeium is not enabled for the current document.
 (VSCode) 2025-02-01 19:09:44.983 [INFO]: Codeium is not enabled for the current document.
 (VSCode) 2025-02-01 19:09:45.040 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2025-02-01 19:19:33.014 [INFO]: Disposing language server process
+(VSCode) 2025-02-01 19:19:33.015 [INFO]: Deleting manager directory: /tmp/61a55b8f-28c6-4fca-8fd8-b1bbd5182dce/codeium/manager
+(VSCode) 2025-02-01 19:19:33.019 [INFO]: Successfully disposed language server
+W0201 19:19:33.014750 3399271 main.go:127] [Language Server Manager] Got signal terminated, shutting down
+E0201 19:19:33.357705 3399271 main.go:374] [Language Server Manager] Failed to acquire lock on /tmp/61a55b8f-28c6-4fca-8fd8-b1bbd5182dce/codeium/manager/locks/child_lock_1738411513737571323_8594045244566252767: open /tmp/61a55b8f-28c6-4fca-8fd8-b1bbd5182dce/codeium/manager/locks/child_lock_1738411513737571323_8594045244566252767: no such file or directory
+I0201 19:19:33.360529 3399354 server.go:1035] Exit requested on language server process 3399354
+I0201 19:19:33.362511 3399354 server.go:1012] Language server shutting down
+I0201 19:19:33.416585 3399271 cmd_wrapper.go:271] [Language Server Manager] LanguageServer exited with: success
+(VSCode) 2025-02-01 19:19:33.518 [ERROR]: [unavailable] connect ECONNREFUSED 127.0.0.1:34149

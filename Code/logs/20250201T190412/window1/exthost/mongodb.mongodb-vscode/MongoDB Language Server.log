@@ -1,2 +1,3 @@
 2025-02-01 19:04:32.785 [info] MongoDBService initializing...
 2025-02-01 19:04:33.341 [info] MongoDBService initialized {"extensionPath":"/home/aditya/.vscode/extensions/mongodb.mongodb-vscode-1.12.0","connectionId":null,"hasConnectionString":false,"hasConnectionOptions":false}
+2025-02-01 19:19:33.519 [info] [Error - 7:19:33 PM] Server process exited with code 0.

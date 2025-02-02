@@ -49,6 +49,8 @@
   ],
 
   "modules-right": [
+	"custom/speed",			// network speed
+	
     "custom/media",         // media info
 
     "custom/left6",
@@ -238,7 +240,8 @@
 
   "custom/distro": {
     "format": " ",
-    "tooltip": false
+    "tooltip": true,
+    "tooltip-format": "I use Arch btw"
   },
 
   "idle_inhibitor": {
@@ -337,6 +340,14 @@
     "min-length": 1,
     "max-length": 1
   },
+  
+  "custom/speed": {
+  "interface": "wlan0",
+  "exec": "~/.config/waybar/scripts/network-speed.sh",
+  "return-type": "json",
+  "interval": 1
+},
+
 
   "custom/media": {
     "exec": "~/.config/waybar/scripts/media-player.py",

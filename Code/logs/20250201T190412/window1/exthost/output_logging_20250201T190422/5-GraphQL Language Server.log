@@ -4,3 +4,4 @@ GraphQL Config file is not available in the provided config directory: /home/adi
 Please check the config directory.
 for more information on using 'graphql-config' with 'graphql-language-service-server', 
 see the documentation at https://www.npmjs.com/package/graphql-language-service-server#user-content-graphql-configuration-file
+[Info  - 7:19:33 PM] The graphql server has stopped running

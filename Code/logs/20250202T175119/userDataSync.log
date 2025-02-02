@@ -1,0 +1,25 @@
+2025-02-02 17:51:25.697 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2025-02-02 17:51:25.697 [info] Auto Sync is enabled.
+2025-02-02 17:51:25.697 [info] Auto Sync: Suspended until auth token is available.
+2025-02-02 17:51:37.647 [info] Auto Sync: Triggered by Interval
+2025-02-02 17:51:37.648 [info] Sync started.
+2025-02-02 17:51:39.558 [info] Settings: No changes found during synchronizing settings.
+2025-02-02 17:51:39.712 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-02-02 17:51:39.744 [info] Snippets: No changes found during synchronizing snippets.
+2025-02-02 17:51:39.754 [info] Tasks: No changes found during synchronizing tasks.
+2025-02-02 17:51:41.507 [info] GlobalState: Updated remote ui state. Updated: cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount.
+2025-02-02 17:51:41.515 [info] GlobalState: Updated last synchronized ui state
+2025-02-02 17:51:41.769 [info] Extensions: No changes found during synchronizing extensions.
+2025-02-02 17:51:41.780 [info] Profiles: No changes found during synchronizing profiles.
+2025-02-02 17:51:41.787 [info] Sync done. Took 4150ms
+2025-02-02 17:52:43.001 [info] Auto Sync: Triggered by Activity
+2025-02-02 17:52:43.001 [info] Sync started.
+2025-02-02 17:52:43.272 [info] Settings: No changes found during synchronizing settings.
+2025-02-02 17:52:43.286 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-02-02 17:52:43.305 [info] Snippets: No changes found during synchronizing snippets.
+2025-02-02 17:52:43.314 [info] Tasks: No changes found during synchronizing tasks.
+2025-02-02 17:52:43.329 [info] GlobalState: No changes found during synchronizing ui state.
+2025-02-02 17:52:44.661 [info] Extensions: Updated remote extensions. Updated: ["wallabyjs.console-ninja"].
+2025-02-02 17:52:44.669 [info] Extensions: Updated last synchronized extensions.
+2025-02-02 17:52:44.677 [info] Profiles: No changes found during synchronizing profiles.
+2025-02-02 17:52:44.683 [info] Sync done. Took 1683ms

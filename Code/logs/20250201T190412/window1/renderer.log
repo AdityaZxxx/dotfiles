@@ -80,3 +80,9 @@
     at Array.map (<anonymous>)
     at jh.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:780:11836)
 2025-02-01 19:08:25.419 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-02-01 19:11:48.214 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-02-01 19:16:02.652 [error] [Extension Host] Error: Git error
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1058331)
+    at ChildProcess.emit (node:events:530:35)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
