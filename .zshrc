@@ -65,8 +65,6 @@ bindkey '^R' history-incremental-search-backward  # Ctrl+R untuk search history
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
 alias vv="nvim"
 alias cc="clear"
 alias xx="exit"
@@ -81,6 +79,7 @@ alias ip="ip addr show"
 alias tree="tree -C"
 alias less="less -r"
 alias ff="fastfetch"
+alias matrix="unimatrix -c blue -u 'Linux'"
 
 ## Git
 alias g="git status"
@@ -95,18 +94,16 @@ alias lg="lazygit"
 alias gg="fg"
 
 ## Custom Directory Shortcuts
-alias DS="cd ~/Desktop/DS"
+alias ds="cd ~/Desktop"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias ws="cd ~/Workspaces"
 alias neodir="cd ~/.config/nvim"
-alias luadir="cd ~/Documents/Lua/Lua_Basics/"
-alias ss="yazi ~/Pictures/screenshots"
 
 ## Config Editing
-alias piconfig="nvim ~/.config/picom/picom.conf"
 alias alconfig="nvim ~/.config/alacritty/alacritty.toml"
 
 ## Tooling / Apps
-alias anaconda="source ~/anaconda3/bin/activate && anaconda-navigator"
-alias ai="tgpt"
 alias geminicom="~/go/bin/geminicommit"
 
 ## eza (ls replacement)
