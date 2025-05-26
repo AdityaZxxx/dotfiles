@@ -1,0 +1,210 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 42,
+  "spacing": 4, // Menambahkan sedikit jarak antar modul agar tidak terlalu rapat
+
+  "modules-left": [
+    "hyprland/workspaces",
+    "custom/pacman",
+
+    "pulseaudio",
+    "hyprland/window"
+  ],
+  "modules-center": ["custom/wayves"],
+  "modules-right": [
+    "backlight",
+    "network",
+    "bluetooth",
+    "cpu",
+    "memory",
+    "battery",
+    "tray",
+    "clock",
+    "custom/powermenu"
+  ],
+
+  "hyprland/workspaces": {
+    "disable-scroll": false,
+    "disable-markup": false,
+    "all-outputs": true,
+    "format": "{icon}",
+    "format-icons": {
+      "active": "", // Lingkaran penuh untuk workspace aktif
+      "default": "", // Lingkaran kosong untuk workspace tidak aktif (alternatif: )
+      "urgent": "", // Ikon peringatan untuk workspace dengan notifikasi urgent
+      "empty": "" // Ikon untuk workspace kosong (opsional, jika Anda ingin membedakannya)
+    },
+    "persistent-workspaces": {
+      // Menampilkan semua workspace meskipun kosong (opsional)
+      "*": 5 // Tampilkan minimal 5 workspace, atau sesuaikan dengan jumlah workspace Anda
+      // "HDMI-A-1": 3 // Anda bisa menentukan jumlah workspace per monitor jika diperlukan
+    }
+  },
+
+  "hyprland/window": {
+    "format": "{}",
+    "icon": true,
+    "icon-size": 18,
+    "separate-outputs": true,
+    "max-length": 50,
+    "rewrite": {
+      // Visual Studio Code: Menggunakan nama yang lebih pendek "VS Code"
+      // Aturan ini akan menangkap judul seperti "file.txt - Visual Studio Code"
+      ".* - Visual Studio Code$": "VS Code",
+      // Jika judulnya hanya "Visual Studio Code"
+      "^Visual Studio Code$": "VS Code",
+
+      // Zen Browser
+      "(.*) — Zen Browser": "Zen Browser", // Biasanya nama aplikasi sudah konsisten kapitalisasinya
+
+      // Vesktop: Mencakup "Vesktop", "vesktop", dan variasi lainnya di awal judul
+      "^[Vv][Ee][Ss][Kk][Tt][Oo][Pp].*": "Discord",
+
+      // AyuGram: Mencakup "AyuGram", "ayugram", dan variasi lainnya di awal judul
+      "^[Aa][Yy][Uu][Gg][Rr][Aa][Mm].*": "Telegram",
+
+      // YouTube Music:
+      // Untuk judul yang pasti dimulai dengan "YouTube Music" (kapitalisasi umum)
+      "^YouTube Music.*": "YouTube Music",
+      // Untuk "ytm-desktop", "YTM-Desktop", "ytm desktop", dll. Tanda tanya setelah '-' membuatnya opsional.
+      "^[Yy][Tt][Mm]-?[Dd][Ee][Ss][Kk][Tt][Oo][Pp].*": "YouTube Music",
+
+      // Contoh tambahan (sesuaikan kapitalisasi jika perlu atau gunakan [Ff] seperti di bawah)
+      ".*[Ff]irefox.*": "Firefox", // Mencakup "Firefox" dan "firefox" di mana saja dalam judul
+      ".*[Kk]itty.*": "Kitty Terminal" // Mencakup "Kitty" dan "kitty"
+    }
+  },
+
+  "custom/wayves": {
+    "format": "{}", // Anda mungkin ingin menambahkan ikon di sini, misal: "󰓃 {}"
+    "exec": "python ~/.config/waybar/modules/wayves/wayves.py -o cava -i cava -a cava",
+    "on-click": "playerctl play-pause",
+    "tooltip": false // Biasanya visualizer tidak memerlukan tooltip
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+
+  "clock": {
+    "format": "󰥔 {:%H:%M}",
+    "format-alt": "󰥔 {:%H:%M | %Y-%m-%d}"
+  },
+
+  "custom/powermenu": {
+    "format": "",
+    "tooltip-format": "Power Menu",
+    "on-click": "~/.config/rofi/scripts/powermenu/powermenu.sh"
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "tooltip": true,
+    "tooltip-format": "CPU: {usage}% | Load: {avg_load}" // Menambahkan info load average
+  },
+
+  "memory": {
+    "format": " {used:0.1f}G"
+  },
+
+  "battery": {
+    "bat": "BAT0",
+
+    "interval": 60,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": " {icon} {capacity}%",
+    "format-discharging": "{icon} {capacity}%",
+    "format-charging": "󰚥 {capacity}%",
+    "format-icons": ["󰁎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "max-length": 25
+  },
+
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-bluetooth": " {icon} {volume}%", // Menambahkan ikon volume juga untuk bluetooth
+    "format-muted": "󰸈 Muted",
+    "on-click": "pavucontrol", // Pastikan pavucontrol terinstal
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "tooltip-format": "{desc} | {volume}%", // Menampilkan deskripsi perangkat
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "", // Perbaikan nama dari handsfree
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""] // Ikon volume: mute, rendah, sedang, tinggi
+    }
+  },
+
+  "network": {
+    "format-wifi": "{icon} {essid}", // Menampilkan nama SSID WiFi
+    "format-ethernet": "󰈀 Connected", // Ikon Ethernet
+    "tooltip": true,
+    "tooltip-format-wifi": "{ifname} @ {essid}\nSignal: {signalStrength}% | IP: {ipaddr}/{cidr}",
+    "tooltip-format-ethernet": "{ifname}\nIP: {ipaddr}/{cidr}",
+    "format-disconnected": "󰤮 No Connection", // Ikon disconnected yang lebih jelas
+    "format-icons": {
+      // Sesuaikan dengan kekuatan sinyal
+      "wifi": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"] // Dari sinyal terlemah ke terkuat
+    }
+  },
+  "network#speedup": {
+    "interval": 1,
+    "format-wifi": "{bandwidthUpBytes} 󰶣",
+    "format-ethernet": "{bandwidthUpBytes} 󰶣",
+    "format-disconnected": "⚠",
+    "align": 1
+  },
+  "network#speeddown": {
+    "interval": 1,
+    "format-wifi": "{bandwidthDownBytes} 󰶡",
+    "format-ethernet": "{bandwidthDownBytes} 󰶡",
+    "format-disconnected": "⚠",
+    "align": 1
+  },
+  "custom/pacman": {
+    "format": "󰏔  {} Update(s)",
+    "interval": 3600,
+    "exec": "checkupdates | wc -l",
+    "exec-if": "exit 0"
+  },
+  "bluetooth": {
+    "format": "{icon}", // Default hanya ikon
+    "format-on": " On", // Bluetooth aktif tapi tidak ada device terhubung
+    "format-off": "󰂲 Off", // Bluetooth nonaktif
+    "format-disabled": "󰂲 Disabled", // Sama seperti off
+    "format-connected": " {device_alias}",
+    "format-connected-battery": " {device_alias} {device_battery_percentage}%",
+    "tooltip-format": "{controller_alias} ({controller_address})\n{num_connections} connected",
+    "tooltip-format-connected": "{controller_alias} ({controller_address})\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias} ({device_address})",
+    "tooltip-format-enumerate-connected-battery": "{device_alias} ({device_address}) - Battery: {device_battery_percentage}%",
+    "format-icons": {
+      // Bisa juga menggunakan format-status
+      "on": "",
+      "off": "󰂲", // Ikon Bluetooth mati
+      "disabled": "󰂲",
+      "connected": "", // Default "" sudah bagus, ini hanya contoh jika ingin beda
+      "disconnected": "󰂯" // Ikon saat terputus (setelah sebelumnya terhubung)
+    },
+    "on-click": "blueberry", // Atau bluedevil-wizard, atau skrip Anda
+    "on-click-right": "bluetoothctl power off", // typo: on-right-click -> on-click-right
+    "on-click-middle": "bluetoothctl power on" // typo: on-middle-click -> on-click-middle
+  },
+
+  "backlight": {
+    "device": "intel_backlight", // Sesuaikan dengan device Anda (cek /sys/class/backlight/)
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃛", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠", "󰃡", "󰃢"], // Ikon brightness dari gelap ke terang
+    "on-scroll-up": "brightnessctl set +5%",
+    "on-scroll-down": "brightnessctl set 5%-"
+  }
+}

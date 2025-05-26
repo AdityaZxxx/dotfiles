@@ -1,0 +1,422 @@
+#! System CTRLs
+##! Audio Volume
+
+$mainMod = SUPER
+
+# bindl = ,XF86AudioMute, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 0% # Mute audio
+# bindl = $mainMod+Shift,M, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 0% # Mute audio (alt)
+# bindle=, XF86AudioRaiseVolume, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+ # Volume up
+# bindl  = , XF86AudioMute, exec, agsv1 run-js 'indicator.popup(1);' # [hidden]
+# bindle=, XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- # Volume down
+
+# bind = , XF86AudioMicMute, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle # Mute/unmute microphone
+# bindl  = $mainMod+Shift,M,   exec, agsv1 run-js 'indicator.popup(1);' # Show volume indicator
+
+# ##! Brightness CTRLs
+# bindle=, XF86MonBrightnessUp, exec, agsv1 run-js 'brightness.screen_value += 0.005; indicator.popup(1);' # Brightness up
+# bindle=, XF86MonBrightnessDown, exec, agsv1 run-js 'brightness.screen_value -= 0.005; indicator.popup(1);' # Brightness down
+# bindl = $mainMod+CTRL,P, exec,sh ~/.config/ags/scripts/scale.sh 0.05 # Scale up
+# bindl = $mainMod+CTRL,O, exec,sh ~/.config/ags/scripts/scale.sh -0.05 # Scale down
+# bindle= Shift,F12, exec, hyprshade toggle blue-light-filter # Toggle blue light filter
+
+# #! Essential CTRLs
+# ##! Launcher and Overview
+# bind = $mainMod, Tab, exec, pkill rofi || rofi -show drun # App launcher
+# bindir = $mainMod, CTRL_R, exec, pkill rofi | agsv1 -t 'overview' # Overview
+# bind = $mainMod, G, exec, pkill rofi | agsv1 -t 'glance' # Quick glance
+# bind = $mainMod, V, exec, pkill rofi || cliphist list | rofi -dmenu | cliphist decode | wl-copy && wtype -M ctrl shift -P v -m ctrl # Clipboard history
+# bind = $mainMod, Period, exec, pkill rofi || rofi -show emoji # Emoji picker
+# bind = $mainMod Shift, E, exec, pkill rofi || rofi -show filebrowser # File browser
+
+# ##! Session CTRLs
+# bind = $mainMod, L, exec, loginctl lock-session # Lock screen
+# bind = $mainMod+Shift, L, exec, loginctl lock-session # Lock screen (alt)
+# bindl = $mainMod+Shift, L, exec, sleep 0.1 && systemctl suspend || loginctl suspend # Suspend
+# bind = $mainMod, Shift L, exec, agsv1 --run-js 'lock.lock()' # Lock with AGS
+# bind = $mainMod, Escape, exec, pkill wlogout || wlogout -p layer-shell # Logout menu
+# bind = CTRL+Shift+Alt+$mainMod, Delete, exec, systemctl poweroff || loginctl poweroff # Power off
+# bind = $mainMod+CTRL+Shift, Delete, exec, for ((i=0; i<$(hyprctl monitors -j | jq length); i++)); do agsv1 -t "session""$i"; done # Power menu
+
+# #! Window Management
+# ##! Focus CTRLs
+# bind = $mainMod, Left, movefocus, l # Focus left
+# bind = $mainMod, Right, movefocus, r # Focus right
+# bind = $mainMod, Up, movefocus, u # Focus up
+# bind = $mainMod, Down, movefocus, d # Focus down
+# bind = $mainMod, BracketLeft, movefocus, l # Focus left (alt)
+# bind = $mainMod, BracketRight, movefocus, r # Focus right (alt)
+# bind = Alt, Tab, cyclenext # Cycle through windows
+# bind = Alt, Tab, bringactivetotop # Bring active window to top
+
+# ##! Window Actions
+# bind = $mainMod, Q, killactive, # Close window
+# bind = $mainMod+Shift+Alt, Q, exec, hyprctl kill # Pick and kill window
+# bind = $mainMod, J, togglesplit # Toggle split direction
+# bind = $mainMod, P, pin # Pin window to all workspaces
+
+# #! Window Layout
+# ##! Window Movement
+# bind = $mainMod+Shift, Left, movewindow, l # Move window left
+# bind = $mainMod+Shift, Right, movewindow, r # Move window right
+# bind = $mainMod+Shift, Up, movewindow, u # Move window up
+# bind = $mainMod+Shift, Down, movewindow, d # Move window down
+# bindm = $mainMod, mouse:272, movewindow # Move window with mouse
+# bindm = $mainMod, mouse:273, resizewindow # Resize window with mouse
+
+# ##! Window Sizing
+# binde = $mainMod, Minus, splitratio, -0.1 # Decrease split ratio
+# binde = $mainMod, Equal, splitratio, +0.1 # Increase split ratio
+# binde = $mainMod, Semicolon, splitratio, -0.1 # Decrease split ratio (alt)
+# binde = $mainMod, Apostrophe, splitratio, +0.1 # Increase split ratio (alt)
+
+# ##! Window States
+# bind = $mainMod+Alt, Space, togglefloating, # Toggle floating
+# bind = $mainMod Alt, F, fullscreenstate, 0 3 # Toggle fake fullscreen
+# bind = $mainMod, F, fullscreen, 0 # Toggle fullscreen
+# bind = $mainMod, D, fullscreen, 1 # Toggle maximized
+# bind = $mainMod CTRL, W, exec, hyprctl dispatch workspaceopt allfloat # Float all windows
+
+# #! Workspace Direct Access
+# ##! Switch to Workspace
+# bind = $mainMod, 1, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 1 # Switch to workspace 1
+# bind = $mainMod, 2, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 2 # Switch to workspace 2
+# bind = $mainMod, 3, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 3 # Switch to workspace 3
+# bind = $mainMod, 4, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 4 # Switch to workspace 4
+# bind = $mainMod, 5, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 5 # Switch to workspace 5
+# bind = $mainMod, 6, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 6 # Switch to workspace 6
+# bind = $mainMod, 7, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 7 # Switch to workspace 7
+# bind = $mainMod, 8, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 8 # Switch to workspace 8
+# bind = $mainMod, 9, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 9 # Switch to workspace 9
+# bind = $mainMod, 0, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 10 # Switch to workspace 10
+
+# ##! Move to Workspace
+# bind = $mainMod+Alt, 1, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 1 # Move to workspace 1
+# bind = $mainMod+Alt, 2, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 2 # Move to workspace 2
+# bind = $mainMod+Alt, 3, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 3 # Move to workspace 3
+# bind = $mainMod+Alt, 4, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 4 # Move to workspace 4
+# bind = $mainMod+Alt, 5, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 5 # Move to workspace 5
+# bind = $mainMod+Alt, 6, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 6 # Move to workspace 6
+# bind = $mainMod+Alt, 7, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 7 # Move to workspace 7
+# bind = $mainMod+Alt, 8, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 8 # Move to workspace 8
+# bind = $mainMod+Alt, 9, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 9 # Move to workspace 9
+# bind = $mainMod+Alt, 0, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 10 # Move to workspace 10
+
+# #! Workspace Navigation
+# ##! Sequential Navigation
+# bind = CTRL+$mainMod, Right, workspace, +1 # Next workspace
+# bind = CTRL+$mainMod, Left, workspace, -1 # Previous workspace
+# bind = $mainMod, Page_Down, workspace, +1 # Next workspace (alt)
+# bind = $mainMod, Page_Up, workspace, -1 # Previous workspace (alt)
+# bind = CTRL+$mainMod, Page_Down, workspace, +1 # Next workspace (alt 2)
+# bind = CTRL+$mainMod, Page_Up, workspace, -1 # Previous workspace (alt 2)
+# bind = $mainMod, mouse_up, workspace, +1 # Next workspace (mouse)
+# bind = $mainMod, mouse_down, workspace, -1 # Previous workspace (mouse)
+
+# ##! Advanced Navigation
+# bind = CTRL+$mainMod, BracketLeft, workspace, -1 # Previous workspace (bracket)
+# bind = CTRL+$mainMod, BracketRight, workspace, +1 # Next workspace (bracket)
+# bind = CTRL+$mainMod, Up, workspace, -5 # Jump 5 workspaces back
+# bind = CTRL+$mainMod, Down, workspace, +5 # Jump 5 workspaces forward
+# bind = CTRL+$mainMod, mouse_up, workspace, +1 # Next workspace (mouse alt)
+# bind = CTRL+$mainMod, mouse_down, workspace, -1 # Previous workspace (mouse alt)
+
+# ##! Special Workspace
+# bind = $mainMod, S, togglespecialworkspace, # Toggle special workspace
+# bind = $mainMod, mouse:275, togglespecialworkspace, # Toggle special workspace (mouse)
+
+# #! Workspace Window Movement
+# ##! Sequential Movement
+# bind = CTRL+$mainMod+Shift, Right, movetoworkspace, +1 # Move to next workspace
+# bind = CTRL+$mainMod+Shift, Left, movetoworkspace, -1 # Move to previous workspace
+# bind = $mainMod+Alt, Page_Down, movetoworkspace, +1 # Move to next workspace (alt)
+# bind = $mainMod+Alt, Page_Up, movetoworkspace, -1 # Move to previous workspace (alt)
+# bind = $mainMod+Shift, Page_Down, movetoworkspace, +1 # Move to next workspace (alt 2)
+# bind = $mainMod+Shift, Page_Up, movetoworkspace, -1 # Move to previous workspace (alt 2)
+
+# ##! Mouse Movement
+# bind = $mainMod+Shift, mouse_down, movetoworkspace, -1 # Move to previous workspace (mouse)
+# bind = $mainMod+Shift, mouse_up, movetoworkspace, +1 # Move to next workspace (mouse)
+# bind = $mainMod+Alt, mouse_down, movetoworkspace, -1 # Move to previous workspace (mouse alt)
+# bind = $mainMod+Alt, mouse_up, movetoworkspace, +1 # Move to next workspace (mouse alt)
+
+# ##! Special Workspace Movement
+# bind = $mainMod+Alt, S, movetoworkspacesilent, special # Move to special workspace
+# bind = CTRL+$mainMod+Shift, Up, movetoworkspacesilent, special # Move to special workspace (alt)
+
+# #! Widgets and UI
+# ##! AGS Core CTRLs
+# bindr = CTRL+$mainMod, R, exec, killall agsv1 ; agsv1 -c ~/.config/ags/config.js # Restart widgets
+# bindr = CTRL+$mainMod+Alt, R, exec, hyprctl reload; killall agsv1 ydotool; agsv1 & # Reload everything
+# bind = $mainMod, Z, exec, agsv1 --run-js "globalThis.handleStyles(true)" # Refresh styles
+
+# ##! Sidebars and Panels
+# bind = $mainMod, A, exec, pkill rofi | agsv1 -t 'sideleft' # Toggle left sidebar
+# bind = $mainMod Shift, A, exec, pkill rofi | agsv1 -t 'sideright' # Toggle right sidebar (alt 1)
+# bind = $mainMod, N, exec, pkill rofi | agsv1 -t 'sideright' # Toggle right sidebar (alt 2)
+# bind = $mainMod CTRL, D, exec, for ((i=0; i<$(hyprctl monitors -j | jq length); i++)); do agsv1 -t "desktopbackground""$i"; done # Toggle desktop
+
+# #! Widget Tools
+# ##! Widgets
+# bind = $mainMod, W, exec, pkill rofi | agsv1 -t 'wallselect' # Wallpaper Selector
+# bind = $mainMod, M, exec, pkill rofi | agsv1 -t 'music' # Music Widget
+# bind = $mainMod Shift, 3, exec, pkill rofi | agsv1 -t 'music' # Music Widget (alt)
+# bind = $mainMod, Comma, exec, agsv1 run-js 'openColorScheme.value = true; Utils.timeout(1500, () => openColorScheme.value = false);' # Color scheme
+# bind = $mainMod Shift, 1, exec, agsv1 run-js 'openColorScheme.value = true; Utils.timeout(1500, () => openColorScheme.value = false);' # Color scheme (alt)
+# bind = $mainMod, Slash, exec, agsv1 -t 'cheatsheet0' # Keybinding cheatsheet
+# bind = $mainMod Shift, 2, exec, pkill rofi | agsv1 -t 'recorder' # Toggle recorder (alt 1)
+# bind = $mainMod Shift, R, exec, agsv1 -t 'recorder' # Toggle recorder (alt 2)
+
+# ##! Bar Mode CTRLs
+# bind = $mainMod, X, exec, agsv1 --run-js 'const current = parseInt(currentShellMode.value[0]); const next = current >= 0 && current < 8 ? current + 1 : 0; updateMonitorShellMode(currentShellMode, 0, next.toString())' # Cycle horizontal bars
+# bind = $mainMod Shift, X, exec, agsv1 --run-js 'const current = parseInt(currentShellMode.value[0]); const next = current >= 9 && current < 10 ? current + 1 : 9; updateMonitorShellMode(currentShellMode, 0, next.toString())' # Cycle vertical bars
+# bind = $mainMod Alt, X, exec, agsv1 --run-js 'toggleBarPosition()' # Toggle bar position
+
+# #! Applications
+# ##! Terminal and File Management
+# bind = $mainMod, T, exec, alacritty # Launch Terminal (primary)
+# bind = $mainMod, Return, exec, ghostty # Launch Terminal (secondary)
+# bind = $mainMod, E, exec, nautilus --new-window # File Manager
+
+# ##! Browsers and Development
+# bind = $mainMod, B, exec, zen-browser # Launch Browser
+# bind = $mainMod, C, exec, code # Launch Code
+# bind = $mainMod + Shift, V, exec, ghostty -e nvim # Launch Neovim
+# bind = $mainMod Shift, G, exec, github-desktop # Launch GitHub Desktop
+
+# #! Productivity and Tools
+# ##! Productivity Apps
+# bind = $mainMod, O, exec, obsidian # Launch Obsidian
+# bind = $mainMod, I, exec, XDG_CURRENT_DESKTOP="gnome" gnome-CTRL-center # Launch Settings
+# bind = CTRL+$mainMod, V, exec, pavuCTRL # Volume Mixer
+# bind = CTRL+Shift, Escape, exec, ghostty -e btop # System Monitor
+# bind = $mainMod CTRL, S, exec, spotify # Launch Spotify
+
+# #! Media CTRLs
+# ##! Media Playback
+# bindl= $mainMod+Shift, P, exec, playerctl play-pause # Play/Pause
+# bindl= ,XF86AudioPlay, exec, playerctl play-pause # Play/Pause (media key)
+# bindl= ,XF86AudioPause, exec, playerctl play-pause # Pause (media key)
+# bindl= $mainMod+Shift, N, exec, playerctl next || playerctl position `bc <<< "100 * $(playerctl metadata mpris:length) / 1000000 / 100"` # Next track
+# bindl= ,XF86AudioNext, exec, playerctl next || playerctl position `bc <<< "100 * $(playerctl metadata mpris:length) / 1000000 / 100"` # Next track (media key)
+# bindl= $mainMod+Shift, B, exec, playerctl previous # Previous track
+# bindl= ,XF86AudioPrev, exec, playerctl previous # Previous track (media key)
+# bind = $mainMod+Shift+Alt, mouse:275, exec, playerctl previous # Previous track (mouse)
+# bind = $mainMod+Shift+Alt, mouse:276, exec, playerctl next || playerctl position `bc <<< "100 * $(playerctl metadata mpris:length) / 1000000 / 100"` # Next track (mouse)
+
+# #! Screenshots
+# ##! Screenshot Capture
+# bindl=, XF86SelectiveScreenshot, exec, grim - | wl-copy # Screenshot to clipboard
+# bindl= CTRL, XF86SelectiveScreenshot, exec, mkdir -p ~/Pictures/Screenshots && ~/.config/ags/scripts/grimblast.sh copysave screen ~/Pictures/Screenshots/Screenshot_"$(date '+%Y-%m-%d_%H.%M.%S')".png # Screenshot to file
+# bind = $mainMod+Shift, S, exec, ~/.config/ags/scripts/grimblast.sh --freeze copy area # Screen snip to clipboard
+# bind = $mainMod+Shift+Alt, S, exec, grim -g "$(slurp)" - | swappy -f - # Screen snip to editor
+
+# ##! OCR and Recording
+# bind = $mainMod+Shift, T, exec, grim -g "$(slurp $SLURP_ARGS)" "tmp.png" && tesseract -l eng "tmp.png" - | wl-copy && rm "tmp.png" # Screen OCR
+# bind = CTRL+$mainMod+Shift, S, exec, grim -g "$(slurp $SLURP_ARGS)" "tmp.png" && tesseract "tmp.png" - | wl-copy && rm "tmp.png" # Screen OCR (alt)
+# bind = $mainMod+Alt, R, exec, ~/.config/ags/scripts/record-script.sh # Record region
+# bind = CTRL+Alt, R, exec, ~/.config/ags/scripts/record-script.sh --fullscreen # Record full screen
+# bind = $mainMod+Shift+Alt, R, exec, ~/.config/ags/scripts/record-script.sh --fullscreen-sound # Record with audio
+
+#! System CTRLs
+##! Audio Volume
+bindl =, XF86AudioMute, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 0% # Mute audio
+bindle =, XF86AudioRaiseVolume, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+ # Volume up
+bindle =, XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- # Volume down
+bind =, XF86AudioMicMute, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle # Toggle microphone mute
+bindl = $mainMod+Shift, M, exec, agsv1 run-js 'indicator.popup(1);' # Show volume indicator (alternative mute)
+
+##! Brightness CTRLs
+bindle =, XF86MonBrightnessUp, exec, agsv1 run-js 'brightness.screen_value += 0.005; indicator.popup(1);' # Brightness up
+bindle =, XF86MonBrightnessDown, exec, agsv1 run-js 'brightness.screen_value -= 0.005; indicator.popup(1);' # Brightness down
+bindl = $mainMod+CTRL, P, exec, sh ~/.config/ags/scripts/scale.sh 0.05 # Increase screen scale
+bindl = $mainMod+CTRL, O, exec, sh ~/.config/ags/scripts/scale.sh -0.05 # Decrease screen scale
+bindle = Shift, F12, exec, hyprshade toggle blue-light-filter # Toggle blue light filter
+
+#! Essential CTRLs
+##! Launcher and Overview
+bind = $mainMod, Tab, exec, pkill rofi || rofi -show drun # Application launcher
+bind = $mainMod, G, exec, pkill rofi | agsv1 -t 'glance' # Quick glance widget
+bind = $mainMod, V, exec, pkill rofi || cliphist list | rofi -dmenu | cliphist decode | wl-copy && wtype -M ctrl shift -P v -m ctrl # Clipboard history
+bind = $mainMod, Period, exec, pkill rofi || rofi -show emoji # Emoji picker
+bind = $mainMod+Shift, E, exec, pkill rofi || rofi -show filebrowser # File browser
+
+##! Session CTRLs
+bind = $mainMod, L, exec, loginctl lock-session # Lock screen
+bindl = $mainMod+Shift, L, exec, sleep 0.1 && systemctl suspend || loginctl suspend # Suspend system
+bind = $mainMod, Escape, exec, pkill wlogout || wlogout -p layer-shell # Logout menu
+bind = CTRL+Shift+Alt+$mainMod, Delete, exec, systemctl poweroff || loginctl poweroff # Power off
+bind = <span class="math-inline">mainMod\+CTRL\+Shift, Delete, exec, for \(\(i\=0; i<</span>(hyprctl monitors -j | jq length); i++)); do agsv1 -t "session""$i"; done # Power menu (multi-monitor)
+
+#! Window Management
+##! Focus CTRLs
+bind = $mainMod, Left, movefocus, l # Focus left
+bind = $mainMod, Right, movefocus, r # Focus right
+bind = $mainMod, Up, movefocus, u # Focus up
+bind = $mainMod, Down, movefocus, d # Focus down
+bind = Alt, Tab, cyclenext # Cycle through windowss
+bind = Alt, Tab, bringactivetotop # Bring active window to top
+
+##! Window Actions
+bind = $mainMod, Q, killactive, # Close active window
+bind = $mainMod+Shift+Alt, Q, exec, hyprctl kill # Pick and kill window
+bind = $mainMod, J, togglesplit # Toggle split direction
+bind = $mainMod, P, pin # Pin window to all workspaces
+
+#! Window Layout
+##! Window Movement
+bind = $mainMod+Shift, Left, movewindow, l # Move window left
+bind = $mainMod+Shift, Right, movewindow, r # Move window right
+bind = $mainMod+Shift, Up, movewindow, u # Move window up
+bind = $mainMod+Shift, Down, movewindow, d # Move window down
+bindm = $mainMod, mouse:272, movewindow # Move window with mouse (drag)
+
+##! Window Sizing
+bindm = $mainMod, mouse:273, resizewindow # Resize window with mouse (drag)
+binde = $mainMod, Minus, splitratio, -0.05 # Decrease split ratio (small)
+binde = $mainMod, Equal, splitratio, +0.05 # Increase split ratio (small)
+binde = $mainMod+Shift, Minus, splitratio, -0.1 # Decrease split ratio (large) (tambahan)
+binde = $mainMod+Shift, Equal, splitratio, +0.1 # Increase split ratio (large) (tambahan)
+
+##! Window States
+bind = $mainMod+Alt, Space, togglefloating, # Toggle floating state
+bind = $mainMod+Alt, F, fullscreenstate, 0 3 # Toggle fake fullscreen
+bind = $mainMod, F, fullscreen, 0 # Toggle fullscreen
+bind = $mainMod, D, fullscreen, 1 # Toggle maximized
+bind = $mainMod+CTRL, W, exec, hyprctl dispatch workspaceopt allfloat # Float all windows on current workspace
+
+#! Workspace Direct Access
+##! Switch to Workspace
+bind = $mainMod, 1, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 1 # Switch to workspace 1
+bind = $mainMod, 2, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 2 # Switch to workspace 2
+bind = $mainMod, 3, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 3 # Switch to workspace 3
+bind = $mainMod, 4, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 4 # Switch to workspace 4
+bind = $mainMod, 5, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 5 # Switch to workspace 5
+bind = $mainMod, 6, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 6 # Switch to workspace 6
+bind = $mainMod, 7, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 7 # Switch to workspace 7
+bind = $mainMod, 8, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 8 # Switch to workspace 8
+bind = $mainMod, 9, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 9 # Switch to workspace 9
+bind = $mainMod, 0, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh workspace 10 # Switch to workspace 10
+
+##! Move to Workspace
+bind = $mainMod+Alt, 1, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 1 # Move active window to workspace 1
+bind = $mainMod+Alt, 2, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 2 # Move active window to workspace 2
+bind = $mainMod+Alt, 3, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 3 # Move active window to workspace 3
+bind = $mainMod+Alt, 4, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 4 # Move active window to workspace 4
+bind = $mainMod+Alt, 5, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 5 # Move active window to workspace 5
+bind = $mainMod+Alt, 6, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 6 # Move active window to workspace 6
+bind = $mainMod+Alt, 7, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 7 # Move active window to workspace 7
+bind = $mainMod+Alt, 8, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 8 # Move active window to workspace 8
+bind = $mainMod+Alt, 9, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 9 # Move active window to workspace 9
+bind = $mainMod+Alt, 0, exec, ~/.config/ags/scripts/hyprland/workspace_action.sh movetoworkspacesilent 10 # Move active window to workspace 10
+
+#! Workspace Navigation
+##! Sequential Navigation
+bind = CTRL+$mainMod, Right, workspace, +1 # Switch to next workspace
+bind = CTRL+$mainMod, Left, workspace, -1 # Switch to previous workspace
+bind = $mainMod, Page_Down, workspace, +1 # Switch to next workspace (alternative)
+bind = $mainMod, Page_Up, workspace, -1 # Switch to previous workspace (alternative)
+bind = $mainMod, mouse_down, workspace, +1 # Switch to next workspace (mouse wheel down)
+bind = $mainMod, mouse_up, workspace, -1 # Switch to previous workspace (mouse wheel up)
+
+##! Advanced Navigation (perubahan untuk menghindari duplikasi)
+# Menggunakan kombinasi lain untuk lompatan workspace
+bind = $mainMod+Ctrl, Right, workspace, +5 # Jump 5 workspaces forward
+bind = $mainMod+Ctrl, Left, workspace, -5 # Jump 5 workspaces backward
+
+##! Special Workspace
+bind = $mainMod, S, togglespecialworkspace, # Toggle special workspace
+bind = $mainMod+Shift, S, togglespecialworkspace, # Toggle special workspace (alternative)
+
+#! Workspace Window Movement
+##! Sequential Movement
+bind = CTRL+$mainMod+Shift, Right, movetoworkspace, +1 # Move active window to next workspace
+bind = CTRL+$mainMod+Shift, Left, movetoworkspace, -1 # Move active window to previous workspace
+bind = $mainMod+Shift, Page_Down, movetoworkspace, +1 # Move active window to next workspace (alternative)
+bind = $mainMod+Shift, Page_Up, movetoworkspace, -1 # Move active window to previous workspace (alternative)
+
+##! Mouse Movement (perubahan untuk menghindari duplikasi)
+bind = $mainMod+Shift, mouse_down, movetoworkspace, +1 # Move active window to next workspace (mouse wheel down)
+bind = $mainMod+Shift, mouse_up, movetoworkspace, -1 # Move active window to previous workspace (mouse wheel up)
+
+##! Special Workspace Movement
+bind = $mainMod+Ctrl+Shift, S, movetoworkspacesilent, special # Move active window to special workspace
+
+#! Widgets and UI
+##! AGS Core CTRLs
+bindr = CTRL+$mainMod, R, exec, killall agsv1 ; agsv1 -c ~/.config/ags/config.js # Restart AGS widgets
+bindr = CTRL+$mainMod+Alt, R, exec, hyprctl reload; killall agsv1 ydotool; agsv1 & # Reload Hyprland and AGS
+bind = $mainMod, Z, exec, agsv1 --run-js "globalThis.handleStyles(true)" # Refresh AGS styles
+
+##! Sidebars and Panels
+bind = $mainMod, A, exec, pkill rofi | agsv1 -t 'sideleft' # Toggle left sidebar
+bind = $mainMod, N, exec, pkill rofi | agsv1 -t 'sideright' # Toggle right sidebar
+bind = <span class="math-inline">mainMod\+CTRL, D, exec, for \(\(i\=0; i<</span>(hyprctl monitors -j | jq length); i++)); do agsv1 -t "desktopbackground""$i"; done # Toggle desktop background
+
+#! Widget Tools
+##! Widgets
+bind = $mainMod, W, exec, pkill rofi | agsv1 -t 'wallselect' # Wallpaper selector
+bind = $mainMod, M, exec, pkill rofi | agsv1 -t 'music' # Music widget
+bind = $mainMod, Comma, exec, agsv1 run-js 'openColorScheme.value = true; Utils.timeout(1500, () => openColorScheme.value = false);' # Toggle color scheme picker
+bind = $mainMod, Slash, exec, agsv1 -t 'cheatsheet0' # Keybinding cheatsheet
+bind = $mainMod+Shift, R, exec, agsv1 -t 'recorder' # Toggle screen recorder
+
+##! Bar Mode CTRLs
+bind = $mainMod, X, exec, agsv1 --run-js 'const current = parseInt(currentShellMode.value[0]); const next = current >= 0 && current < 8 ? current + 1 : 0; updateMonitorShellMode(currentShellMode, 0, next.toString())' # Cycle horizontal bar modes
+bind = $mainMod+Shift, X, exec, agsv1 --run-js 'const current = parseInt(currentShellMode.value[0]); const next = current >= 9 && current < 10 ? current + 1 : 9; updateMonitorShellMode(currentShellMode, 0, next.toString())' # Cycle vertical bar modes
+bind = $mainMod+Alt, X, exec, agsv1 --run-js 'toggleBarPosition()' # Toggle bar position
+
+#! Applications
+##! Terminal and File Management
+bind = $mainMod, T, exec, alacritty # Launch primary terminal
+bind = $mainMod, Return, exec, ghostty # Launch secondary terminal
+bind = $mainMod, E, exec, nautilus --new-window # Launch file manager
+
+##! Browsers and Development
+bind = $mainMod, B, exec, zen-browser # Launch web browser
+bind = $mainMod, C, exec, code # Launch code editor
+bind = $mainMod+Shift, V, exec, ghostty -e nvim # Launch Neovim in secondary terminal
+bind = $mainMod+Shift, G, exec, github-desktop # Launch GitHub Desktop
+
+#! Productivity and Tools
+##! Productivity Apps
+bind = $mainMod, O, exec, obsidian # Launch Obsidian
+bind = $mainMod, I, exec, XDG_CURRENT_DESKTOP="gnome" gnome-control-center # Launch system settings
+bind = CTRL+$mainMod, V, exec, pavucontrol # Launch volume CTRL
+bind = CTRL+Shift, Escape, exec, ghostty -e btop # Launch system monitor
+bind = $mainMod+Ctrl, S, exec, spotify # Launch Spotify
+
+#! Media CTRLs
+##! Media Playback
+bindl = $mainMod+Shift, P, exec, playerctl play-pause # Play/pause media
+bindl =, XF86AudioPlay, exec, playerctl play-pause # Play/pause media (media key)
+bindl =, XF86AudioPause, exec, playerctl play-pause # Pause media (media key)
+bindl = $mainMod+Shift, N, exec, playerctl next # Next media track
+bindl =, XF86AudioNext, exec, playerctl next # Next media track (media key)
+bindl = $mainMod+Shift, B, exec, playerctl previous # Previous media track
+bindl =, XF86AudioPrev, exec, playerctl previous # Previous media track (media key)
+bind = $mainMod+Shift+Alt, mouse:275, exec, playerctl previous # Previous media track (mouse wheel up)
+bind = <span class="math-inline">mainMod\+Shift\+Alt, mouse\:276, exec, playerctl next \# Next media track \(mouse wheel down\)
+
+#! Screenshots
+##! Screenshot Capture
+bindl = $mainMod, Print, exec, grim - | wl-copy # Screenshot region to clipboard
+bindl = CTRL+SHIFT, Print, exec, grim -g "$(slurp)" - | swappy -f - # Screenshot region and edit
+bind = $mainMod+Shift, S, exec, grim -o ~/Pictures/Screenshots/Screenshot_"$(date '+%Y-%m-%d_%H.%M.%S')".png # Screenshot full screen to file
+bind = $mainMod+Shift+Alt, S, exec, grim -g "$(slurp)" - | swappy -f - # Screenshot region to editor
+
+##! OCR and Recording
+bind = $mainMod+Shift, T, exec, grim -g "$(slurp $SLURP_ARGS)" "tmp.png" && tesseract -l eng "tmp.png" - | wl-copy && rm "tmp.png" # OCR selected area to clipboard
+bind = $mainMod+Alt, R, exec, ~/.config/ags/scripts/record-script.sh # Toggle screen recording region
+bind = CTRL+Alt, R, exec, ~/.config/ags/scripts/record-script.sh --fullscreen # Toggle screen recording fullscreen
+bind = $mainMod+Shift+Alt, R, exec, ~/.config/ags/scripts/record-script.sh --fullscreen-sound # Toggle screen recording fullscreen with audio
+
+#! Utilities and Testing
+##! Utilities
+bind = $mainMod+Shift, C, exec, hyprpicker -a # Color picker
+bind = $mainMod, R, exec, sh ~/.config/ags/scripts/color_generation/wallpapers.sh -r # Random wallpaper
+
+##! Testing
+bind = SuperAlt, f12, exec, notify-send "Hyprland version: $(hyprctl version | head -2 | tail -1 | cut -f2 -d ' ')" "owo" -a 'Hyprland keybind' # Show version
+bind = $mainMod+Alt, f11, exec, notify-send "Millis since epoch" "$(date +%s%N | cut -b1-13)" -a 'Hyprland keybind' # Show time
+bind = $mainMod+Alt, f10, exec, notify-send 'Test notification' "Here's a really long message to test truncation and wrapping\nYou can middle click or flick this notification to dismiss it!" -a 'Shell' -A "Test1=I got it!" -A "Test2=Another action" -t 5000 # Test notification
+bind = $mainMod+Alt, Equal, exec, notify-send "Urgent notification" "Ah hell no" -u critical -a 'Hyprland keybind' # Test urgent notification 
