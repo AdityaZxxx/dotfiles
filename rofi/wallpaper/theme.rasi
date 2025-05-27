@@ -1,0 +1,155 @@
+/**
+ * Rofi Theme: Modern Wallpaper Selector
+ * Aksen Warna: Ungu dan Kuning
+ */
+
+configuration {
+    modi:                    "dmenu";
+    show-icons:              true;
+    font:                    "JetBrains Mono 11"; /* Ganti dengan font favorit Anda */
+    display-dmenu:           " Pilih Wallpaper";
+    dmenu-prompt-format:     "{prompt}";
+    icon-theme:              "";
+    element-icon-size:       2;
+}
+
+* {
+    /* Variabel Warna Baru */
+    bg-main:                 #2B2E37; /* Background utama sedikit disesuaikan */
+    bg-alt:                  #383C4A; /* Background alternatif / input bar */
+    border-subdued:          #4E5263; /* Border yang tidak terlalu menonjol */
+    
+    text-main:               #E0E0E0; /* Teks utama (putih keabu-abuan) */
+    text-bright:             #F5F5F5; /* Teks lebih terang */
+    text-placeholder:        #787A84; /* Teks untuk placeholder */
+
+    purple-accent:           #9B59B6; /* Ungu untuk aksen utama (misalnya, item terpilih) */
+    purple-dark:             #7D3C98; /* Ungu lebih gelap (misalnya, border window) */
+    
+    yellow-accent:           #F1C40F; /* Kuning untuk aksen sekunder (misalnya, prompt) */
+    
+    text-on-purple:          @text-bright; /* Warna teks di atas background ungu */
+
+    /* Properti dasar */
+    background-color:        @bg-main;
+    text-color:              @text-main;
+    border-color:            @border-subdued;
+    transparent:             rgba(0,0,0,0);
+}
+
+window {
+    background-color:        @bg-main;
+    border:                  2px;
+    border-color:            @purple-dark; /* Border window dengan ungu gelap */
+    border-radius:           12px;
+    width:                   700px;
+    height:                  500px;
+    padding:                 25px;
+}
+
+mainbox {
+    children:                [ inputbar, listview ];
+    spacing:                 15px;
+    padding:                 10px;
+    background-color:        @transparent;
+}
+
+inputbar {
+    children:                [ prompt, entry ];
+    background-color:        @bg-alt;
+    text-color:              @text-main;
+    padding:                 12px;
+    border-radius:           8px;
+    spacing:                 10px;
+    border:                  1px;
+    border-color:            @border-subdued; /* Border halus untuk input bar */
+}
+
+prompt {
+    enabled:                 true;
+    background-color:        inherit;
+    text-color:              @yellow-accent; /* Prompt dengan warna kuning */
+    padding:                 2px 5px;
+    font:                    "JetBrains Mono Bold 11";
+}
+
+entry {
+    background-color:        inherit;
+    text-color:              @text-main;
+    placeholder:             "Ketik untuk mencari...";
+    placeholder-color:       @text-placeholder;
+    padding:                 2px 5px;
+    expand:                  true;
+}
+
+listview {
+    columns:                 1;
+    lines:                   5;
+    cycle:                   true;
+    scrollbar:               false;
+    spacing:                 10px;
+    padding:                 10px 0px 0px 0px;
+    layout:                  vertical;
+    background-color:        @transparent;
+    border:                  0px;
+}
+
+element {
+    padding:                 10px 12px;
+    border-radius:           8px;
+    orientation:             horizontal;
+    background-color:        @transparent; /* Defaultnya transparan, akan di-override oleh state normal/selected */
+    spacing:                 15px;
+}
+
+element-icon {
+    size:                    64px;
+    background-color:        @transparent;
+    vertical-align:          0.5;
+    border-radius:           4px; /* Opsional: sudut membulat untuk ikon thumbnail */
+}
+
+element-text {
+    background-color:        @transparent;
+    text-color:              inherit;
+    vertical-align:          0.5;
+    horizontal-align:        0.0;
+}
+
+element.normal.normal {
+    background-color:        @bg-alt; /* Background elemen normal */
+    text-color:              @text-main;
+}
+
+element.alternate.normal {
+    background-color:        @bg-main; /* Background elemen alternatif (jika berbeda) */
+    text-color:              @text-main;
+}
+
+element.selected.normal {
+    background-color:        @purple-accent; /* Background item terpilih dengan warna ungu */
+    text-color:              @text-on-purple; /* Teks di atas ungu, menggunakan @text-bright */
+    border-radius:           8px;
+    border:                  1px;
+    border-color:            @yellow-accent; /* Border kuning pada item terpilih untuk aksen tambahan */
+}
+
+/* Styling untuk state urgent/active (jika diperlukan, bisa dikosongkan) */
+/*
+element.normal.urgent, element.alternate.urgent {
+    background-color:       #E74C3C; // Merah untuk urgent
+    text-color:             @text-bright;
+}
+element.normal.active, element.alternate.active {
+    background-color:       #2ECC71; // Hijau untuk active
+    text-color:             @bg-main;
+}
+element.selected.urgent {
+    background-color:       #E74C3C;
+    text-color:             @text-bright;
+}
+element.selected.active {
+    background-color:       #2ECC71;
+    text-color:             @bg-main;
+}
+*/
