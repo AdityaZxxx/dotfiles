@@ -9,172 +9,140 @@
 
 window#waybar {
   background: transparent;
-  color: #ffffff;
+  color: #e4e4e4;
+  transition: opacity 0.3s ease;
 }
 
 window#waybar.hidden {
   opacity: 0;
 }
 
-window#waybar.empty #window {
-  background-color: transparent;
+/* === Styling Tooltip === */
+tooltip {
+  background-color: rgba(30, 33, 42, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
 }
 
-/* === Container Style === */
+tooltip label {
+  color: #e4e4e4;
+  padding: 8px;
+}
+
+/* === Gaya Dasar Modul (Kotak) === */
+#workspaces,
+#custom-pacman,
+#network,
+#pulseaudio,
 #window,
 #custom-wayves,
-#workspaces,
+#backlight,
+#bluetooth,
 #cpu,
 #memory,
 #battery,
-#pulseaudio,
-#bluetooth,
-#network,
-#backlight,
-#custom-pacman,
 #tray,
 #clock,
 #custom-powermenu {
   background-color: rgba(30, 33, 42, 0.85);
-  color: #e4e4e4;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  margin-top: 10px;
-  padding: 6px 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 6px 14px;
+  transition: background-color 0.3s ease;
 }
 
-/* === Special Margins === */
-#window {
-  margin-left: 8px;
-  padding-left: 14px;
-  padding-right: 14px;
+/* Efek Hover untuk semua modul kotak */
+#workspaces button:hover,
+#custom-pacman:hover,
+#network:hover,
+#pulseaudio:hover,
+#window:hover,
+#backlight:hover,
+#bluetooth:hover,
+#cpu:hover,
+#memory:hover,
+#battery:hover,
+#tray:hover,
+#clock:hover,
+#custom-powermenu:hover {
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
-#custom-wayves {
-  margin-left: 6px;
-  padding-left: 12px;
-  padding-right: 8px;
+/* === Pengelompokan Modul (Module Grouping) === */
+.module-group-start {
   border-radius: 12px 0 0 12px;
   border-right: none;
 }
-
-#pulseaudio {
-  border-radius: 0 12px 12px 0;
-  padding-right: 16px;
-  padding-left: 6px;
-  border-left: none;
-}
-
-#battery {
-  border-radius: 0 12px 12px 0;
-  margin-right: 6px;
-  padding-right: 16px;
-  border-left: none;
-}
-
-#bluetooth {
-  border-radius: 0 12px 12px 0;
-  margin-right: 6px;
-  border-left: none;
-}
-
-#cpu {
-  border-radius: 12px 0 0 12px;
-  padding-left: 14px;
-  border-right: none;
-}
-
-#memory {
+.module-group-middle {
+  border-radius: 0;
   border-left: none;
   border-right: none;
 }
+.module-group-end {
+  border-radius: 0 12px 12px 0;
+  border-left: none;
+}
 
-/* === Workspace === */
+/* === Margin & Padding Khusus === */
 #workspaces {
   margin-left: 10px;
   padding: 0 6px;
   background-color: rgba(20, 22, 30, 0.85);
 }
 
-#workspaces button {
-  color: #ffd966;
-  padding: 6px 12px;
-  margin: 0 4px;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+#custom-powermenu {
+  margin-right: 10px;
 }
 
-#workspaces button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+/* === Workspaces Button === */
+#workspaces button {
+  color: #ffd966;
+  padding: 4px 10px;
+  margin: 4px 3px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 #workspaces button.focused {
   background-color: #ffd966;
-  color: #0e0e0e;
+  color: #1e212a;
 }
 
 #workspaces button.urgent {
-  color: #ffffff;
   background-color: #ff5f5f;
+  color: #ffffff;
 }
 
-/* === Module Specific === */
+/* === Status Warna per Modul === */
 #pulseaudio.muted {
   color: #6e6a86;
 }
 
-#battery.charging {
+#battery.charging,
+#bluetooth.connected,
+#network.connected {
   color: #4be18b;
 }
 
 #battery.critical:not(.charging) {
   background-color: #ff595e;
   color: #ffffff;
-  animation: blink 0.6s linear infinite alternate;
+  animation: blink 0.8s linear infinite alternate;
 }
 
 @keyframes blink {
   to {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #f8f8f2;
+    color: #1e212a;
   }
 }
 
-#bluetooth.connected,
-#network.connected {
-  color: #87ffab;
-}
-
-#bluetooth.disconnected,
 #network.disconnected {
   color: #ff8b94;
 }
 
 #backlight {
   color: #ffe066;
-}
-
-#custom-powermenu {
-  margin-right: 10px;
-  padding: 8px 16px;
-}
-
-/* === Tray & Clock === */
-#tray,
-#clock {
-  margin-right: 8px;
-}
-
-/* === Optional Accent Hover (Global) === */
-#cpu:hover,
-#memory:hover,
-#battery:hover,
-#pulseaudio:hover,
-#bluetooth:hover,
-#network:hover,
-#backlight:hover,
-#tray:hover,
-#clock:hover,
-#custom-powermenu:hover {
-  background-color: rgba(255, 255, 255, 0.08);
 }
