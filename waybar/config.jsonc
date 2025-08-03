@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "height": 42,
   "spacing": 5,
 
@@ -13,6 +13,7 @@
   ],
   "modules-center": ["custom/wayves"],
   "modules-right": [
+    "custom/coffee",
     "backlight",
     "bluetooth",
     "cpu",
@@ -23,7 +24,7 @@
     "custom/powermenu"
   ],
 
-  // --- MODULE KIRI ---
+  // --- MODULE RIGHT ---
   "hyprland/workspaces": {
     "disable-scroll": false,
     "all-outputs": true,
@@ -92,7 +93,7 @@
     }
   },
 
-  // --- MODULE TENGAH ---
+  // --- MODULE CENTER ---
   "custom/wayves": {
     "format": "{}",
     "interval": 0.1,
@@ -101,7 +102,16 @@
     "tooltip": false
   },
 
-  // --- MODULE KANAN ---
+  // --- MODULE LEFT ---
+
+  "custom/coffee": {
+    "format": "{}",
+    "interval": 2,
+    "return-type": "json",
+    "exec": "~/.config/waybar/scripts/coffee-toggle.sh",
+    "on-click": "~/.config/waybar/scripts/coffee-toggle.sh toggle"
+  },
+
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon} {percent}%",
