@@ -1,118 +1,133 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
 add_newline = true
+palette = "catppuccin_mocha"
 
-[aws]
-disabled = true
+format = """
+[](bold blue) $directory$git_branch$git_status
+$username$hostname$nodejs$python$rust$golang$docker$package$battery$cmd_duration
+$character
+"""
 
-[battery]
-disabled = true
+# 🎨 Palette Catppuccin Mocha
+[palettes.catppuccin_mocha]
+blue = "#89b4fa"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+purple = "#cba6f7"
+cyan = "#94e2d5"
+pink = "#f5c2e7"
+subtext = "#a6adc8"
 
-[character]
-success_symbol = "[](bold green)"
-error_symbol = "[](bold red)"
-vicmd_symbol = "[](bold green)"
-
-[cmd_duration]
-
-[conda]
-
+# 📂 Directory
 [directory]
+style = "bold cyan"
 truncation_length = 3
+truncation_symbol = "/"
+truncate_to_repo = true
+read_only = " "
+format = "[$path]($style)[$read_only]($style) "
 
-[dotnet]
-disabled = true
+# 👤 Username
+[username]
+style_user = "bold white"
+style_root = "bold blue"
+format = "[$user]($style) "
+show_always = true
 
-[env_var]
-disabled = true
-
-[elixir]
-symbol = " "
-
-[elm]
-symbol = " "
-
-[git_branch]
-symbol = " "
-
-[git_commit]
+# 🌐 Hostname
+[hostname]
+ssh_only = false
+format = "on [$hostname](bold red) "
+trim_at = ".companyname.com"
 disabled = false
-commit_hash_length = 4
 
-[git_state]
-disabled = true
+# 🦀 Rust
+[rust]
+format = "[via ⚙️ $version](red bold)"
+
+# 🛡️ Sudo
+[sudo]
+style = "bold green"
+symbol = "👑 "
+disabled = false
+
+# 🌱 Git
+[git_branch]
+symbol = " "
+style = "bold purple"
+format = "[$symbol$branch]($style) "
 
 [git_status]
-conflicted = "=${count}"
-ahead = "⇡${count}"
-behind = "⇣${count}"
-diverged = "⇕⇡${ahead_count}⇣${behind_count}"
-untracked = "?${count}"
-stashed = "\\$${count}"
-modified = "!${count}"
-staged = "+${count}"
-renamed = "»${count}"
-deleted = "✘${count}"
+style = "bold red"
+conflicted = "🏳 "
+ahead = "⇡${count} "
+diverged = "⇕⇡${ahead_count}⇣${behind_count} "
+behind = "⇣${count} "
+up_to_date = "✓"
+untracked = "🤷 "
+stashed = "📦 "
+modified = "📝 "
+staged = "[++($count)](green) "
+renamed = "👅 "
+deleted = "🗑 "
 
-[gcloud]
-disabled = true
+[git_commit]
+commit_hash_length = 4
+tag_symbol = "🔖 "
 
-[golang]
-symbol = " "
-
-[hostname]
-
-[jobs]
-
-[kubernetes]
-symbol = " "
-disabled = false
-
-[line_break]
-disabled = false
-
-[lua]
-symbol = " "
-lua_binary = "luajit"
-
-[nix_shell]
-disabled = true
-
-[memory_usage]
-disabled = true
-
-[java]
-symbol = " "
-
-[julia]
-
-[nim]
-
+# 💻 Node.js
 [nodejs]
-symbol = " "
+symbol = " "
+style = "bold green"
+format = "[$symbol($version)]($style)"
 
-[package]
-symbol = " "
-
-[php]
-symbol = " "
-
+# 🐍 Python
 [python]
-symbol = " "
+symbol = " "
+style = "bold yellow"
+format = "[$symbol($version)]($style)"
 
-[ruby]
-symbol = " "
+# 🤓 Golang
+[golang]
+symbol = "🐹 "
+style = "bold cyan"
+format = "[$symbol($version)]($style)"
 
-[rust]
-symbol = " "
+# 🐳 Docker
+[docker_context]
+symbol = " "
+style = "bold blue"
+format = "[$symbol$context]($style)"
 
-[scala]
-symbol = " "
+# 📦 Package
+[package]
+symbol = " "
+style = "bold pink"
+format = "[$symbol$version]($style)"
 
-[terraform]
-symbol = " "
-format = "via [$symbol$version]($style)"
+# 🔋 Battery
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡ "
+discharging_symbol = "💀 "
+unknown_symbol = " "
+format = "[$symbol$percentage]($style)"
 
-[time]
-disabled = true
+[[battery.display]]
+threshold = 20
+style = "bold red"
 
-[username]
-disabled = false
+# ⏱️ Command execution time
+[cmd_duration]
+min_time = 100 
+format = " took [$duration]($style)"
+style = "bold yellow"
+
+# ➜ Prompt symbol
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
+vicmd_symbol = "[](bold green)"
