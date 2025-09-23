@@ -23,7 +23,7 @@ if [[ -f "$PIDFILE" ]]; then
     PID=$(cat "$PIDFILE")
     if kill -0 "$PID" 2>/dev/null; then
         # Coffee mode is active
-        echo '{"text": "☕ ON", "tooltip": "Click to deactivate Coffee Mode", "class": "on"}'
+        echo '{"text": " ON", "tooltip": "Click to deactivate Coffee Mode", "class": "on"}'
         exit
     else
         rm -f "$PIDFILE"
@@ -31,4 +31,4 @@ if [[ -f "$PIDFILE" ]]; then
 fi
 
 # Coffee mode is off
-echo '{"text": "☕ OFF", "tooltip": "Click to activate Coffee Mode", "class": "off"}'
+echo '{"text": " OFF", "tooltip": "Click to activate Coffee Mode", "class": "off"}'
