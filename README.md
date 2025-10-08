@@ -22,7 +22,7 @@ Welcome to my dotfiles collection! This configuration is designed for a minimali
 
 2.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/username/dotfiles.git ~/dotfiles
+    git clone https://github.com/AdityaZxxx/dotfiles.git ~/dotfiles
     ```
     *(Replace `username/dotfiles` with your repository URL)*
 
