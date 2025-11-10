@@ -36,6 +36,7 @@ alias free="free -m"
 alias grep="rg --color=auto"
 alias cat="bat"
 alias ff="fastfetch"
+alias fuckoff="shutdown now"
 
 # Arch + Yay
 alias up="yay -Syyu"
