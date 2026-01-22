@@ -39,7 +39,7 @@ This repository is optimized for AI agents and coding assistants:
 
 ## 📜 Installation on New Machines
 
-1. Clone repo: `git clone <repo-url> ~/dotfiles`
+1. Clone repo: `git clone https://github.com/AdityaZxxx/dotfiles.git ~/dotfiles`
 2. Run sync: `~/dotfiles/dot sync`
 3. Install packages (optional): `yay -S $(cat packages/yay.txt)`
 
