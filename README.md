@@ -33,7 +33,7 @@ Use the `./dot` script to manage your environment:
 
 ## 🤖 Agentic Workflow
 
-This repository is optimized for AI Agents (like Antigravity/Opencode):
+This repository is optimized for AI agents and coding assistants:
 1. **Context Awareness**: `AGENTS.md` guides the AI on *strict types* and *surgical changes*.
 2. **Safety First**: With `jj`, every AI modification can be reversed with `jj undo` if errors occur.
 
@@ -44,4 +44,4 @@ This repository is optimized for AI Agents (like Antigravity/Opencode):
 3. Install packages (optional): `yay -S $(cat packages/yay.txt)`
 
 ---
-*Created with ❤️ by Antigravity AI Assistant.*
+*Created with ❤️ by an AI coding assistant.*

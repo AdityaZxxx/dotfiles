@@ -1,4 +1,4 @@
-# 🤖 Antigravity Global Rules (Dotfiles Context)
+# 🤖 Global AI Rules (Dotfiles Context)
 
 This document provides guidance for AI Assistants working within this dotfiles environment.
 
