@@ -1,47 +1,47 @@
 # 🌌 Dotfiles (Arch Linux + Agentic Edition)
 
-Sistem manajemen dotfiles yang modern, efisien, dan dirancang khusus untuk kolaborasi antara manusia dan AI Agent. Menggunakan pola *Stow-based mirroring* untuk sinkronisasi tanpa hambatan.
+A modern, efficient dotfiles management system designed specifically for human-AI collaboration. Uses a *Stow-based mirroring* pattern for seamless synchronization.
 
-## 🚀 Fitur Utama
+## 🚀 Key Features
 
-- **Mirroring Otomatis**: Menggunakan GNU Stow untuk melakukan *symlink* folder `home/` ke `$HOME`.
-- **Arch Native**: Integrasi manifest paket untuk `pacman` dan `yay` (AUR).
-- **Agent-Ready**: Dilengkapi dengan `AGENTS.md` untuk memberikan konteks standar kualitas kepada AI.
-- **Dual VCS**: Menggunakan Git sebagai backend dan Jujutsu (`jj`) untuk manajemen revisi yang lebih aman (undo/redo).
-- **Custom CLI**: Script `dot` sederhana untuk mengorkestrasi seluruh workflow.
+- **Automatic Mirroring**: Uses GNU Stow to symlink the `home/` directory to `$HOME`.
+- **Arch Native**: Integrated package manifests for `pacman` and `yay` (AUR).
+- **Agent-Ready**: Includes `AGENTS.md` to provide high-quality engineering standards for AI assistants.
+- **Dual VCS**: Powered by Git with Jujutsu (`jj`) for superior revision management (safe undo/redo).
+- **Custom CLI**: A simple `dot` script to orchestrate the entire workflow.
 
-## 📂 Struktur Folder
+## 📂 Repository Structure
 
 ```text
 ~/dotfiles/
-├── home/           # Replika dari $HOME (stowed to ~)
-│   └── .config/    # Config Hyprland, Kitty, Waybar, Nvim, dll.
-├── packages/       # Manifest paket terinstall (pacman & yay)
-├── backups/        # Backup otomatis saat migrasi
-├── dot             # Orchestrator CLI
-├── AGENTS.md       # Instruksi untuk AI Assistant
-└── README.md       # Dokumentasi ini
+├── home/           # Mirror of $HOME (stowed to ~)
+│   └── .config/    # Configs for Hyprland, Kitty, Waybar, Nvim, etc.
+├── packages/       # Installed package manifests (pacman & yay)
+├── backups/        # Automatic backups during migration
+├── dot             # CLI orchestrator
+├── AGENTS.md       # AI Assistant instructions
+└── README.md       # This documentation
 ```
 
-## 🛠️ Penggunaan CLI `dot`
+## 🛠️ Using the `dot` CLI
 
-Gunakan script `./dot` untuk mengelola sistem Anda:
+Use the `./dot` script to manage your environment:
 
-- **`./dot sync`**: Sinkronisasi config dari repo ke sistem (mengadopsi file baru secara otomatis).
-- **`./dot pkg-save`**: Backup daftar aplikasi Arch/AUR Anda ke folder `packages/`.
-- **`./dot doctor`**: Jalankan pemeriksaan kesehatan sistem dotfiles.
+- **`./dot sync`**: Sync configurations from repo to system (automatically adopts new files).
+- **`./dot pkg-save`**: Backup your Arch/AUR application list to the `packages/` folder.
+- **`./dot doctor`**: Run system health diagnostics.
 
-## 🤖 Kerja Bareng AI (Agentic Workflow)
+## 🤖 Agentic Workflow
 
-Repo ini dirancang agar AI Agent (seperti Antigravity/Opencode) bisa bekerja maksimal:
-1. **Context Awareness**: File `AGENTS.md` memberitahu AI tentang standar *strict types* dan *surgical changes*.
-2. **Safety First**: Dengan `jj`, setiap perubahan yang dilakukan AI bisa di-undo dengan perintah `jj undo` jika terjadi kesalahan.
+This repository is optimized for AI Agents (like Antigravity/Opencode):
+1. **Context Awareness**: `AGENTS.md` guides the AI on *strict types* and *surgical changes*.
+2. **Safety First**: With `jj`, every AI modification can be reversed with `jj undo` if errors occur.
 
-## 📜 Instalasi di Mesin Baru
+## 📜 Installation on New Machines
 
 1. Clone repo: `git clone <repo-url> ~/dotfiles`
-2. Jalankan sync: `~/dotfiles/dot sync`
-3. Install paket (optional): `yay -S $(cat packages/yay.txt)`
+2. Run sync: `~/dotfiles/dot sync`
+3. Install packages (optional): `yay -S $(cat packages/yay.txt)`
 
 ---
 *Created with ❤️ by Antigravity AI Assistant.*
