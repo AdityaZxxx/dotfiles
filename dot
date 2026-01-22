@@ -33,8 +33,8 @@ cmd_sync() {
 
     # Stow files
     if command_exists stow; then
-        print_info "Restowing files..."
-        stow -R -v -d "$DOTFILES_DIR" -t "$HOME" home
+        print_info "Restowing files (with --adopt)..."
+        stow -R -v -d "$DOTFILES_DIR" -t "$HOME" --adopt home
         print_success "Dotfiles synced and stowed"
     else
         print_error "GNU Stow not found. Please install it with: sudo pacman -S stow"
