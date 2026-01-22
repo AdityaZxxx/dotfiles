@@ -1,0 +1,176 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "height": 42,
+  "spacing": 5,
+
+  "modules-left": [
+    "hyprland/workspaces",
+    "custom/pacman",
+    "network",
+    "pulseaudio",
+    "hyprland/window"
+  ],
+  "modules-center": ["custom/wayves"],
+  "modules-right": [
+    "custom/coffee",
+    "backlight",
+    "bluetooth",
+    "cpu",
+    "memory",
+    "battery",
+    "tray",
+    "clock",
+    "custom/powermenu"
+  ],
+
+  // --- MODULE RIGHT ---
+  "hyprland/workspaces": {
+    "disable-scroll": false,
+    "all-outputs": true,
+    "format": "{icon}",
+    "format-icons": {
+      "active": "",
+      "default": "",
+      "urgent": "",
+      "empty": ""
+    },
+    "persistent-workspaces": {
+      "*": 5
+    }
+  },
+
+  "custom/pacman": {
+    "format": "󰏔 {} updates",
+    "interval": 3600,
+    "exec": "checkupdates | wc -l"
+  },
+
+  "network": {
+    "interval": 5,
+    "format-wifi": "{icon} {essid}",
+    "format-ethernet": "󰈀 {ifname}",
+    "format-disconnected": "󰤮 Disconnected",
+    "tooltip-format-wifi": "Signal: {signalStrength}% | IP: {ipaddr}",
+    "tooltip-format-ethernet": "{ifname} | IP: {ipaddr}",
+    "format-icons": {
+      "wifi": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+    }
+  },
+
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-bluetooth": " {volume}%",
+    "format-muted": "󰸈 Muted",
+    "on-click": "pavucontrol",
+    "tooltip-format": "{desc} ({volume}%)",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "class": "module-group-end"
+  },
+
+  "hyprland/window": {
+    "format": "{}",
+    "icon": true,
+    "max-length": 50,
+    "rewrite": {
+      ".* - Visual Studio Code$": "VS Code",
+      "^Visual Studio Code$": "VS Code",
+      "(.*) — Zen Browser": "Zen Browser",
+      "^[Vv][Ee][Ss][Kk][Tt][Oo][Pp].*": "Discord",
+      "^[Aa][Yy][Uu][Gg][Rr][Aa][Mm].*": "Telegram",
+      "^[Yy][Tt][Mm]-?[Dd][Ee][Ss][Kk][Tt][Oo][Pp].*": "YouTube Music",
+      ".*[Ff]irefox.*": "Firefox",
+      ".*[Kk]itty.*": "Kitty Terminal"
+    }
+  },
+
+  // --- MODULE CENTER ---
+  "custom/wayves": {
+    "format": "{}",
+    "interval": 0.1,
+    "exec": "python ~/.config/waybar/modules/wayves/wayves.py -o cava -i cava -a cava",
+    "on-click": "playerctl play-pause",
+    "tooltip": false
+  },
+
+  // --- MODULE LEFT ---
+
+  "custom/coffee": {
+    "format": "{}",
+    "interval": 2,
+    "return-type": "json",
+    "exec": "~/.config/waybar/scripts/coffee-toggle.sh",
+    "on-click": "~/.config/waybar/scripts/coffee-toggle.sh toggle"
+  },
+
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃛", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠", "󰃡", "󰃢"],
+    "on-scroll-up": "brightnessctl set +5%",
+    "on-scroll-down": "brightnessctl set 5%-"
+  },
+
+  "bluetooth": {
+    "format": "{icon}",
+    "format-on": " On",
+    "format-off": "󰂲 Off",
+    "format-disabled": "󰂲 Disabled",
+    "format-connected": " {device_alias}",
+    "format-connected-battery": " {device_alias} {device_battery_percentage}%",
+    "tooltip-format-connected": "{device_alias} ({device_address})",
+    "on-click": "blueberry",
+    "on-click-right": "bluetoothctl power off",
+    "on-click-middle": "bluetoothctl power on"
+  },
+
+  "cpu": {
+    "interval": 2,
+    "format": " {usage}%",
+    "tooltip-format": "CPU: {usage}% | Load: {avg_load}",
+    "class": "module-group-start"
+  },
+
+  "memory": {
+    "interval": 5,
+    "format": " {used:0.1f}G",
+    "class": "module-group-middle"
+  },
+
+  "battery": {
+    "bat": "BAT0",
+    "interval": 30,
+    "states": { "warning": 30, "critical": 15 },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰚥 {capacity}%",
+    "format-discharging": "{icon} {capacity}%",
+    "format-icons": ["󰁎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "class": "module-group-end"
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+
+  "clock": {
+    "format": "󰥔 {:%H:%M}",
+    "format-alt": " {:%a, %d %b %Y}",
+    "tooltip-format": "<big>{:%A, %d %B %Y}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+
+  "custom/powermenu": {
+    "format": "",
+    "tooltip-format": "Power Menu",
+    "on-click": "~/.config/rofi/powermenu/type-4/powermenu.sh"
+  }
+}

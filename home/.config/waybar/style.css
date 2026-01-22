@@ -1,0 +1,159 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrains Mono Nerd Font";
+  font-weight: 500;
+  font-size: 16px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: #303030;
+  color: #e4e4e4;
+  transition: opacity 0.3s ease;
+}
+
+window#waybar.hidden {
+  opacity: 0;
+}
+
+/* === Styling Tooltip === */
+tooltip {
+  background-color: rgba(30, 33, 42, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+tooltip label {
+  color: #e4e4e4;
+  padding: 4px;
+}
+
+/* === Basic style modules (square) === */
+#workspaces,
+#custom-pacman,
+#custom-coffee,
+#network,
+#pulseaudio,
+#window,
+#custom-wayves,
+#backlight,
+#bluetooth,
+#cpu,
+#memory,
+#battery,
+#tray,
+#clock,
+#custom-powermenu {
+  /* background-color: rgba(30, 33, 42, 0.85); */
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 6px 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* Effect Hover for all modules */
+#workspaces button:hover,
+#custom-pacman:hover,
+#custom-coffee:hover,
+#network:hover,
+#pulseaudio:hover,
+#window:hover,
+#backlight:hover,
+#bluetooth:hover,
+#cpu:hover,
+#memory:hover,
+#battery:hover,
+#tray:hover,
+#clock:hover,
+#custom-powermenu:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* === Module Grouping (Borders) === */
+.module-group-start {
+  border-radius: 12px 0 0 12px;
+  border-right: none;
+}
+.module-group-middle {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+.module-group-end {
+  border-radius: 0 12px 12px 0;
+  border-left: none;
+}
+
+/* === Margin & Padding Specific === */
+#workspaces {
+  margin-left: 10px;
+  padding: 0 6px;
+  /* background-color: rgba(20, 22, 30, 0.85); */
+}
+
+#custom-powermenu {
+  margin-right: 10px;
+}
+
+/* === Workspaces Button === */
+#workspaces button {
+  color: #ffd966;
+  padding: 4px 10px;
+  margin: 4px 3px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#workspaces button.focused {
+  background-color: #ffd966;
+  color: #1e212a;
+}
+
+#workspaces button.urgent {
+  background-color: #ff5f5f;
+  color: #ffffff;
+}
+
+/* === Status Color per Module === */
+#pulseaudio.muted {
+  color: #6e6a86;
+}
+
+#battery.charging,
+#bluetooth.connected,
+#network.connected {
+  color: #4be18b;
+}
+
+#battery.critical:not(.charging) {
+  background-color: #ff595e;
+  color: #ffffff;
+  animation: blink 0.8s linear infinite alternate;
+}
+
+@keyframes blink {
+  to {
+    background-color: #f8f8f2;
+    color: #1e212a;
+  }
+}
+
+#network.disconnected {
+  color: #ff8b94;
+}
+
+#backlight {
+  color: #ffe066;
+}
+
+#custom-coffee.on {
+  color: #00ff00;
+}
+
+#custom-coffee.off {
+  color: #ff5555;
+}

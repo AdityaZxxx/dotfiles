@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# Colors for output
+readonly RED='\033[0;31m'
+readonly GREEN='\033[0;32m'
+readonly YELLOW='\033[0;33m'
+readonly BLUE='\033[1m\033[34m'
+readonly RESET='\033[0m'
+
+# Paths
+DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly DOTFILES_DIR
+readonly HOME_DIR="${DOTFILES_DIR}/home"
+readonly PACKAGES_DIR="${DOTFILES_DIR}/packages"
+
+print_header() { echo -e "\n${BLUE}==>${RESET} ${BOLD:-}$1${RESET}"; }
+print_success() { echo -e "${GREEN}✓${RESET} $1"; }
+print_error() { echo -e "${RED}✗${RESET} $1" >&2; }
+print_info() { echo -e "${BLUE}ℹ${RESET} $1"; }
+
+command_exists() { command -v "$1" >/dev/null 2>&1; }
+
+cmd_sync() {
+    print_header "Syncing Dotfiles"
+    
+    # Update from remote if it's a git repo
+    if [ -d "${DOTFILES_DIR}/.git" ]; then
+        print_info "Pulling latest changes..."
+        git -C "$DOTFILES_DIR" pull || print_error "Failed to pull changes"
+    fi
+
+    # Stow files
+    if command_exists stow; then
+        print_info "Restowing files..."
+        stow -R -v -d "$DOTFILES_DIR" -t "$HOME" home
+        print_success "Dotfiles synced and stowed"
+    else
+        print_error "GNU Stow not found. Please install it with: sudo pacman -S stow"
+    fi
+}
+
+cmd_pkg_save() {
+    print_header "Saving Package Manifest"
+    mkdir -p "$PACKAGES_DIR"
+    
+    print_info "Exporting pacman packages..."
+    pacman -Qqe > "${PACKAGES_DIR}/pacman.txt"
+    
+    if command_exists yay; then
+        print_info "Exporting yay (AUR) packages..."
+        yay -Qqe > "${PACKAGES_DIR}/yay.txt"
+    fi
+    
+    print_success "Package lists saved to ${PACKAGES_DIR}"
+}
+
+cmd_doctor() {
+    print_header "Running Diagnostics"
+    local issues=0
+
+    # Check Stow
+    if command_exists stow; then print_success "GNU Stow is installed"; else print_error "GNU Stow is missing"; ((issues++)); fi
+    
+    # Check shell
+    if [[ "$SHELL" == *"zsh"* ]]; then print_success "Zsh is your default shell"; else print_info "Current shell is $SHELL"; fi
+    
+    # Check paths
+    if [ -d "$HOME_DIR" ]; then print_success "Home mirror directory exists"; else print_error "Home mirror directory is missing"; ((issues++)); fi
+
+    if [ $issues -eq 0 ]; then
+        print_success "All systems operational!"
+    else
+        print_error "Found $issues issue(s)"
+    fi
+}
+
+case "${1:-help}" in
+    sync) cmd_sync ;;
+    pkg-save) cmd_pkg_save ;;
+    doctor) cmd_doctor ;;
+    *)
+        echo "Usage: dot {sync|pkg-save|doctor}"
+        exit 1
+        ;;
+esac
