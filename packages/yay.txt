@@ -1,7 +1,6 @@
 acpi
 acpid
 adw-gtk-theme-git
-aichat
 alacritty
 android-tools
 antigravity
@@ -81,7 +80,6 @@ hyprshade
 iio-hyprland-git
 iio-sensor-proxy
 imagemagick
-insomnia-bin
 intel-media-driver
 intel-ucode
 iwd
@@ -102,7 +100,6 @@ linux-zen
 localsend-bin
 lxappearance
 lxqt-policykit
-metar
 mpv-mpris
 mpvpaper
 mtools
@@ -133,7 +130,6 @@ pipewire-pulse
 pnpm
 pomatez
 poppler
-potrace
 power-profiles-daemon
 powertop
 preload
@@ -153,13 +149,11 @@ qt6-wayland
 rate-mirrors-bin
 reflector
 ripgrep
-rnote
 rofi
 rofimoji
 rsync
 rxfetch
 sddm
-sherlock-git
 slurp
 smartmontools
 socat
@@ -231,7 +225,6 @@ xorg-server
 xorg-xinit
 xorg-xinput
 xorg-xrandr
-xournalpp
 yad
 yarn
 yay

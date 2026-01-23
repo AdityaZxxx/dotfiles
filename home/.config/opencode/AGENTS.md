@@ -26,9 +26,26 @@
 - **Safety**: No non-null assertions (`!`) or unsafe casts (`as`).
 - **Domain Modeling**: Use ADTs/discriminated unions to make illegal states unrepresentable.
 
-## Specialized Subagents
-- **Oracle**: Code review, architecture, debugging, refactoring.
-- **Librarian**: 3rd party library research, remote repo exploration.
+## Specialized Agents
+
+### Primary Agents (can be invoked directly)
+- **Design Engineer** (`@design-engineer`): Frontend UI with craft & motion focus. Delegates to `@craft-reviewer`, `@component-builder`, `@motion-expert`.
+- **Researcher** (`@researcher`): Research any topic, save to Obsidian vault.
+
+### Utility Subagents (invoked by primary or commands)
+- **Oracle** (`@oracle`): Strategic advisor. Architecture, planning, complex debugging. Extended thinking. Read-only. NOT for routine code review.
+- **Code Review** (`@code-review`): Tactical code reviewer. Bugs, security, patterns. Fast, focused. For PRs and uncommitted changes.
+- **Librarian** (`@librarian`): Multi-repo exploration. GitHub/npm/PyPI source analysis. Loads `librarian` skill.
+- **OpenCode Expert** (`@opencode-expert`): OpenCode configuration help.
+
+### Design Subagents (invoked by @design-engineer)
+- **Craft Reviewer** (`@craft-reviewer`): UI quality, polish, animation review. Read-only.
+- **Component Builder** (`@component-builder`): Reusable UI components with accessibility.
+- **Motion Expert** (`@motion-expert`): Framer Motion, CSS animations, timing.
+
+## MCP Servers
+- **context7**: Library documentation lookup. Use for API references.
+- **gh_grep**: Search GitHub code. Use for finding real-world examples.
 
 ## Git & VCS
 - **ALWAYS check for `.jj/`** - if present, use `jj` not git.
