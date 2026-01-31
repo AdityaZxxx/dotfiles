@@ -65,7 +65,7 @@ select_mode() {
     debug "Mode menu options: $mode_menu"
     local cmd="echo -e \"$mode_menu\" | rofi -dmenu -i -p 'Select Mode'"
     local selection
-    selection=$(~/.config/hypr/scripts/rofi_toggle.sh "$cmd")
+    selection=$(~/.config/hypr/scripts/rofi-toggle.sh "$cmd")
 
     debug "Selected mode: $selection"
     if [ -n "$selection" ]; then
@@ -91,7 +91,7 @@ select_scheme() {
 
     local cmd="printf '%s\n' '${schemes[*]}' | rofi -dmenu -i -p 'Select Scheme' "
     local selection
-    selection=$(~/.config/hypr/scripts/rofi_toggle.sh "$cmd")
+    selection=$(~/.config/hypr/scripts/rofi-toggle.sh "$cmd")
 
     debug "Selected scheme: $selection"
     if [ -n "$selection" ]; then
@@ -114,7 +114,7 @@ select_contrast() {
 
     local cmd="printf '%s\n' '${contrast_options[*]}' | rofi -dmenu -i -p 'Select Contrast'"
     local selection
-    selection=$(~/.config/hypr/scripts/rofi_toggle.sh "$cmd")
+    selection=$(~/.config/hypr/scripts/rofi-toggle.sh "$cmd")
 
     debug "Selected contrast: $selection"
     if [ -n "$selection" ]; then
@@ -200,7 +200,7 @@ show_wallpaper_selector() {
 
     # Use rofi to show grid of images
     local selection
-    selection=$(cat "$ENTRIES_FILE" | ~/.config/hypr/scripts/rofi_toggle.sh "rofi \
+    selection=$(cat "$ENTRIES_FILE" | ~/.config/hypr/scripts/rofi-toggle.sh "rofi \
         -dmenu \
         -i \
         -p 'Select Wallpaper' \
@@ -255,10 +255,10 @@ while [[ $# -gt 0 ]]; do
         "-h"|"--help")
             cat << EOF
 NAME
-    wallpaper-select - A dynamic wallpaper selector with material color scheme generation
+    wallpaper-manager - A dynamic wallpaper selector with material color scheme generation
 
 SYNOPSIS
-    wallpaper-select [OPTIONS]
+    wallpaper-manager [OPTIONS]
 
 DESCRIPTION
     A script to select and apply wallpapers using rofi, with automatic material color scheme
@@ -302,16 +302,16 @@ OPTIONS
 
 EXAMPLES
     # Open rofi wallpaper selector
-    wallpaper-select.sh
+    wallpaper-manager.sh
 
     # Set random wallpaper
-    wallpaper-select.sh -r
+    wallpaper-manager.sh -r
 
     # Set random wallpaper with expressive scheme in light mode
-    wallpaper-select.sh -r -s scheme-expressive -m light
+    wallpaper-manager.sh -r -s scheme-expressive -m light
 
     # Set wallpaper with high contrast monochrome scheme
-    wallpaper-select.sh -s scheme-monochrome -c 0.8
+    wallpaper-manager.sh -s scheme-monochrome -c 0.8
 
 FILES
     $WALLPAPER_DIR
