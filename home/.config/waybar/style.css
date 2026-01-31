@@ -18,7 +18,7 @@ window#waybar.empty #window {
   border: none;
 }
 
-/* === Styling Tooltip === */
+/*  Styling Tooltip  */
 tooltip {
   background-color: rgba(30, 33, 42, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -30,7 +30,7 @@ tooltip label {
   padding: 4px;
 }
 
-/* === Basic style modules (square) === */
+/*  Basic style modules (square)  */
 #workspaces,
 #custom-coffee,
 #network,
@@ -73,36 +73,38 @@ tooltip label {
   background-color: #262626;
 }
 
-/* === Module Grouping (Borders) === */
+/*  Module Grouping (Borders)  */
 .module-group-start {
   border-radius: 12px 0 0 12px;
   border-right: none;
 }
+
 .module-group-middle {
   border-radius: 0;
   border-left: none;
   border-right: none;
 }
+
 .module-group-end {
   border-radius: 0 12px 12px 0;
   border-left: none;
 }
 
-/* === Margin & Padding Specific === */
+/*  Margin & Padding Specific  */
 #workspaces {
   margin-left: 10px;
   padding: 0 6px;
 }
 
-#custom-powermenu {
+#clock {
   margin-right: 10px;
 }
 
-/* === Workspaces Button === */
+/*  Workspaces Button  */
 #workspaces button {
   color: #ffd966;
   padding: 4px 10px;
-  margin: 4px 3px;
+  margin: 4px;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
@@ -117,7 +119,7 @@ tooltip label {
   color: #ffffff;
 }
 
-/* === Status Color per Module === */
+/*  Status Color per Module  */
 #pulseaudio.muted {
   color: #ff5555;
 }
@@ -154,9 +156,5 @@ tooltip label {
 }
 
 #custom-coffee.off {
-  color: #ff5555;
-}
-
-#custom-powermenu {
   color: #ff5555;
 }
