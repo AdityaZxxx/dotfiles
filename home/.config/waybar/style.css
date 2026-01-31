@@ -8,13 +8,14 @@
 }
 
 window#waybar {
-  background: #303030;
+  background: #262626;
   color: #e4e4e4;
   transition: opacity 0.3s ease;
 }
 
-window#waybar.hidden {
-  opacity: 0;
+window#waybar.empty #window {
+  background: none;
+  border: none;
 }
 
 /* === Styling Tooltip === */
@@ -31,7 +32,6 @@ tooltip label {
 
 /* === Basic style modules (square) === */
 #workspaces,
-#custom-pacman,
 #custom-coffee,
 #network,
 #pulseaudio,
@@ -44,9 +44,9 @@ tooltip label {
 #battery,
 #tray,
 #clock,
-#custom-powermenu {
-  /* background-color: rgba(30, 33, 42, 0.85); */
-  background: transparent;
+#custom-powermenu,
+#custom-notification {
+  background: #171717;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   margin-top: 8px;
@@ -57,7 +57,6 @@ tooltip label {
 
 /* Effect Hover for all modules */
 #workspaces button:hover,
-#custom-pacman:hover,
 #custom-coffee:hover,
 #network:hover,
 #pulseaudio:hover,
@@ -69,8 +68,9 @@ tooltip label {
 #battery:hover,
 #tray:hover,
 #clock:hover,
-#custom-powermenu:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+#custom-powermenu:hover,
+#custom-notification:hover {
+  background-color: #262626;
 }
 
 /* === Module Grouping (Borders) === */
@@ -92,7 +92,6 @@ tooltip label {
 #workspaces {
   margin-left: 10px;
   padding: 0 6px;
-  /* background-color: rgba(20, 22, 30, 0.85); */
 }
 
 #custom-powermenu {
@@ -114,13 +113,13 @@ tooltip label {
 }
 
 #workspaces button.urgent {
-  background-color: #ff5f5f;
+  background-color: #ff5555;
   color: #ffffff;
 }
 
 /* === Status Color per Module === */
 #pulseaudio.muted {
-  color: #6e6a86;
+  color: #ff5555;
 }
 
 #battery.charging,
@@ -130,7 +129,7 @@ tooltip label {
 }
 
 #battery.critical:not(.charging) {
-  background-color: #ff595e;
+  background-color: #ff5555;
   color: #ffffff;
   animation: blink 0.8s linear infinite alternate;
 }
@@ -143,7 +142,7 @@ tooltip label {
 }
 
 #network.disconnected {
-  color: #ff8b94;
+  color: #ff5555;
 }
 
 #backlight {
@@ -155,5 +154,9 @@ tooltip label {
 }
 
 #custom-coffee.off {
+  color: #ff5555;
+}
+
+#custom-powermenu {
   color: #ff5555;
 }
