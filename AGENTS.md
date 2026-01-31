@@ -11,7 +11,7 @@ This document provides guidance for AI Assistants working within this dotfiles e
 ## 🛠️ Standards & Quality
 - **Conciseness**: Communication must be extremely brief and technical.
 - **Strict Configuration**: When editing Zsh or Python files, use *strict typing* and avoid *bare exceptions*.
-- **VCS Priority**: Always check for a `.jj/` directory. If present, use `jj` commands for VCS operations to ensure safety and "undoability."
+- **VCS**: Use standard Git commands for version control operations.
 
 ## 📦 Package Management
 - Always update package manifests after installing new applications using `./dot pkg-save`.

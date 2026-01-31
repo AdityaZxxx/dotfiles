@@ -7,7 +7,7 @@ A modern, efficient dotfiles management system designed specifically for human-A
 - **Automatic Mirroring**: Uses GNU Stow to symlink the `home/` directory to `$HOME`.
 - **Arch Native**: Integrated package manifests for `pacman` and `yay` (AUR).
 - **Agent-Ready**: Includes `AGENTS.md` to provide high-quality engineering standards for AI assistants.
-- **Dual VCS**: Powered by Git with Jujutsu (`jj`) for superior revision management (safe undo/redo).
+- **Git Native**: Simple and reliable Git workflow for version control.
 - **Custom CLI**: A simple `dot` script to orchestrate the entire workflow.
 
 ## 📂 Repository Structure
@@ -35,7 +35,7 @@ Use the `./dot` script to manage your environment:
 
 This repository is optimized for AI agents and coding assistants:
 1. **Context Awareness**: `AGENTS.md` guides the AI on *strict types* and *surgical changes*.
-2. **Safety First**: With `jj`, every AI modification can be reversed with `jj undo` if errors occur.
+2. **Safety First**: Use `git revert` or `git reset` to undo changes if errors occur.
 
 ## 📜 Installation on New Machines
 
