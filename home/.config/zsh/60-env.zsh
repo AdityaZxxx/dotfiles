@@ -9,7 +9,12 @@ export PATH="$PNPM_HOME:$PATH"
 export PATH="$PATH:$HOME/.turso"
 
 # TheFuck
-eval "$(thefuck --alias)"
+if (( $+functions[zsh-defer] )); then
+  # Use single quotes to prevent immediate expansion
+  zsh-defer -c 'eval "$(thefuck --alias)"'
+else
+  eval "$(thefuck --alias)"
+fi
 
 # Gemini
 export PATH="$HOME/.bun/bin:$PATH"

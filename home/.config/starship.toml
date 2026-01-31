@@ -32,7 +32,7 @@ format = "[$path]($style)[$read_only]($style) "
 
 # 👤 Username
 [username]
-style_user = "bold white"
+style_user = "bold purple"
 style_root = "bold blue"
 format = "[$user]($style) "
 show_always = true

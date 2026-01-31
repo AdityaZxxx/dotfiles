@@ -2,7 +2,7 @@
 # Plugins
 ###################################
 # Lazy load with zsh-defer
-if (( $+commands[zsh-defer] )); then
+if (( $+functions[zsh-defer] )); then
   zsh-defer source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
   zsh-defer source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 else

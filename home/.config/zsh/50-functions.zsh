@@ -4,6 +4,16 @@
 cdg() { cd "$1" && ls }
 mkd() { mkdir -p "$1" && cd "$1"; }
 
+# Grep wrapper with ripgrep fallback
+unalias grep 2>/dev/null
+grep() {
+  if [[ "$1" == "--rg" ]]; then
+    rg --color=auto "${@:2}"
+  else
+    command grep --color=auto "$@"
+  fi
+}
+
 extract() {
   case $1 in
     *.tar.bz2) tar xjf $1 ;;

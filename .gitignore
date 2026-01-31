@@ -1,14 +1,7 @@
-# --- Opencode Specific ---
-# Berisi ribuan file dependensi (Bloatware)
 **/node_modules/
-
-# Berisi REFRESH TOKEN akun Anda (Sangat Rahasia!)
 **/opencode/antigravity-accounts.json
-
-# --- System Junk ---
 .DS_Store
 *.log
 *.tmp
-
-# --- Backups ---
 backups/
+**zwc

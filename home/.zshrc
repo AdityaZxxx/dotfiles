@@ -5,5 +5,7 @@ for file in $HOME/.config/zsh/*.zsh; do
 done
 
 for f in $HOME/.config/zsh/*.zsh; do
-  [ -f $f ] && zcompile $f
+  if [[ ! -f "$f.zwc" || "$f" -nt "$f.zwc" ]]; then
+    zcompile "$f"
+  fi
 done
