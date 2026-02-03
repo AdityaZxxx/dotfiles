@@ -1,0 +1,15 @@
+/**
+ * Cursor IDE Color Scheme
+ * Modern, clean dark theme with high contrast
+ */
+
+* {
+    background:     #0d1117FF;
+    background-alt: #161b22FF;
+    foreground:     #c9d1d9FF;
+    selected:       #58a6ffFF;
+    active:         #238636FF;
+    urgent:         #f85149FF;
+    border:         #30363dFF;
+    dim:            #8b949eFF;
+}
