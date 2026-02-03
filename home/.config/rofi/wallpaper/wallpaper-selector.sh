@@ -141,8 +141,12 @@ swww img "$SELECTED_WALLPAPER_PATH" \
     --transition-fps 60 \
     --transition-duration 0.7
 
-# Copy to hyprlock
-cp "$SELECTED_WALLPAPER_PATH" "$HYPRLOCK_WALLPAPER_PATH"
+# Copy to hyprlock (force overwrite to ensure update)
+if cp -f "$SELECTED_WALLPAPER_PATH" "$HYPRLOCK_WALLPAPER_PATH"; then
+    echo "Lockscreen wallpaper synced successfully"
+else
+    echo "Warning: Failed to copy wallpaper to hyprlock" >&2
+fi
 
 # (Optional) Send notification
 # notify-send -i "$SELECTED_WALLPAPER_PATH" "Wallpaper Changed" "Wallpaper has been changed to $CHOSEN_FILENAME"
