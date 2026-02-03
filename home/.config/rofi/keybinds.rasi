@@ -1,0 +1,147 @@
+/**
+ * JaKooLit-inspired Keybinds Theme
+ * Clean, Wide, and Dual-Column
+ **/
+
+* {
+    font:                        "JetBrains Mono Nerd Font 12";
+    background:                  #11111b;
+    background-alt:              #1e1e2e;
+    foreground:                  #cdd6f4;
+    selected:                    #89b4fa;
+    active:                      #a6e3a1;
+    urgent:                      #f38ba8;
+}
+
+window {
+    width:            90%;
+    height:           500px;
+    border:           2px;
+    border-color:     @selected;
+    border-radius:    12px;
+    background-color: @background;
+    padding:          0px;
+}
+
+mainbox {
+    background-color: transparent;
+    children:         [ "inputbar", "message", "listview" ];
+    spacing:          0px;
+}
+
+inputbar {
+    background-color: @background-alt;
+    text-color:       @foreground;
+    padding:          20px;
+    children:         [ "prompt", "entry" ];
+    spacing:          15px;
+}
+
+prompt {
+    background-color: transparent;
+    text-color:       @selected;
+    font:             "JetBrains Mono Nerd Font Bold 14";
+}
+
+entry {
+    background-color: transparent;
+    text-color:       @foreground;
+    placeholder:      " 🧮 Search Keybinds (e.g. btop, focus, workspace)";
+    placeholder-color: @foreground;
+    cursor:           text;
+}
+
+message {
+    background-color: @background;
+    padding:          10px 20px;
+    border:           0px 0px 1px 0px;
+    border-color:     @background-alt;
+}
+
+textbox {
+    background-color: transparent;
+    text-color:       @foreground;
+    font:             "JetBrains Mono Nerd Font 12";
+}
+
+listview {
+    background-color: transparent;
+    columns:          2;
+    lines:            10;
+    spacing:          10px;
+    scrollbar:        true;
+    padding:          20px;
+    cycle:            true;
+    fixed-height:     false;
+}
+
+element {
+    background-color: transparent;
+    text-color:       @foreground;
+    padding:          10px;
+    border-radius:    8px;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color:       @foreground;
+}
+
+element normal.urgent {
+    background-color: @urgent;
+    text-color:       @foreground;
+}
+
+element normal.active {
+    background-color: @active;
+    text-color:       @foreground;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color:       @foreground;
+}
+
+element alternate.urgent {
+    background-color: @urgent;
+    text-color:       @foreground;
+}
+
+element alternate.active {
+    background-color: @active;
+    text-color:       @foreground;
+}
+
+element selected.normal {
+    background-color: @selected;
+    text-color:       @background;
+}
+
+element selected.urgent {
+    background-color: @urgent;
+    text-color:       @foreground;
+}
+
+element selected.active {
+    background-color: @active;
+    text-color:       @foreground;
+}
+
+element-icon {
+    size:             0%;
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       inherit;
+    vertical-align:   0.5;
+    horizontal-align: 0.0;
+}
+
+scrollbar {
+    width:        4px;
+    border:       0;
+    handle-color: @selected;
+    handle-width: 8px;
+    padding:      0;
+}
