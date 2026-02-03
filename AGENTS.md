@@ -12,6 +12,7 @@ This document provides guidance for AI Assistants working within this dotfiles e
 - **Conciseness**: Communication must be extremely brief and technical.
 - **Strict Configuration**: When editing Zsh or Python files, use *strict typing* and avoid *bare exceptions*.
 - **VCS**: Use standard Git commands for version control operations.
+- **Code Comments**: Use comments to explain complex code logic or non-obvious decisions with flat comments style *without* emojis/decorations symbols("📄"--__==**).
 
 ## 📦 Package Management
 - Always update package manifests after installing new applications using `./dot pkg-save`.
