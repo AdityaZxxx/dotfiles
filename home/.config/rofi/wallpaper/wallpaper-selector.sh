@@ -1,74 +1,88 @@
 #!/bin/bash
 
-# === KONFIGURASI ===
-# Ganti dengan path ke direktori wallpaper Anda
+# === CONFIGURATION ===
+# Change to your wallpaper directory path
 WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
-# Anda bisa menambahkan lebih banyak direktori jika perlu, contoh:
+# You can add more directories if needed, example:
 # WALLPAPER_DIRS=("$HOME/Pictures/Wallpapers" "$HOME/Pictures/Favorites")
 
-# Direktori untuk menyimpan thumbnail
+# Hyprlock wallpaper path
+HYPRLOCK_WALLPAPER_PATH="$HOME/.config/hypr/hyprlock/background.png"
+
+# Directory for storing thumbnails
 THUMBNAIL_CACHE_DIR="$HOME/.cache/rofi_wallpaper_thumbnails"
-# Ukuran thumbnail yang akan dibuat (dalam piksel, e.g., 96x96)
-THUMBNAIL_SIZE="96"
+# Thumbnail size (width x height) - 16:9 ratio for desktop
+THUMBNAIL_WIDTH="280"
+THUMBNAIL_HEIGHT="157"
 
-# Prompt untuk Rofi
-ROFI_PROMPT=" Wallpaper"
+# Rofi prompt (hidden in theme)
+ROFI_PROMPT=""
 
-# Path ke file tema Rofi Anda
-ROFI_THEME="$HOME/.config/rofi/wallpaper/theme.rasi" # Sesuaikan jika path berbeda
-# === AKHIR KONFIGURASI ===
+# Path to your Rofi theme file
+ROFI_THEME="$HOME/.config/rofi/wallpaper/theme.rasi" # Adjust if path is different
+# === END CONFIGURATION ===
 
-# Memastikan imagemagick (perintah convert) terinstal
+# Ensure dependencies are installed
 if ! command -v convert &> /dev/null; then
-  rofi -e "ImageMagick (perintah 'convert') tidak ditemukan. Mohon instal untuk menggunakan fitur thumbnail."
+  rofi -e "ImageMagick (command 'convert') not found. Please install to use thumbnail feature."
+  exit 1
+fi
+if ! command -v swww &> /dev/null;
+then
+  rofi -e "swww not found. Please install to continue."
   exit 1
 fi
 
-# Memastikan direktori wallpaper ada
-if [ ! -d "$WALLPAPER_DIR" ]; then
-  rofi -e "Direktori Wallpaper utama tidak ditemukan: $WALLPAPER_DIR"
+# Ensure wallpaper directory exists
+if [ ! -d "$WALLPAPER_DIR" ];
+then
+  rofi -e "Main wallpaper directory not found: $WALLPAPER_DIR"
   exit 1
 fi
 
-# Membuat direktori cache thumbnail jika belum ada
+# Create thumbnail cache directory if not exists
 mkdir -p "$THUMBNAIL_CACHE_DIR"
 
-# Mengumpulkan semua file gambar dan membuat thumbnail jika perlu
+# Collect all image files and create thumbnails if needed
 options=""
-# Menggunakan find untuk mencari file secara rekursif (hapus -maxdepth 1 jika ingin rekursif)
-while IFS= read -r -d $'\0' file_path; do
+# Using find to search files recursively (remove -maxdepth 1 for recursive)
+while IFS= read -r -d $'\0' file_path;
+do
     filename=$(basename "$file_path")
-    # Menggunakan ekstensi .png untuk thumbnail demi konsistensi
+    # Using .png extension for thumbnails for consistency
     thumbnail_filename="${filename%.*}.png"
     thumbnail_path="$THUMBNAIL_CACHE_DIR/$thumbnail_filename"
 
-    # Membuat thumbnail jika belum ada atau file aslinya lebih baru
-    if [ ! -f "$thumbnail_path" ] || [ "$file_path" -nt "$thumbnail_path" ]; then
-        convert "$file_path[0]" -thumbnail "${THUMBNAIL_SIZE}x${THUMBNAIL_SIZE}^" \
-                -gravity center -extent "${THUMBNAIL_SIZE}x${THUMBNAIL_SIZE}" "$thumbnail_path" \
+    # Create thumbnail if not exists or original is newer
+    if [ ! -f "$thumbnail_path" ] || [ "$file_path" -nt "$thumbnail_path" ];
+    then
+        convert "$file_path[0]" -resize "${THUMBNAIL_WIDTH}x${THUMBNAIL_HEIGHT}!" \
+                -quality 95 \
+                -strip "$thumbnail_path" \
                 >/dev/null 2>&1
         if [ $? -ne 0 ]; then
-            echo "Gagal membuat thumbnail untuk $filename" >&2
-            # Jika gagal, tidak menyertakan ikon untuk file ini
+            echo "Failed to create thumbnail for $filename" >&2
+            # If failed, don't include icon for this file
              options+="$filename\n"
              continue
         fi
     fi
     
-    # Menambahkan nama file dan path thumbnail ke opsi Rofi
-    # Format: "NamaTampilan\0icon\x1f/path/ke/ikon.png\n"
+    # Add filename and thumbnail path to Rofi options
+    # Format: "DisplayName\0icon\x1f/path/to/icon.png\n"
     if [ -f "$thumbnail_path" ]; then
         options+="$filename\0icon\x1f$thumbnail_path\n"
     else
-        options+="$filename\n" # Fallback jika thumbnail tidak ada
+        options+="$filename\n" # Fallback if thumbnail not available
     fi
 
 done < <(find "$WALLPAPER_DIR" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" \) -print0 | sort -z)
 
-# Untuk multiple dirs (jika WALLPAPER_DIRS adalah array):
+# For multiple dirs (if WALLPAPER_DIRS is an array):
 # for dir in "${WALLPAPER_DIRS[@]}"; do
 #     if [ -d "$dir" ]; then
-#         while IFS= read -r -d $'\0' file_path; do
+#         while IFS= read -r -d $'\0' file_path;
+#             do
 #             filename=$(basename "$file_path")
 #             thumbnail_filename="${filename%.*}.png"
 #             thumbnail_path="$THUMBNAIL_CACHE_DIR/$thumbnail_filename"
@@ -87,18 +101,19 @@ done < <(find "$WALLPAPER_DIR" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "
 # done
 
 
-# Menampilkan Rofi dengan daftar nama file dan ikon
-# Menghapus newline terakhir jika ada untuk menghindari entri kosong
-CHOSEN_FILENAME=$(echo -e "${options%\\n}" | rofi -dmenu -i -p "$ROFI_PROMPT" -replace -format 's' -theme "$ROFI_THEME")
+# Display Rofi with file list and icons
+# Remove trailing newline to avoid empty entry
+CHOSEN_FILENAME=$(echo -e "${options%
+}" | rofi -dmenu -i -p "$ROFI_PROMPT" -replace -format 's' -theme "$ROFI_THEME")
 
-# Jika tidak ada yang dipilih (misalnya tekan Esc) atau Rofi dibatalkan
+# If nothing selected (e.g., pressed Esc) or Rofi cancelled
 if [ -z "$CHOSEN_FILENAME" ]; then
     exit 0
 fi
 
-# Mencari path lengkap dari nama file yang dipilih
+# Find full path of selected filename
 SELECTED_WALLPAPER_PATH=$(find "$WALLPAPER_DIR" -maxdepth 1 -type f -name "$CHOSEN_FILENAME" -print -quit)
-# Untuk multiple dirs (jika WALLPAPER_DIRS adalah array):
+# For multiple dirs (if WALLPAPER_DIRS is an array):
 # SELECTED_WALLPAPER_PATH=""
 # for dir in "${WALLPAPER_DIRS[@]}"; do
 #     if [ -d "$dir" ]; then
@@ -110,19 +125,27 @@ SELECTED_WALLPAPER_PATH=$(find "$WALLPAPER_DIR" -maxdepth 1 -type f -name "$CHOS
 #     fi
 # done
 
-# Memeriksa apakah file yang dipilih benar-benar ada (pengamanan tambahan)
+# Check if selected file actually exists (extra safety check)
 if [ -z "$SELECTED_WALLPAPER_PATH" ] || [ ! -f "$SELECTED_WALLPAPER_PATH" ]; then
-    rofi -e "File wallpaper '$CHOSEN_FILENAME' tidak dapat ditemukan di $WALLPAPER_DIR"
+    rofi -e "Wallpaper file '$CHOSEN_FILENAME' cannot be found in $WALLPAPER_DIR"
     exit 1
 fi
 
-# Menggunakan hyprctl untuk preload dan set wallpaper
-# hyprctl hyprpaper unload all # Opsional
-hyprctl hyprpaper preload "$SELECTED_WALLPAPER_PATH"
-hyprctl hyprpaper wallpaper ",$SELECTED_WALLPAPER_PATH"
+# Set wallpaper using swww
+# Initialize daemon if not running (safe to run multiple times)
+swww init >/dev/null 2>&1
 
-# (Opsional) Memberi notifikasi
-# notify-send -i "$SELECTED_WALLPAPER_PATH" "Wallpaper Diganti" "Wallpaper telah diubah menjadi $CHOSEN_FILENAME"
-echo "Wallpaper diubah ke $CHOSEN_FILENAME"
+# Set wallpaper with transition (adjust to your preference)
+swww img "$SELECTED_WALLPAPER_PATH" \
+    --transition-type "any" \
+    --transition-fps 60 \
+    --transition-duration 0.7
+
+# Copy to hyprlock
+cp "$SELECTED_WALLPAPER_PATH" "$HYPRLOCK_WALLPAPER_PATH"
+
+# (Optional) Send notification
+# notify-send -i "$SELECTED_WALLPAPER_PATH" "Wallpaper Changed" "Wallpaper has been changed to $CHOSEN_FILENAME"
+echo "Wallpaper changed to $CHOSEN_FILENAME"
 
 exit 0
