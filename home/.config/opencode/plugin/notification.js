@@ -2,7 +2,7 @@ import { homedir } from "os";
 import { join } from "path";
 
 export const NotificationPlugin = async ({ $, client }) => {
-  const soundPath = join(homedir(), ".config/opencode/sounds/gow_active_reload.mp3");
+  const soundPath = join(homedir(), ".config/opencode/sounds/apple-ping.mp3");
 
   // Check if a session is a main (non-subagent) session
   const isMainSession = async (sessionID) => {
