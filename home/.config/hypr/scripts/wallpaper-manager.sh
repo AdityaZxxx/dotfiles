@@ -184,10 +184,7 @@ show_menu() {
 
 # Function to show wallpaper selector
 show_wallpaper_selector() {
-    # Initialize swww if needed
-    if ! pgrep -x "swww-daemon" > /dev/null; then
-        swww init
-    fi
+    # awww daemon starts automatically, no need to init
 
     # Create a temporary directory for the image list
     TEMP_DIR=$(mktemp -d)
@@ -320,7 +317,7 @@ FILES
 DEPENDENCIES
     - rofi      : For the wallpaper selection interface
     - matugen   : For material color scheme generation
-    - swww      : For wallpaper display and transitions
+    - awww      : For wallpaper display and transitions
 
 AUTHOR
     Written for use with Hyprland desktop environment.

@@ -27,9 +27,9 @@ if ! command -v convert &> /dev/null; then
   rofi -e "ImageMagick (command 'convert') not found. Please install to use thumbnail feature."
   exit 1
 fi
-if ! command -v swww &> /dev/null;
+if ! command -v awww &> /dev/null;
 then
-  rofi -e "swww not found. Please install to continue."
+  rofi -e "awww not found. Please install to continue."
   exit 1
 fi
 
@@ -131,12 +131,11 @@ if [ -z "$SELECTED_WALLPAPER_PATH" ] || [ ! -f "$SELECTED_WALLPAPER_PATH" ]; the
     exit 1
 fi
 
-# Set wallpaper using swww
-# Initialize daemon if not running (safe to run multiple times)
-swww init >/dev/null 2>&1
+# Set wallpaper using awww
+# Daemon starts automatically, no need to init
 
 # Set wallpaper with transition (adjust to your preference)
-swww img "$SELECTED_WALLPAPER_PATH" \
+awww img "$SELECTED_WALLPAPER_PATH" \
     --transition-type "any" \
     --transition-fps 60 \
     --transition-duration 0.7
