@@ -1,0 +1,20 @@
+{
+  "plugin": ["oh-my-openagent@latest"],
+  "$schema": "https://opencode.ai/config.json",
+
+  // "enterprise": {
+  //   "url": "http://localhost:3000"
+  // },
+  "permission": {
+    "*": "allow",
+    "bash": {
+      "*": "allow",
+      "git add -A*": "deny",
+      "git add .*": "deny",
+      "git push --force*": "deny",
+      "git push -f*": "deny",
+      "*--force-with-lease*": "deny",
+      "rm *": "deny"
+    }
+  }
+}
