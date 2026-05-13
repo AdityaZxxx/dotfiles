@@ -5,19 +5,33 @@ local suppressMaximizeRule = hl.window_rule({
 
     suppress_event = "maximize",
 })
--- suppressMaximizeRule:set_enabled(false)
 
 hl.window_rule({
-    -- Fix some dragging issues with XWayland
-    name  = "fix-xwayland-drags",
+    name  = "popup-stay-focused",
     match = {
-        class      = "^$",
-        title      = "^$",
-        xwayland   = true,
-        float      = true,
-        fullscreen = false,
-        pin        = false,
+        class    = "^$",
+        xwayland = true,
+        float    = true,
     },
+    stay_focused = true,
+})
 
-    no_focus = true,
+hl.window_rule({
+    name  = "popup-min-size",
+    match = {
+        class    = "^$",
+        xwayland = true,
+        float    = true,
+    },
+    min_size = "1 1",
+})
+
+hl.window_rule({
+    name  = "popup-at-cursor",
+    match = {
+        class    = "^$",
+        xwayland = true,
+        float    = true,
+    },
+    move = "cursor_x cursor_y",
 })
